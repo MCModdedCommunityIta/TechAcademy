@@ -1,9 +1,0 @@
-[
-  {"version":2},
-  {"ingredient":{"id":"enderio:energetic_alloy_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"powah:uraninite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"powah:uraninite_raw"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:book"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"railcraft:ender_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:bamboo_slab"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]
