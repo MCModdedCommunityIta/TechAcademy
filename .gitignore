@@ -30,3 +30,5 @@
 /backups*
 /.vscode*
 config/jei/world/*
+.probe
+/knownkeys.txt
