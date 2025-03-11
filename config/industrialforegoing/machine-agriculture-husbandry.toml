@@ -6,7 +6,7 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#How many animals there need to be in the area to stop the machine from working
-		maxAnimalInTheArea = 35
+		maxAnimalInTheArea = 200
 
 	[MachineAgricultureHusbandryConfig.MobCrusherConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]

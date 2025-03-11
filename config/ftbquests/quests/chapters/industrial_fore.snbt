@@ -306,6 +306,14 @@
 		{
 			dependencies: ["376138FAD8EAC438"]
 			id: "691B05F08016D5B1"
+			rewards: [{
+				id: "55AF6CBE3F4FD5BE"
+				item: {
+					count: 1
+					id: "industrialforegoing:machine_frame_simple"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1253AB4DBB0B436A"
 				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
@@ -317,6 +325,50 @@
 		{
 			dependencies: ["376138FAD8EAC438"]
 			id: "6DF64568997909DA"
+			rewards: [
+				{
+					count: 2
+					id: "2F26B88C1EE61B65"
+					item: {
+						components: {
+							"titanium:augments": {
+								Processing: 2.0f
+							}
+						}
+						count: 1
+						id: "industrialforegoing:processing_addon_tier_1"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2B3BA33E11C9FF32"
+					item: {
+						components: {
+							"titanium:augments": {
+								Efficiency: 0.9f
+							}
+						}
+						count: 1
+						id: "industrialforegoing:efficiency_addon_tier_1"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6CEB26476BFD9E38"
+					item: {
+						components: {
+							"titanium:augments": {
+								Speed: 2.0f
+							}
+						}
+						count: 1
+						id: "industrialforegoing:speed_addon_tier_1"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1EF1092EB4FA2A68"
@@ -340,6 +392,15 @@
 		{
 			dependencies: ["5313398B47AE218F"]
 			id: "2B68D8EDB3268469"
+			rewards: [{
+				count: 2
+				id: "342F6B90F88997EB"
+				item: {
+					count: 1
+					id: "minecraft:lead"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "574BE7F7B3BF3E27"
 				item: { count: 1, id: "industrialforegoing:animal_rancher" }
@@ -351,6 +412,15 @@
 		{
 			dependencies: ["4F7FF6E7F12B83C0"]
 			id: "5313398B47AE218F"
+			rewards: [{
+				count: 8
+				id: "189D145F1A4DD1BD"
+				item: {
+					count: 1
+					id: "minecraft:wheat"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "31931520B7FEDEF5"
 				item: { count: 1, id: "industrialforegoing:animal_feeder" }
@@ -362,6 +432,15 @@
 		{
 			dependencies: ["5313398B47AE218F"]
 			id: "5932BDFE593B82A8"
+			rewards: [{
+				count: 2
+				id: "0E7AEDA4D859938E"
+				item: {
+					count: 1
+					id: "industrialforegoing:plastic"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0BAFB0AA9373D466"
 				item: { count: 1, id: "industrialforegoing:animal_baby_separator" }
