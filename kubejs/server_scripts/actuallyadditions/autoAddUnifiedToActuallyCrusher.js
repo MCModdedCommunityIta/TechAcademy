@@ -7,7 +7,6 @@ ServerEvents.recipes((event) => {
     `copper`,
     `gold`,
     `iron`
-
   ];
 
   allTag.forEach((tag) => {
@@ -64,8 +63,7 @@ ServerEvents.recipes((event) => {
         });
       }
 
-      } 
-      
+    }
   });
 
 
