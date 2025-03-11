@@ -100,6 +100,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["29541D1F71E6A026"]
 			id: "0277EA11A4261E6E"
 			rewards: [{
 				count: 12
@@ -110,6 +111,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			tasks: [{
 				count: 15L
 				id: "6E3C20B7C4107195"
@@ -468,7 +470,7 @@
 				}
 			]
 			x: -2.5d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["121797E36578B6C6"]
@@ -673,26 +675,27 @@
 			dependencies: ["6A3E86E748063BD3"]
 			id: "69E68E05D8633D91"
 			rewards: [{
-				count: 4
-				id: "209FEBD469A89AA9"
+				id: "257D07B4A00A2A80"
 				item: {
 					count: 1
-					id: "immersiveengineering:ingot_steel"
+					id: "immersiveengineering:blastfurnace_preheater"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				count: 2L
 				id: "66D23D86D3C02093"
 				item: { count: 2, id: "immersiveengineering:blastfurnace_preheater" }
 				type: "item"
 			}]
 			x: -5.5d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["29541D1F71E6A026"]
 			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:conveyor_basic"
+			}
 			id: "6F0084A8D5D7B9BA"
 			rewards: [{
 				count: 8
@@ -704,23 +707,11 @@
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [
-				{
-					id: "2FA64159AC49F2C5"
-					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
-					type: "item"
-				}
-				{
-					id: "1B995957D3416134"
-					item: { count: 1, id: "immersiveengineering:conveyor_extract" }
-					type: "item"
-				}
-				{
-					id: "08104C9FBA3DF2F7"
-					item: { count: 1, id: "immersiveengineering:conveyor_dropper" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2FA64159AC49F2C5"
+				item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+				type: "item"
+			}]
 			x: -7.0d
 			y: 5.0d
 		}
@@ -1065,7 +1056,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 7.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["072307C843A753B0"]
@@ -1326,7 +1317,7 @@
 				item: { count: 1, id: "immersiveengineering:dust_coke" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -7.0d
 			y: 10.0d
 		}
 		{
@@ -1793,8 +1784,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 8.5d
+			x: 1.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["072307C843A753B0"]
@@ -1906,7 +1897,7 @@
 				item: { count: 1, id: "immersiveengineering:dust_iron" }
 				type: "item"
 			}]
-			x: -9.0d
+			x: -8.5d
 			y: 10.0d
 		}
 		{
@@ -1969,6 +1960,30 @@
 			}]
 			x: 5.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["6F0084A8D5D7B9BA"]
+			id: "0451EEAAFA78C399"
+			optional: true
+			tasks: [
+				{
+					id: "3D1C01BAF1DB6C46"
+					item: { count: 1, id: "immersiveengineering:conveyor_dropper" }
+					type: "item"
+				}
+				{
+					id: "549C88BB546789AC"
+					item: { count: 1, id: "immersiveengineering:conveyor_extract" }
+					type: "item"
+				}
+				{
+					id: "6B2154F5080D7BCF"
+					item: { count: 1, id: "immersiveengineering:conveyor_vertical" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 6.0d
 		}
 	]
 }
