@@ -38,13 +38,6 @@
 	quest.0999A3830F57B7DD.quest_desc: ["La tua prima fonte di energia! Puoi inserirci qualsiasi Fuel di minecraft!"]
 	quest.09CCBBCF5BBA2547.quest_desc: ["Questi cavi ti mostrano il numero di connessioni"]
 	quest.0A18764B265CFAFF.quest_desc: ["Questo macchinario pianta sapling o crop nel blocco di terra appena sopra"]
-	quest.0C5151B2D25329A8.quest_desc: [
-		"Questo oggetto se rifornito di aria compressa funge da ventilatore per spostare oggetti e mob! Se invece si fornisce pressione negativa può fungere da vacuum hopper se si posiziona accando un inventario!"
-		""
-		"In base alla quantità di aria compressa o sottovuoto aumenta o diminuisce il raggio d'azione."
-		""
-		"Potrai migliorare le sue funzioni applicandogli un Module Expasion Card."
-	]
 	quest.0C53BE97C97A90DD.quest_desc: [
 		"Ti permette di accedere all'inventario entro 64 blocchi da esso (shift+tasto destro del mouse per collegarlo all Terminal)."
 		"Se in presenza di un Beacon, in base al materiale, aumenta il raggio e permette lo scambio extra dimensionale (maggiori info col mouse sull'oggetto)"
@@ -93,14 +86,12 @@
 		""
 		"{ \"text\": \"AtomicReconstructor\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51FA3CCC5BC3C328\" } }"
 	]
-	quest.205BB3CD72701E44.quest_desc: ["Ti piacciono le pompe..."]
 	quest.21793C2E906F25A0.quest_desc: [
 		"I primi cavi dell'AE2, possono supportare max 8 canali."
 		"Puoi colorarli per non farli attaccare tra di loro"
 	]
 	quest.21FA1ED194A0764B.quest_desc: ["Queste chest funzionano come Ender Chest, ma è possibile cambiare la frequenza per avere infiniti collegamenti!"]
 	quest.23E97256E02EC67F.quest_desc: ["Come per le DimensionalChest, ma per i liquidi!"]
-	quest.240281FFE6A26645.quest_desc: ["Questo oggetto può intrappolare l'essenza di un mob!"]
 	quest.2471B86146F5F9C9.quest_desc: [
 		"&lCreate&r"
 		"Mod ingegneristica che introduce macchinari meccanici e sistemi di automazione basati su ingranaggi, cinghie e motori a rotazione, offrendo un’alternativa alla Redstone con un’estetica steampunk e interazioni fisiche uniche."
@@ -141,7 +132,6 @@
 	quest.29541D1F71E6A026.quest_subtitle: "Crafta il martello dell'ingegnere!"
 	quest.29541D1F71E6A026.title: "Immersive Engineering"
 	quest.29750A09473D11F7.quest_desc: ["Piazza nel mondo i fluidi all'interno"]
-	quest.2A2F71AC24F98BE3.title: "Bracciniiiii"
 	quest.2B9C12EC646BE10D.quest_desc: [
 		"Industrial Foregoing"
 		"Mod tecnologica basata sulla produzione industriale, con macchinari per l'estrazione di risorse, la generazione di energia e la lavorazione automatizzata."
@@ -181,12 +171,6 @@
 		"&l&eNon usarlo nella curio, altrimenti a causa di un bug c'è il rischio di perdere tutti i progressi dei data model al suo interno, solo mano secondaria!&r&r"
 	]
 	quest.3074481BB696C243.quest_subtitle: "TIP: ci sono placer che non richiedono corrente"
-	quest.31A62BC78B7E7E54.quest_desc: [
-		"Posso essere utilizzati per spostare il \"calore\" da un punto A ad un punto B."
-		""
-		"Il calore è una risorsa importante, affinché alcuni processi di questa mod possano essere svolti!"
-	]
-	quest.3205DFC2704AD0C2.quest_desc: ["Puoi assorbire l'essenza di un mob e intrappolarla in uno Spawner Core vuoto!"]
 	quest.325C115E99FD5FB2.quest_desc: ["Questi sono i produttori di correte della Powah, li trovi in ordine dal più facile al più difficile dall'alto verso il basso"]
 	quest.325C115E99FD5FB2.title: "Produttori di Energia"
 	quest.333559A3B155592D.quest_desc: [
@@ -203,7 +187,6 @@
 		"Tieni presente che la Powah è divisa in TIER."
 		"Qui troverai tutte le cose che puoi fare nel tier STARTER, poi potrai craftare le versioni BASIC, dopodichè segui la quest dell'Energizing per ottenere i materiali avanzati e costruire gli stessi macchinari, ma del tier successivo."
 	]
-	quest.3626FA4429BEDF50.title: "Pressure Chamber"
 	quest.370CA5EBA68201AC.quest_desc: ["Piazza nel mondo automaticamente i blocchi che inserisci all'interno."]
 	quest.372A406E73A3E902.quest_desc: ["L'Anello base per creare due anelli MOLTO utili!"]
 	quest.376138FAD8EAC438.quest_desc: ["Nella Dissolution Chamber puoi creare gli addon ed i frame per i macchinari avanzati!"]
@@ -304,15 +287,10 @@
 	quest.4188276A3B73FD98.quest_desc: ["Crea le leghe della mekanism!"]
 	quest.4264579CC6BFE4BB.quest_desc: ["Ogni Inscriber p"]
 	quest.441D6AD1CE49C8BA.quest_desc: [
-		"[{\"text\":\"Premendo \"},{\"keybind\":\"key.inventory\",\"bold\":true}, {\"text\":\" a destra troverai tutti gli oggetti del pack.\"}]"
-		""
-		"Puoi cercare un oggetto in particolare scrivendo nel campo in basso oppure ricercare tutti gli oggetti di una data mod scrivendo &l@nomemod&r per esempio &o@mekanism&r"
-		""
-		"[{\"text\":\"Puoi salvare gli oggetti a sinistra premento \"},{\"keybind\":\"key.jei.bookmark\",\"bold\":true},{\"text\":\" mentre hai il mouse sopra l'oggetto.\"}]"
-		""
-		"[{\"text\":\"Con \"},{\"keybind\":\"key.jei.showRecipe\",\"bold\":true},{\"text\":\" o \"},{\"keybind\":\"key.jei.showRecipe2\",\"bold\":true},{\"text\":\" sull'oggetto puoi vedere come si crafta \"}]"
-		""
-		"[{\"text\":\"Mentre con \"},{\"keybind\":\"key.jei.showUses\",\"bold\":true},{\"text\":\" o \"},{\"keybind\":\"key.jei.showUses2\",\"bold\":true},{\"text\":\" sull'oggetto puoi vederne gli usi \"}]"
+		"Premendo E a destra troverai tutti gli oggetti del pack."
+		"Puoi cercare un oggetto in particolare scrivendo nel campo in basso oppure ricercare tutti gli oggetti di una data mod scrivendo @nomemod per esempio @mekanism"
+		"Puoi salvare gli oggetti a sinistra premento A mentre hai il mouse sopra l'oggetto."
+		"Puoi cliccare col click sinistro sull'oggetto o premere R per vedere come si crafta e col destro per vederne gli usi."
 	]
 	quest.441D6AD1CE49C8BA.quest_subtitle: "Jei ottimo direi!"
 	quest.441D6AD1CE49C8BA.title: "Un libro dei Crafting migliorato!"
@@ -387,11 +365,6 @@
 	]
 	quest.5A9F76DA02C7DB08.quest_desc: ["L'Anello della Crescita ti permette, se tenuto in mano, di incrementare la crescita degli orti e alberi!"]
 	quest.5AAD4C27702802ED.quest_desc: ["Una bussola che punta verso gli ore di minerali come Carbone e Redstone"]
-	quest.5AFCD329FBFBC063.quest_desc: [
-		"Utile per migliore le funzionalità o le performance di un qualsiasi Tube Module. "
-		""
-		"Per utilizzarlo clicca su un Tube Module, come ad esempio un Air Grate Tube Module."
-	]
 	quest.5B2C6BAA372915A7.quest_desc: [
 		"Zappa la terra per trovare dei vermi, posizionali nel tuo orto per concimare il terreno e velocizzare la crescita delle piante!"
 		""
@@ -400,13 +373,6 @@
 	quest.5BB1CA2FDAC0315B.title: "Compressed Iron"
 	quest.5C66F1791DA3294B.quest_desc: ["Sblocca il tier Hardened"]
 	quest.5C854E0EF8837E98.quest_desc: ["COMPLETAMENTE WIP, AGGIUNTA DI RECENTE"]
-	quest.5CB80A0943748642.quest_desc: [
-		"Con questo oggetto puoi immagazzinare i tuoi livelli utile se sei un tipo sbadato che muore spesso! "
-		""
-		"Può essere messo nella curio per non averlo sempre in mano e raccoglierà l'xp in automatico. Per attivare questa funzionalità devi tenere l'oggetto nella mano principale e cliccare tasto sinistro del mouse. "
-		""
-		"Alrimenti se sei un tipo impavido puoi immagazzinare i livelli manualmente cliccando tasto destro del mouse e riprenderli quando vuoi premendo shift+sinistro del mouse."
-	]
 	quest.5CD43231CDDD6BB0.quest_desc: [
 		"Ender IO"
 		"Mod che offre un sistema energetico versatile, macchinari multifunzionali e gestione avanzata di liquidi e oggetti con condotti unici."
@@ -426,7 +392,6 @@
 	]
 	quest.5CD43231CDDD6BB0.quest_subtitle: "Dai fuoco alla bedrock!"
 	quest.5CD43231CDDD6BB0.title: "Ender Io"
-	quest.5E57968BA5E30234.quest_desc: ["Uno spawer moddato personalizzabile e portatile. Puoi metterci dentro uno Spawner Core estratto da uno spawner trovato in giro per il mondo oppure uno Spawner Core infuso d'essenza di un mob a tuo piacimento!"]
 	quest.5E68C97FCEDE57A9.quest_desc: [
 		"Mod che introduce un sistema avanzato per generare e controllare mob ostili, permettendo di farmare risorse in modo efficiente tramite simulazioni digitali."
 		""
@@ -485,16 +450,10 @@
 	quest.684B224447B64520.title: "Crafting Table"
 	quest.6886B94EC94A32A6.quest_desc: ["Ti permette di convertire l'energia cinetica in energia elettrica!"]
 	quest.6A3E86E748063BD3.quest_desc: ["Come prima, una struttura 3x3x3, ma con un hopper sopra!"]
-	quest.6A61E5F6BC63B622.quest_desc: [
-		"Puoi ricaricare e personalizzare questa armatura aggiungendogli degli upgarde nella Charging Station!"
-		""
-		"Per tutti gli upgrade utilizzabili e per le loro funzionalità consulta la guida della mod!"
-	]
 	quest.6CE00D9DF699753D.quest_desc: [
 		"Sto creando questo modpack per far conoscere il moddato tecnico al pubblico italiano. Creerò le quest man mano che andrà avanti il mio letsplay su Youtube. Molte cose verranno cambiate in corso d'opera, soprattutto &laspetta a giocarlo se sei molto neofita&r perchè mancano sicuramente i reward e gli approcci che arriveranno dopo."
 		""
-		"Puoi aprire le quest anche premendo:"
-		"{\"keybind\":\"key.ftbquests.quests\",\"bold\":true}"
+		"Puoi aprire le quest anche premendo CAPSLOCK"
 		""
 		"&dRingraziamenti&r"
 		""
@@ -511,7 +470,6 @@
 		"{\"text\":\"https://discord.gg/marcuskron\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/marcuskron\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Clicca qui per entrare\"}}"
 	]
 	quest.6CE00D9DF699753D.quest_subtitle: "IL MODPACK NON E' FINITO"
-	quest.6D69F85AF2112FC4.quest_desc: ["Utilizza L'Heat Sink per dissipare il calore dei macchinari nell'aria"]
 	quest.6EBFB754D8B6AC57.quest_desc: [
 		"Un utilissimo BackPack! Puoi aumentare gli slot migliorandolo con ferro, oro, diamante e netherite!"
 		"Puoi posizionarlo nella curio invece che nel petto"
@@ -572,8 +530,6 @@
 	quest.7862B3BE3DEAD17B.quest_desc: [
 		"&c&lZ&r&r - Zoom"
 		""
-		"[{\"keybind\":\"justzoom.keybinds.keybind.zoom\",\"bold\":true,\"color\":\"dark_red\"},\" - Zoom\"]"
-		""
 		"&c&lC &r&r- Ti stendi"
 		""
 		"&c&lF7&r&r - Overlay spawn dei mostri"
@@ -591,10 +547,7 @@
 	quest.7879506F838D15BA.quest_desc: ["Usato per fertilizzare automaticamente sapling e crops"]
 	quest.78F4E798439D8F25.quest_desc: [
 		"In alto a destra hai la tua minimappa!"
-		""
-		"[{\"text\":\"Premi \"},{\"keybind\":\"key.journeymap.create_waypoint\",\"bold\":true},{\"text\":\" per aggiungere un waypoint\"}]"
-		""
-		"[{\"text\":\"Premi \"},{\"keybind\":\"key.journeymap.map_toggle_alt\",\"bold\":true},{\"text\":\" per vedere tutta la mappa esplorata e gestire tutti i Waypoint.\"}]"
+		"Premi V per aggiungere un waypoint, premi J per vedere tutta la mappa esplorata e gestire tutti i Waypoint"
 	]
 	quest.78F4E798439D8F25.quest_subtitle: "Sai sempre dove vai!"
 	quest.7A8569C741A8FBF5.title: "Gestione dell'Energia"
@@ -659,11 +612,11 @@
 	task.081C63EC28B85A2D.title: "FTBUltimine"
 	task.0C13C5564EA921EA.title: "Clicca qui se hai letto!"
 	task.13DF1F1760B2F81E.title: "Osserva un blocco d'Erba"
-	task.17AAF4E8CA140719.title: "Electrum!"
+	task.17AAF4E8CA140719.title: "Any #c:ingots/electrum"
 	task.1919E95E131A22BF.title: "Any #c:tools/knife"
-	task.202522DAF111E514.title: "Il Coke!"
+	task.202522DAF111E514.title: "Any #c:coal_coke"
 	task.206071D367D4AF6B.title: "Any #minecraft:logs"
-	task.25BA1D13EA6DE73A.title: "Ottone!"
+	task.25BA1D13EA6DE73A.title: "Any #c:ingots/brass"
 	task.2933D95CADBB7027.title: "JourneyMap"
 	task.29A2F2B5AA0AB057.title: "Any #minecraft:beds"
 	task.3007BF141E9AA55A.title: "cappello"
@@ -683,6 +636,6 @@
 	task.66E273FD0D2EB565.title: "Vai fino alla bedrock e dalle fuoco!"
 	task.6E1928EB3271CA5C.title: "Any #minecraft:logs"
 	task.6F66FF677464938C.title: "LEGGIMI"
-	task.701F125F96433E3F.title: "Acciaio!"
+	task.701F125F96433E3F.title: "Any #c:ingots/steel"
 	task.7828717662487BCA.title: "Any #actuallyadditions:drills"
 }
