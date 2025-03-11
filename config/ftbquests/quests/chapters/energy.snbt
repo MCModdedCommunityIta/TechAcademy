@@ -1,0 +1,69 @@
+{
+	autofocus_id: "71AE09BBC3246B9D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "energy"
+	group: "32571A4D4DB47570"
+	id: "0E60C4CBBD4DA9F9"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "435E8509464D512A"
+			tasks: [{
+				id: "35DB86DC33D182E7"
+				item: { count: 1, id: "powah:reactor_starter" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			id: "3B75FFADD19CFD16"
+			tasks: [{
+				id: "299AD8742FEE9BB3"
+				item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "0CB5669A351217B0"
+			tasks: [{
+				id: "0861BD13628AA6C2"
+				item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			id: "4738D001A2539BE4"
+			tasks: [{
+				id: "592376771A2B07E6"
+				item: { count: 1, id: "mekanismgenerators:turbine_casing" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:block/energy_input"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "71AE09BBC3246B9D"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "103B3F1552507E15"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+	]
+}

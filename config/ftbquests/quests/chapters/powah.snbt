@@ -1,0 +1,398 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "6021C862F01F642A"
+	icon: {
+		id: "powah:reactor_spirited"
+	}
+	id: "592CF3629B80B6FA"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["325C115E99FD5FB2"]
+			id: "50181D940505CAE4"
+			rewards: [{
+				id: "0598477544A1C710"
+				item: {
+					count: 1
+					id: "powah:thermo_generator_starter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52D9EB8933E76802"
+				item: { count: 1, id: "powah:thermo_generator_starter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34FF34BE6EECC2BA"]
+			id: "03526D1B07D5C3C8"
+			tasks: [{
+				id: "5E4D576F6F07B22E"
+				item: { count: 1, id: "powah:binding_card" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["325C115E99FD5FB2"]
+			id: "7F80243E70689795"
+			tasks: [{
+				id: "17C4426FF8A56FE3"
+				item: { count: 1, id: "powah:reactor_starter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A8569C741A8FBF5"]
+			id: "03D0501B7B0AA689"
+			rewards: [{
+				id: "6C80A61E0AE0EC02"
+				item: {
+					count: 1
+					id: "powah:battery_starter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5105D4474EC009A0"
+				item: { count: 1, id: "powah:battery_starter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A8569C741A8FBF5"]
+			id: "7E864AEE17E88526"
+			rewards: [{
+				count: 12
+				id: "196284A867216EDB"
+				item: {
+					count: 1
+					id: "powah:energy_cable_starter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "43A5CB757177296A"
+				item: { count: 1, id: "powah:energy_cable_starter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			id: "5F5B866003531CC7"
+			rewards: [{
+				count: 4
+				id: "7EA81335FB80C467"
+				item: {
+					count: 1
+					id: "powah:energizing_rod_starter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F21F865C2FACAEC"
+				item: { count: 1, id: "powah:energizing_rod_starter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"34FF34BE6EECC2BA"
+				"5F5B866003531CC7"
+			]
+			id: "03C5C074DF15F357"
+			tasks: [{
+				id: "130DED9AF2FC0107"
+				item: { count: 1, id: "powah:energizing_orb" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["325C115E99FD5FB2"]
+			id: "4C8D0D34A89B15A6"
+			rewards: [{
+				id: "4191AF44F9CD59AC"
+				item: {
+					count: 1
+					id: "powah:furnator_starter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14B62843831E78A5"
+				item: { count: 1, id: "powah:furnator_starter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["325C115E99FD5FB2"]
+			id: "0EC2E1D39C6BA255"
+			rewards: [{
+				id: "2175DA9CE3D1516E"
+				item: {
+					count: 1
+					id: "powah:magmator_starter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75392F411A1D608E"
+				item: { count: 1, id: "powah:magmator_starter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A8569C741A8FBF5"]
+			id: "3B653F19EC7A3E33"
+			tasks: [{
+				id: "419E28A877014FB3"
+				item: { count: 1, id: "powah:player_transmitter_starter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A8569C741A8FBF5"]
+			id: "6468616CDF198F76"
+			tasks: [{
+				id: "4D9421B724C163E4"
+				item: { count: 1, id: "powah:energy_hopper_starter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A8569C741A8FBF5"]
+			id: "0E9EFC4E9080AC88"
+			tasks: [{
+				id: "1EAD344B2E94CFE5"
+				item: { count: 1, id: "powah:energy_discharger_starter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["325C115E99FD5FB2"]
+			id: "14179C468CB1DCB2"
+			rewards: [{
+				id: "67D29A1F2B7B4283"
+				item: {
+					count: 1
+					id: "powah:solar_panel_starter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B520B0BB9FE1577"
+				item: { count: 1, id: "powah:solar_panel_starter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3C018F69792DA825"]
+			id: "701784AC3B7CC50E"
+			rewards: [{
+				id: "2F25EBD2938B56AC"
+				item: {
+					count: 1
+					id: "powah:ender_gate_starter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D67FA394D2E0D9E"
+				item: { count: 1, id: "powah:ender_gate_starter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A8569C741A8FBF5"]
+			id: "343AC2D99FEEBFFA"
+			rewards: [{
+				id: "63DC1D5C710503FA"
+				item: {
+					count: 1
+					id: "powah:energy_cell_starter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "53D871E0EBD6D628"
+				item: { count: 1, id: "powah:energy_cell_starter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["377CBAEB1D5FE594"]
+			id: "34FF34BE6EECC2BA"
+			shape: "square"
+			tasks: [{
+				id: "6F66FF677464938C"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"377CBAEB1D5FE594"
+				"34FF34BE6EECC2BA"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:block/energy_input"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "325C115E99FD5FB2"
+			tasks: [{
+				id: "6EF5EFF929A8FFC2"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"377CBAEB1D5FE594"
+				"34FF34BE6EECC2BA"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "pneumaticcraft:textures/gui/gui_buildcraft_energy.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7A8569C741A8FBF5"
+			tasks: [{
+				id: "7542689A8811470A"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["03C5C074DF15F357"]
+			id: "5C66F1791DA3294B"
+			tasks: [{
+				id: "7A1B2D5CB9887438"
+				item: { count: 1, id: "powah:steel_energized" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C66F1791DA3294B"]
+			id: "1B9ECADA335A8D83"
+			tasks: [{
+				id: "003AE193D902C825"
+				item: { count: 1, id: "powah:crystal_blazing" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B9ECADA335A8D83"]
+			id: "0BC21A1CC5C31227"
+			tasks: [{
+				id: "2BABD4B718EAF7D8"
+				item: { count: 1, id: "powah:crystal_niotic" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["40E9A158E761DA75"]
+			id: "280E769EA68D929E"
+			tasks: [{
+				id: "05EB016A28B50320"
+				item: { count: 1, id: "powah:crystal_nitro" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["03C5C074DF15F357"]
+			id: "038D5BBC5C474A52"
+			rewards: [{
+				id: "1180139F184E69D5"
+				item: {
+					count: 1
+					id: "powah:ender_core"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6368A374299FBEDF"
+				item: { count: 1, id: "powah:ender_core" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BC21A1CC5C31227"]
+			id: "40E9A158E761DA75"
+			tasks: [{
+				id: "67EC91AA4E7702DC"
+				item: { count: 1, id: "powah:crystal_spirited" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["038D5BBC5C474A52"]
+			id: "3C018F69792DA825"
+			rewards: [{
+				id: "0F39C6F5E5C30F3C"
+				item: {
+					count: 1
+					id: "powah:ender_cell_starter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "299C7CBAC17DB778"
+				item: { count: 1, id: "powah:ender_cell_starter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+}

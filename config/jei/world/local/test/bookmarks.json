@@ -1,0 +1,7 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"farmersdelight:raw_pasta"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:brown_mushroom"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:cabbage"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:carrot","components":{"cuisinedelight:ingredient":{}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

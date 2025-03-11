@@ -1,0 +1,116 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "32571A4D4DB47570"
+	id: "292FB7C1D54BC605"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["54234D181E4E7FE5"]
+			id: "07EF8759FDE967A0"
+			tasks: [{
+				id: "4CD2A051588C8C24"
+				item: { count: 1, id: "toms_storage:storage_terminal" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			id: "29D48BCC8843C04A"
+			tasks: [{
+				id: "5A4495D1AA6603BF"
+				item: { count: 1, id: "ae2:mysterious_cube" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "7A43F7D1F54BF08C"
+			tasks: [{
+				id: "38B7C89F231EAF05"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedstorage:base_tier_wooden_storage)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			id: "14464B9E73C59C1D"
+			tasks: [{
+				id: "0B4779CCEF79032C"
+				item: { components: { "sophisticatedstorageinmotion:storage_item": { components: { "sophisticatedstorage:wood_type": "spruce" }, count: 1, id: "sophisticatedstorage:barrel" } }, count: 1, id: "sophisticatedstorageinmotion:storage_minecart" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "54234D181E4E7FE5"
+			rewards: [{
+				id: "5DF44C2457313BA8"
+				item: {
+					components: {
+						"sophisticatedstorage:wood_type": "oak"
+					}
+					count: 1
+					id: "sophisticatedstorage:iron_chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C03ACD3425E233F"
+				item: { count: 1, id: "toms_storage:inventory_connector" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07EF8759FDE967A0"]
+			id: "6FD66F8843C74696"
+			tasks: [{
+				id: "28A56676B54F3393"
+				item: { count: 1, id: "toms_storage:crafting_terminal" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54234D181E4E7FE5"]
+			id: "1DBD2374710BB50A"
+			tasks: [{
+				id: "2D129F062853C872"
+				item: { count: 1, id: "toms_storage:wireless_terminal" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1DBD2374710BB50A"]
+			id: "0C53BE97C97A90DD"
+			tasks: [{
+				id: "18BAA3EF9670370B"
+				item: { count: 1, id: "toms_storage:adv_wireless_terminal" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "083BA256A88EB19D"
+			tasks: [{
+				id: "6276AEF97BAC0356"
+				item: { count: 1, id: "sophisticatedstorage:pickup_upgrade" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+	]
+}

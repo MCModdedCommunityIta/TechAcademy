@@ -1,0 +1,5 @@
+	[core.general]
+		#If the components should be hashed with MD5 when constructing the file name, and if an auxiliary txt file should be created with the full components contents.
+		fileNameHashComponents = false
+		#The default image width in px to render at.
+		defaultScale = 32

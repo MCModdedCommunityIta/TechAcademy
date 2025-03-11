@@ -1,0 +1,164 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "food"
+	group: "32571A4D4DB47570"
+	id: "050D313A1C827180"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["384362F561CABA1C"]
+			id: "4B3DBEA9DCA9242A"
+			tasks: [{
+				id: "451CEC77D130B5EE"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B3DBEA9DCA9242A"]
+			id: "600E0BEC4DA30DC8"
+			tasks: [{
+				id: "619A197611C35440"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3BC26528C2566698"]
+			id: "34E726E15EB03142"
+			tasks: [{
+				id: "38B24E34FEC93E1C"
+				item: { count: 1, id: "industrialforegoing:meat_feeder" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BC26528C2566698"]
+			id: "5DEF8B2BA24473F5"
+			tasks: [{
+				id: "7729F4F0B2F2A0B4"
+				item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["720769427EB6CB28"]
+			id: "23F65A6520B7DB7A"
+			tasks: [{
+				id: "4421F692549FF288"
+				item: { count: 1, id: "solcarrot:food_book" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			id: "384362F561CABA1C"
+			tasks: [{
+				id: "448E50457CD32AE7"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B3DBEA9DCA9242A"]
+			id: "1033CE2DFD408D81"
+			tasks: [{
+				id: "3405F47E02A600B9"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["384362F561CABA1C"]
+			id: "7B3B89362F318A15"
+			tasks: [{
+				id: "6C600B500E64E3A7"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7B3B89362F318A15"]
+			id: "10B3F23C37C2AD47"
+			tasks: [{
+				id: "1919E95E131A22BF"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "720769427EB6CB28"
+			tasks: [{
+				id: "6AAC3BBEFDFB02D3"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["720769427EB6CB28"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/heart"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "34105F24B3B281FE"
+			tasks: [{
+				id: "279C5AEBE52A254E"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BC26528C2566698"]
+			id: "3E3FF042D7BFB287"
+			tasks: [{
+				id: "693E03D2093E3DBF"
+				item: { count: 1, id: "mekanism:module_nutritional_injection_unit" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "3BC26528C2566698"
+			tasks: [{
+				id: "34EA039F7E38C90F"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["600E0BEC4DA30DC8"]
+			id: "33ADB31A4679D6B3"
+			tasks: [{
+				id: "035B52D212D55621"
+				item: { count: 1, id: "cuisinedelight:cuisine_skillet" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+	]
+}

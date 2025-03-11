@@ -1,0 +1,902 @@
+{
+	autofocus_id: "6CE00D9DF699753D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "intro"
+	group: ""
+	icon: {
+		id: "industrialforegoing:diamond_gear"
+	}
+	id: "36364A58523642A8"
+	images: [{
+		height: 6.0d
+		image: "techacademy:textures/quests/logo.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: -4.0d
+		y: -14.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6CE00D9DF699753D"
+			rewards: [{
+				id: "4608EA8133DA7302"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:slime_trophy"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0C13C5564EA921EA"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -14.0d
+		}
+		{
+			icon: {
+				id: "chisel:chisel"
+			}
+			id: "52DB3401591293E2"
+			shape: "rsquare"
+			tasks: [{
+				id: "35AF3EC03EA06E28"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			icon: {
+				id: "bno:nether_diamond_ore"
+			}
+			id: "75DA989D2EFC8A51"
+			shape: "rsquare"
+			tasks: [{
+				id: "52B8AA437F0F6F79"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6CE00D9DF699753D"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "78F4E798439D8F25"
+			rewards: [{
+				id: "354C23871F7C23C1"
+				item: {
+					count: 1
+					id: "farmersdelight:pasta_with_meatballs"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2933D95CADBB7027"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6CE00D9DF699753D"]
+			icon: {
+				id: "mekanismtools:lapis_lazuli_pickaxe"
+			}
+			id: "7E73F5CAAA767749"
+			rewards: [{
+				id: "0A81A1B4C46FB27E"
+				item: {
+					count: 1
+					id: "minecraft:wooden_pickaxe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "081C63EC28B85A2D"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6CE00D9DF699753D"]
+			icon: {
+				components: {
+					"patchouli:book": "railcraft:guide_book"
+				}
+				id: "patchouli:guide_book"
+			}
+			id: "441D6AD1CE49C8BA"
+			rewards: [{
+				id: "151F4DBFE2A2C932"
+				item: {
+					count: 1
+					id: "minecraft:wooden_sword"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7644B0038FCC38C8"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"78F4E798439D8F25"
+				"7E73F5CAAA767749"
+				"441D6AD1CE49C8BA"
+			]
+			id: "395D8BC75A79A1C3"
+			rewards: [{
+				count: 4
+				id: "15C7F1C1C9103D63"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "206071D367D4AF6B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "mini_mob_trophy:phantom_trophy"
+			}
+			id: "1A22D30B4C17A666"
+			ignore_reward_blocking: true
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0691AD0539DFB649"
+				table_id: 3566083255865393486L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0076EE5CCC71B049"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["395D8BC75A79A1C3"]
+			id: "684B224447B64520"
+			tasks: [{
+				id: "4285646017DDC82B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:player_workstations/crafting_tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["684B224447B64520"]
+			id: "59E099943069F343"
+			rewards: [{
+				id: "7299105545E69560"
+				item: {
+					count: 1
+					id: "minecraft:chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "758C6E9ED2A4A9A9"
+				item: { count: 1, id: "craftingstation:crafting_station" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["684B224447B64520"]
+			id: "333559A3B155592D"
+			rewards: [{
+				id: "309566BFFBF6FD5F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "534E061087691F06"
+				item: { count: 1, id: "mekanismtools:stone_paxel" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["684B224447B64520"]
+			id: "15761B4F4D351753"
+			rewards: [{
+				id: "6A1C60B7DCC59195"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "647246775CA91BC6"
+				item: { count: 1, id: "actuallyadditions:stone_aiot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			icon: {
+				id: "minecraft:painting"
+			}
+			id: "7B39316B62529E59"
+			shape: "rsquare"
+			tasks: [{
+				id: "52EF39014DB3A6DC"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["72D2ABC4C94C3BE9"]
+			id: "620072118A9EA0E5"
+			rewards: [{
+				id: "1BA523DC605FD352"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "29A2F2B5AA0AB057"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -11.5d
+		}
+		{
+			id: "4A648E1A871E3694"
+			optional: true
+			rewards: [{
+				id: "62EC7E204E17A122"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:cow_trophy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "128B1DCD9D3D6856"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"14A46BA3A1FE24AF"
+				"1127CD3D3B2803E4"
+			]
+			dependency_requirement: "one_completed"
+			id: "72D2ABC4C94C3BE9"
+			min_required_dependencies: 1
+			rewards: [{
+				count: 4
+				id: "49E4A3125DA4FCE2"
+				item: {
+					count: 1
+					id: "minecraft:white_wool"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "5E4580C8325B18FD"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:wools)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["3A06DAA6736EF1D4"]
+			id: "29541D1F71E6A026"
+			rewards: [{
+				id: "3B2DD11757F0F153"
+				item: {
+					count: 1
+					id: "immersiveengineering:manual"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0DBB69AFFBA83950"
+				item: { count: 1, id: "immersiveengineering:hammer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["684B224447B64520"]
+			id: "7F6919A38259BECE"
+			rewards: [{
+				count: 4
+				id: "2D5CC54A6DAA8C55"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "2C0E980516FC70C1"
+					item: { count: 1, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "747A015C7FA22C44"
+					item: { count: 1, id: "immersiveengineering:seed" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7F6919A38259BECE"]
+			id: "7718B07C40E03C95"
+			rewards: [{
+				count: 9
+				id: "42E6FA63177DA51E"
+				item: {
+					count: 1
+					id: "immersiveengineering:hemp_fiber"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "71167CB9679554C2"
+				item: { count: 1, id: "immersiveengineering:hemp_fiber" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -10.0d
+		}
+		{
+			id: "53DEF52A701325C3"
+			optional: true
+			rewards: [{
+				id: "668D2EAC21AF2909"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:spider_trophy_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: {
+					id: "minecraft:spider_spawn_egg"
+				}
+				id: "232B7324C6FB47AF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"7718B07C40E03C95"
+				"53DEF52A701325C3"
+			]
+			dependency_requirement: "one_completed"
+			id: "14A46BA3A1FE24AF"
+			rewards: [{
+				count: 4
+				id: "3582393BD8E4944B"
+				item: {
+					count: 1
+					id: "minecraft:string"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E23D576D2AAAB63"
+				item: { count: 1, id: "minecraft:string" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"4A648E1A871E3694"
+				"14A46BA3A1FE24AF"
+				"5334CF50408E20A9"
+			]
+			id: "6EBFB754D8B6AC57"
+			rewards: [{
+				id: "6FBCEA7355F6B0D2"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:upgrade_base"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "571F271BE7B8902C"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["72D2ABC4C94C3BE9"]
+			id: "3D5FF071BA9F8EF2"
+			rewards: [{
+				id: "146D55F5713B9F1E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24393216A1D7FD0F"
+				item: { count: 1, id: "sleeping_bags:white_sleeping_bag" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"1E9BA4503E54C277"
+				"128B1DCD9D3D6856"
+			]
+			dependency_requirement: "one_completed"
+			id: "5334CF50408E20A9"
+			min_required_dependencies: 1
+			tasks: [{
+				count: 4L
+				id: "791CFD6828597E12"
+				item: { count: 1, id: "minecraft:leather" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["684B224447B64520"]
+			id: "38DC1479194F422B"
+			rewards: [{
+				id: "35C93C40A49B70AB"
+				item: {
+					components: {
+						"bucketlib:fluid": {
+							amount: 1000
+							id: "minecraft:water"
+						}
+					}
+					count: 1
+					id: "woodenbucket:wooden_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71488CF04122EA2F"
+				item: { count: 1, id: "woodenbucket:wooden_bucket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["684B224447B64520"]
+			id: "52681CC7FB8348EB"
+			rewards: [{
+				id: "7076AE87E1C17A9A"
+				item: {
+					count: 1
+					id: "woodenshears:wooden_shears"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60D3388317C08905"
+				item: { count: 1, id: "woodenshears:wooden_shears" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["684B224447B64520"]
+			id: "61FE591DF85F0C88"
+			rewards: [{
+				id: "148717AB5E6CDD0B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4903F57FC15066FB"
+				item: { count: 1, id: "actuallyadditions:crafter_on_a_stick" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["684B224447B64520"]
+			id: "5526470283630FA1"
+			rewards: [{
+				id: "55A089B6E9DF76D2"
+				item: {
+					count: 1
+					id: "woodenhopper:wooden_hopper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17C45C95153EC867"
+				item: { count: 1, id: "woodenhopper:wooden_hopper" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3A06DAA6736EF1D4"]
+			id: "39C3474F613ADD9F"
+			rewards: [{
+				count: 4
+				id: "39CAF8B2C30CA9BD"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "059A39A1C141A3E8"
+				item: { count: 1, id: "mekanism:ingot_osmium" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["684B224447B64520"]
+			icon: {
+				components: {
+					"ftbquests:icon": "actuallyadditions:item/laser_wrench"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3A06DAA6736EF1D4"
+			rewards: [{
+				id: "52C6B46C9C01695D"
+				item: {
+					count: 1
+					id: "akashictome:tome"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "46977B7FF3EBE014"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3A06DAA6736EF1D4"]
+			id: "3B3049F6C9591CC0"
+			rewards: [{
+				id: "063A11A8865B8D66"
+				item: {
+					count: 1
+					id: "actuallyadditions:booklet"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0871F63CE91898D8"
+				item: { count: 1, id: "actuallyadditions:black_quartz" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3A06DAA6736EF1D4"]
+			id: "2B9C12EC646BE10D"
+			rewards: [{
+				id: "6BFA1362F8FCB1AE"
+				item: {
+					components: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1DEDC95B94D535C3"
+				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["3A06DAA6736EF1D4"]
+			id: "5890E74471C9557B"
+			rewards: [{
+				id: "561CD784B0007D82"
+				item: {
+					components: {
+						"patchouli:book": "railcraft:guide_book"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 4L
+				id: "0C79088F947230C4"
+				item: { count: 1, id: "mekanism:ingot_bronze" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3A06DAA6736EF1D4"]
+			icon: {
+				id: "minecraft:bedrock"
+			}
+			id: "5CD43231CDDD6BB0"
+			rewards: [{
+				id: "663AEFEC151CE4E4"
+				item: {
+					count: 1
+					id: "minecraft:flint_and_steel"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "66E273FD0D2EB565"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:bedrock"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3A06DAA6736EF1D4"]
+			id: "377CBAEB1D5FE594"
+			rewards: [{
+				id: "08E382A159D87E86"
+				item: {
+					count: 1
+					id: "powah:book"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 16L
+				id: "00E88CFAB1865062"
+				item: { count: 1, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3A06DAA6736EF1D4"]
+			id: "770BC6D95E31F6F7"
+			rewards: [{
+				id: "12270864DE58D75C"
+				item: {
+					count: 1
+					id: "ae2:guide"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "39513B8C2E6B7965"
+				item: { count: 1, id: "ae2:charger" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3A06DAA6736EF1D4"]
+			id: "7A8E9E7BF4A409D7"
+			rewards: [{
+				id: "7BA80E4EFBA05C1D"
+				item: {
+					components: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "2F50742A2322162F"
+					item: { count: 1, id: "minecraft:tnt" }
+					type: "item"
+				}
+				{
+					id: "1C1C69D0C55FABC4"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -14.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "mini_mob_trophy:wandering_trader_trophy"
+			}
+			id: "6FAE4CF10F8D7B84"
+			ignore_reward_blocking: true
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "094115E0F0B40439"
+				table_id: 3345800337392523330L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "36D7586D01B68565"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/toast/movement_keys.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7862B3BE3DEAD17B"
+			shape: "rsquare"
+			tasks: [{
+				id: "4C7C821837F20149"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			id: "1E9BA4503E54C277"
+			optional: true
+			rewards: [{
+				id: "11FF52FB9031D682"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:zombie_trophy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "17FEF84061A72E9E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -13.0d
+		}
+		{
+			id: "1127CD3D3B2803E4"
+			rewards: [{
+				id: "0516DD011C403A36"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:sheep_trophy_white"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "243B0F2EA8231CAD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3A06DAA6736EF1D4"]
+			id: "5E68C97FCEDE57A9"
+			rewards: [{
+				count: 2
+				id: "089611F832ADF73F"
+				item: {
+					count: 1
+					id: "hostilenetworks:blank_data_model"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1A19F1F82F273389"
+				item: { count: 1, id: "hostilenetworks:blank_data_model" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["3A06DAA6736EF1D4"]
+			id: "2471B86146F5F9C9"
+			rewards: [{
+				count: 8
+				id: "2F0F1757CE580FBF"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "59D98FC68A830B95"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -14.0d
+		}
+	]
+}

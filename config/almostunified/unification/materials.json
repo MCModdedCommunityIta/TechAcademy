@@ -1,0 +1,61 @@
+{
+  "mod_priorities": [
+    "minecraft",
+    "kubejs",
+    "immersiveengineering",
+    "mekanism",
+    "create",
+    "moremekanismprocessing",
+    "enderio",
+    "industrialforegoing",
+    "pneumaticcraft",
+    "bigreactors",
+    "bno",
+    "megacells",
+    "railcraft"
+  ],
+  "priority_overrides": {
+    "c:ingots/bronze": "mekanism",
+    "forge:ingots/bronze": "mekanism"
+  },
+  "stone_variants": [
+    "stone",
+    "andesite",
+    "deepslate",
+    "diorite",
+    "granite",
+    "netherrack",
+    "end_stone"
+  ],
+  "tags": [
+    "c:dusts/{material}",
+    "c:gears/{material}",
+    "c:gems/{material}",
+    "c:ingots/{material}",
+    "c:nuggets/{material}",
+    "c:ores/{material}",
+    "c:plates/{material}",
+    "c:raw_materials/{material}",
+    "c:rods/{material}",
+    "c:storage_blocks/raw_{material}",
+    "c:storage_blocks/{material}",
+    "c:wires/{material}",
+    "c:silicon",
+    "c:coal_coke"
+  ],
+  "ignored_tags": [],
+  "ignored_items": [
+    "denseores:[a-zA-Z0-9_]+",
+    "densemekanism:[a-zA-Z0-9_]+",
+    "bno:[a-zA-Z0-9_]+_ore",
+    "create:crushed_raw_[a-zA-Z0-9_]+"
+
+  ],
+  "ignored_recipe_types": [
+    "cucumber:shaped_tag"
+  ],
+  "ignored_recipe_ids": [],
+  "recipe_viewer_hiding": true,
+  "loot_unification": true,
+  "ignored_loot_tables": []
+}

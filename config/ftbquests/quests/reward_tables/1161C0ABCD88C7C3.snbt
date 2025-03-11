@@ -1,0 +1,31 @@
+{
+	id: "1161C0ABCD88C7C3"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			command: "/ae2 channelmode infinite"
+			icon: {
+				components: {
+					"ftbquests:icon": "ae2:part/cable/dense_smart/channels_00"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1D0BE7CEFCA7227E"
+			permission_level: 4
+			type: "command"
+		}
+		{
+			command: "/ae2 channelmode default"
+			icon: {
+				components: {
+					"ftbquests:icon": "ae2:part/cable/dense_smart/channels_14"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5BF64BE115D703CE"
+			permission_level: 4
+			type: "command"
+		}
+	]
+}

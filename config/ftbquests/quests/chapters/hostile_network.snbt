@@ -1,0 +1,241 @@
+{
+	autofocus_id: "2FA74528348FA5D9"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hostile_network"
+	group: "6021C862F01F642A"
+	icon: {
+		id: "hostilenetworks:deep_learner"
+	}
+	id: "0FDEE8071BC408D2"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5E68C97FCEDE57A9"]
+			id: "2FA74528348FA5D9"
+			rewards: [{
+				id: "616C070E66278882"
+				item: {
+					count: 1
+					id: "hostilenetworks:blank_data_model"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7B5B34B461523FA7"
+				item: { count: 1, id: "hostilenetworks:deep_learner" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2FA74528348FA5D9"
+				"786452B4388E25B4"
+			]
+			id: "7AF7468A8624E5D2"
+			rewards: [{
+				id: "573716C9397DCCA0"
+				item: {
+					count: 1
+					id: "hostilenetworks:blank_data_model"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56303A55150ADAA2"
+				item: { count: 1, id: "hostilenetworks:sim_chamber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7AF7468A8624E5D2"]
+			id: "34BFB0DFBAA8FD92"
+			rewards: [{
+				id: "685AB863B1A95D19"
+				item: {
+					count: 1
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E447A23CC295C11"
+				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			id: "786452B4388E25B4"
+			rewards: [{
+				count: 16
+				id: "1A9EA383E178F85C"
+				item: {
+					count: 1
+					id: "hostilenetworks:prediction_matrix"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A534A3E60DD6BC2"
+				item: { count: 1, id: "hostilenetworks:prediction_matrix" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7AF7468A8624E5D2"]
+			id: "66E48ECEBF0ED49A"
+			rewards: [{
+				id: "7DEB489AF3A3ABE0"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:enderman_trophy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57D47091EDE895E2"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:enderman" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7AF7468A8624E5D2"]
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:blaze"
+				}
+				id: "hostilenetworks:prediction"
+			}
+			id: "5841FD3D2743DE9D"
+			rewards: [{
+				id: "767D4E92720112FC"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:blaze_trophy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70B5D7B041C3FCCA"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:blaze" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7AF7468A8624E5D2"]
+			id: "7F059F539404329C"
+			rewards: [{
+				id: "0398BF8AED989D53"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:slime_trophy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FA2D5D863345081"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:slime" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7AF7468A8624E5D2"]
+			id: "5EF7266BF7285199"
+			rewards: [{
+				id: "3A87611C1377637F"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:magma_cube_trophy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66D096C0A3A4DDB9"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:magma_cube" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7AF7468A8624E5D2"]
+			id: "3A21E53099F09430"
+			rewards: [{
+				id: "4AC672D916390FA3"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:ghast_trophy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EB50946D3371F34"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:ghast" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7AF7468A8624E5D2"]
+			id: "2E5AA8332C9EF1ED"
+			rewards: [{
+				id: "268B3F2604106406"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:wither_skeleton_trophy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0651D5E4F448EF76"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:wither_skeleton" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7AF7468A8624E5D2"]
+			id: "460B16D3F2A3B537"
+			rewards: [{
+				id: "390EC95FC0DD8927"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:witch_trophy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69D6424F076BAEC2"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:witch" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+	]
+}

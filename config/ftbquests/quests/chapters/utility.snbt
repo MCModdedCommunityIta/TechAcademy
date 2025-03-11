@@ -1,0 +1,316 @@
+{
+	autofocus_id: "4F304441E9995253"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "utility"
+	group: ""
+	icon: {
+		id: "buildinggadgets2:gadget_building"
+	}
+	id: "7A3DDEC3BE3BE902"
+	images: [
+		{
+			height: 2.0d
+			image: "ae2:item/fluix_pickaxe"
+			rotation: 0.0d
+			width: 2.0d
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "naturescompass:item/naturescompass_18"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/ender_eye"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.0d
+			y: -6.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4D53AECA4628A9F8"
+			tasks: [{
+				id: "206990610F33DFDC"
+				item: { count: 1, id: "shrink:shrinking_device" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			id: "4BB89DEFA8F9BE7A"
+			tasks: [{
+				id: "08A92B2F7BF62086"
+				item: { count: 1, id: "torchmaster:megatorch" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			id: "079BB648273FA6EA"
+			tasks: [
+				{
+					id: "3019D9FCE94A30AF"
+					item: { count: 1, id: "buildinggadgets2:gadget_building" }
+					type: "item"
+				}
+				{
+					id: "1C3CD2F8BF2F6800"
+					item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
+					type: "item"
+				}
+				{
+					id: "4EA715F9DEEDA0E1"
+					item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			id: "66847BC40D0AA886"
+			tasks: [{
+				id: "2DD33FA9080C4173"
+				item: { count: 1, id: "chunkloaders:basic_chunk_loader" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			id: "114992D32397A35D"
+			tasks: [{
+				id: "5398FFADCB9E7EB0"
+				item: { count: 1, id: "adfinders:gem_finder" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -5.0d
+		}
+		{
+			id: "07735D93EC888469"
+			tasks: [{
+				id: "44EA0E7F3DD32120"
+				item: { count: 1, id: "adfinders:metal_finder" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			id: "5AAD4C27702802ED"
+			tasks: [{
+				id: "2AC9541048CD8614"
+				item: { count: 1, id: "adfinders:mineral_finder" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.0d
+		}
+		{
+			id: "7E0734D239A3F437"
+			tasks: [{
+				id: "1467A2EDCACB165D"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "64C4A69B7AB2378C"
+			tasks: [{
+				id: "32F93416E9D17C7B"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			id: "3997E027E7AC3CDA"
+			tasks: [{
+				id: "25C0A7A5B40EFA95"
+				item: { count: 1, id: "hangglider:hang_glider" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			id: "555A38A59CCEBB90"
+			tasks: [{
+				id: "59FA02B216DECAD9"
+				item: { count: 1, id: "miningutility:mining_helmet" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.5d
+		}
+		{
+			id: "0E7A6596E86235B7"
+			rewards: [{
+				id: "30942CC0320FB9BC"
+				item: {
+					count: 1
+					id: "permanentsponges:magmatic_sponge"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1C773DFEFC0C3EC0"
+					item: { count: 1, id: "permanentsponges:aqueous_sponge" }
+					type: "item"
+				}
+				{
+					id: "5876EEA88F304111"
+					item: { count: 1, id: "permanentsponges:aqueous_sponge_on_a_stick" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "740F8E1306C59A5B"
+			rewards: [{
+				id: "3A3E902204C4B79F"
+				item: {
+					count: 1
+					id: "miningutility:inverted_rope_ladder"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "652BA49190E8AB7D"
+				item: { count: 1, id: "miningutility:rope_ladder" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.5d
+		}
+		{
+			id: "2BE0A92298701AD6"
+			tasks: [
+				{
+					id: "1DF60BB34D62E370"
+					item: { count: 1, id: "usefulslime:slime_sling" }
+					type: "item"
+				}
+				{
+					id: "5AFEEC020730990A"
+					item: { count: 1, id: "usefulslime:slime_boots" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			id: "21FA1ED194A0764B"
+			rewards: [{
+				id: "4BF1EBEA9F4BBC83"
+				item: {
+					count: 1
+					id: "dimstorage:dimensional_chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F1DB9DDBDB7DD12"
+				item: { count: 1, id: "dimstorage:dimensional_chest" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			id: "136483920DF38D4D"
+			tasks: [{
+				id: "6FEDEAB425DFF265"
+				item: { components: { "ironjetpacks:jetpack_id": "ironjetpacks:iron" }, count: 1, id: "ironjetpacks:jetpack" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "7440C240D230129F"
+			tasks: [{
+				id: "447B9165FDF3F5C4"
+				item: { count: 1, id: "mekanism:jetpack" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "2D8B2704F5C9101D"
+			tasks: [{
+				id: "00997334514B9B73"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(constructionstick:construction_sticks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			id: "026404C1E714F6D2"
+			rewards: [{
+				id: "4B479861B0D34231"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:wolf_trophy_pale"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7483C68DEB263556"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			id: "23E97256E02EC67F"
+			rewards: [{
+				id: "65200F6553FC92AB"
+				item: {
+					count: 1
+					id: "dimstorage:dimensional_tank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CFF330C7EF55604"
+				item: { count: 1, id: "dimstorage:dimensional_tank" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -9.0d
+		}
+	]
+}

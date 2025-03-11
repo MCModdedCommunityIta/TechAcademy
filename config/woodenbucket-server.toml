@@ -1,0 +1,21 @@
+["Balance Options"]
+	#Minimum temperature of fluid at which the Wooden Bucket breaks when emptied. (default: 1000) (Deactivation by setting a number larger than the hottest fluid)
+	# Default: 1000
+	# Range: -10000 ~ 10000
+	crackingTemperature = 1000
+	#Fluid temperature from which you get a burning effect if a Wooden Bucket contains such a hot fluid. (default: 1000) (Deactivation by setting a number larger than the hottest fluid)
+	# Default: 1000
+	# Range: -10000 ~ 10000
+	burningTemperature = 1000
+	#Defines the maximum durability of Wooden Bucket. (default: 25, 0: deactivates the durability)
+	# Default: 25
+	# Range: 0 ~ 10000
+	durability = 25
+	#Whether or not obtaining fish with a Wooden Bucket should be enabled. (default: true)
+	fishObtainingEnabled = true
+	#Fluid temperature from which you get a freezing effect if a Wooden Bucket contains this fluid. (default: -1) (Deactivation by setting a number lower than the coldest fluid)
+	# Default: -1
+	# Range: -10000 ~ 10000
+	freezingTemperature = -1
+	#Whether or not milking entities with a Wooden Bucket should be enabled. (default: true)
+	milkingEnabled = true

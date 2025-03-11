@@ -1,0 +1,148 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mining"
+	group: "32571A4D4DB47570"
+	id: "33C620697A86841F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "75CF49EACDFF04A0"
+			tasks: [{
+				id: "49C2E5C9C3820634"
+				item: { count: 1, id: "minecraft:iron_ore" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "616B482B523020C6"
+			tasks: [{
+				id: "19C94A90DF5EF592"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "2242136CD186C488"
+			tasks: [{
+				id: "79294501435F2B13"
+				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "74E47FD4A36CD959"
+			tasks: [{
+				id: "4D32774EB1291B40"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "631E1D57D61DD6B6"
+			tasks: [{
+				id: "1A869A826A4397B4"
+				item: { count: 1, id: "immersiveengineering:excavator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "3522E9CF324C31AC"
+			tasks: [{
+				id: "3085F0E455AB0FCB"
+				item: { count: 1, id: "railcraft:tunnel_bore" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "207DE33EB7DF0695"
+			tasks: [{
+				id: "0F46308056A75F45"
+				item: { count: 1, id: "mekanismtools:wood_paxel" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			id: "153A6197B0663BA7"
+			tasks: [{
+				id: "6087823B9E5FD56F"
+				item: { count: 1, id: "actuallyadditions:drill_light_blue" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "40D1AF04C0F70419"
+			rewards: [{
+				id: "55A28198FF16DFC3"
+				item: {
+					components: {
+						"sophisticatedstorage:wood_type": "oak"
+					}
+					count: 1
+					id: "sophisticatedstorage:gold_chest"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3169AB9F77E6191E"
+					item: { count: 1, id: "rftoolsbuilder:builder" }
+					type: "item"
+				}
+				{
+					id: "5D4D00A945687D47"
+					item: { count: 1, id: "rftoolsbuilder:shape_card_quarry" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "5CC4E581FA6D0BED"
+			tasks: [{
+				id: "4E396033A8011E58"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "1FDD20D91995E5FA"
+			tasks: [{
+				id: "4FE701F08997E58D"
+				item: { components: { "industrialforegoing:infinity_can_charge": 1b, "industrialforegoing:infinity_item_power": 9223372036854775807L, "industrialforegoing:infinity_item_selected_tier": "artifact", "industrialforegoing:infinity_item_special": 1b }, count: 1, id: "industrialforegoing:infinity_drill" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "17FB6FDA3F1E4BC6"
+			tasks: [{
+				id: "430B442D80A570BD"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+	]
+}

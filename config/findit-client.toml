@@ -1,0 +1,11 @@
+#Hex color of the outline to render.
+#Format: 0xRRGGBB, where RR is red, GG is green, and BB is blue.
+#Example: 0x4287f5
+#Default: 0xffffff. (Yes I know it looks different. Use hex, it's easier.)
+# Default: 16777215
+# Range: 0 ~ 16777215
+outline_color = 16777215
+#How long (in ticks) will the outline appear for.
+# Default: 100
+# Range: 10 ~ 300
+outline_timer = 100

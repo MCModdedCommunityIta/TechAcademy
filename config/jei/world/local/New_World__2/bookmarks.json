@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"miningutility:mini_torch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"miningutility:mining_helmet"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

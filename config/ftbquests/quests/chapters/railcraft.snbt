@@ -1,0 +1,250 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "railcraft"
+	group: "6021C862F01F642A"
+	icon: {
+		id: "railcraft:steam_locomotive"
+	}
+	id: "2F56F75578C00CCE"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5890E74471C9557B"
+				"775FF622CD6E3978"
+			]
+			id: "5AD2E3608E3A4E70"
+			rewards: [{
+				count: 10
+				id: "660F614251110310"
+				item: {
+					count: 1
+					id: "railcraft:coke_oven_bricks"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 16L
+				id: "2D7348BFC19CE2EB"
+				item: { count: 17, id: "railcraft:coke_oven_bricks" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5AD2E3608E3A4E70"]
+			id: "75224F11F819BDAA"
+			rewards: [{
+				count: 10
+				id: "1E69465C9C865115"
+				item: {
+					count: 1
+					id: "railcraft:blast_furnace_bricks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 24L
+				id: "24E362F98C6D1A42"
+				item: { count: 1, id: "railcraft:blast_furnace_bricks" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75224F11F819BDAA"]
+			id: "186669E9D909B027"
+			rewards: [{
+				count: 4
+				id: "44ED788E57F7186A"
+				item: {
+					count: 1
+					id: "railcraft:crusher"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "1B689F4D75710303"
+				item: { count: 1, id: "railcraft:crusher" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "3D93C5DB538C1AD7"
+			tasks: [{
+				id: "3D6E24DA5E450EFA"
+				item: { count: 1, id: "railcraft:water_tank_siding" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["17D7D800A28BF45A"]
+			id: "587AB40A7E57AA9D"
+			tasks: [{
+				id: "766FB43728480D91"
+				item: { count: 1, id: "minecraft:rail" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5890E74471C9557B"]
+			id: "17D7D800A28BF45A"
+			shape: "square"
+			tasks: [{
+				id: "08DA24AF592E0098"
+				item: { count: 1, id: "railcraft:manual_rolling_machine" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"75224F11F819BDAA"
+				"17D7D800A28BF45A"
+			]
+			id: "54C2E47F588B410B"
+			tasks: [{
+				id: "710E187201306265"
+				item: { count: 1, id: "railcraft:powered_rolling_machine" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "3E1AECC8462EA8E7"
+			tasks: [{
+				id: "7E452863531430FF"
+				item: { count: 1, id: "minecraft:minecart" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"75224F11F819BDAA"
+				"3E1AECC8462EA8E7"
+			]
+			id: "46505F75D7B5DA8D"
+			tasks: [{
+				id: "5378C395DA7F6D06"
+				item: { count: 1, id: "railcraft:steam_locomotive" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "00156141D6F48863"
+			tasks: [{
+				id: "62BFD25BD5693542"
+				item: { count: 1, id: "railcraft:iron_tunnel_bore_head" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			id: "71B0DEF9B2424DBA"
+			tasks: [{
+				id: "2C83015BBA44DA6E"
+				item: { count: 1, id: "railcraft:tunnel_bore" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			id: "4B5503842FE5149F"
+			tasks: [{
+				id: "6D90AEF6D67C8C7E"
+				item: { count: 1, id: "railcraft:solid_fueled_firebox" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "775FF622CD6E3978"
+			tasks: [{
+				id: "2CC13AE349D66563"
+				item: { count: 1, id: "railcraft:fluid_fueled_firebox" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"775FF622CD6E3978"
+				"4B5503842FE5149F"
+			]
+			id: "7EFA042453C8EB9C"
+			tasks: [{
+				id: "043D1CC124E5D9D2"
+				item: { count: 1, id: "railcraft:low_pressure_steam_boiler_tank" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"775FF622CD6E3978"
+				"4B5503842FE5149F"
+			]
+			id: "2B50F280107A9967"
+			tasks: [{
+				id: "13517C05868A51AC"
+				item: { count: 1, id: "railcraft:high_pressure_steam_boiler_tank" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "4187DC6871F0D1EF"
+			tasks: [{
+				id: "50CCF853EBA225B7"
+				item: { components: { "sophisticatedstorageinmotion:storage_item": { components: { "sophisticatedstorage:wood_type": "spruce" }, count: 1, id: "sophisticatedstorage:barrel" } }, count: 1, id: "sophisticatedstorageinmotion:storage_minecart" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			id: "745C661206D73303"
+			tasks: [{
+				id: "5A635964B3EA453D"
+				item: { count: 1, id: "railcraft:energy_minecart" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			id: "544F3FD0538B30B3"
+			tasks: [{
+				id: "07AE5268B47C0FB1"
+				item: { count: 1, id: "railcraft:tank_minecart" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+	]
+}

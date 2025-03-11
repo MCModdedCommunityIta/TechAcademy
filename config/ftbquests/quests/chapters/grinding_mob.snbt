@@ -1,0 +1,161 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "grinding_mob"
+	group: "32571A4D4DB47570"
+	id: "7D82DB4905EAC0E4"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "662E3D9B019A1F23"
+			tasks: [{
+				id: "5B32F9D25B88B544"
+				item: { count: 1, id: "mob_grinding_utils:saw" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "18C3C38413BA603A"
+			tasks: [{
+				id: "5ABD0B81BA28933F"
+				item: { count: 1, id: "hostilenetworks:sim_chamber" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "497A7CA6055D2230"
+			tasks: [{
+				id: "7C47930CA6936FC0"
+				item: { count: 1, id: "industrialforegoing:mob_duplicator" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "524494E97A127991"
+			tasks: [{
+				id: "767B9BC4B6F25361"
+				item: { count: 1, id: "mob_grinding_utils:rotten_egg" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "723D3160E945AAB8"
+			tasks: [{
+				id: "7186D21B4338D572"
+				item: { count: 1, id: "industrialforegoing:mob_crusher" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "4FDBA56EAF6BF1D2"
+			tasks: [{
+				id: "18F49499E44B10F9"
+				item: { count: 1, id: "industrialforegoing:mob_imprisonment_tool" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "6CCC30E4D0D9C3CC"
+			tasks: [{
+				id: "62833CD38859B10B"
+				item: { count: 1, id: "mob_grinding_utils:mob_swab" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			id: "53AFB33BAAAB72C2"
+			tasks: [{
+				id: "4BE2A3951210EE19"
+				item: { count: 1, id: "spikyspikes:wooden_spike" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "007D855ABBC16409"
+			tasks: [{
+				id: "1DDB6F4E8D41D51E"
+				item: { count: 1, id: "mob_grinding_utils:spikes" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			id: "459935E4EC0BBA17"
+			tasks: [{
+				id: "33BCAC773C847C46"
+				item: { count: 1, id: "enderio:powered_spawner" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "315D2E305F4124FE"
+			tasks: [{
+				id: "7B32F917817516E7"
+				item: { count: 1, id: "pneumaticcraft:pressurized_spawner" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "064932884A62665C"
+			tasks: [{
+				id: "53774C72B17C20A2"
+				item: { count: 1, id: "mob_grinding_utils:entity_spawner" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			id: "63EAC47299F440D1"
+			tasks: [{
+				id: "4A6989657C85F796"
+				item: { count: 1, id: "enderio:empty_soul_vial" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "2B0AA0FC9F765828"
+			tasks: [{
+				id: "12D062D5B15BD357"
+				item: { count: 1, id: "mob_grinding_utils:gm_chicken_feed_cursed" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "7B4B3CEE74EF9BF1"
+			tasks: [{
+				id: "0E108C483E320A06"
+				item: { count: 1, id: "mob_grinding_utils:gm_chicken_feed" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+	]
+}

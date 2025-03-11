@@ -1,0 +1,61 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ore_processing"
+	group: "32571A4D4DB47570"
+	id: "4F8C1FBE943C4B53"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0E971B1B4E1AC7A0"
+			tasks: [{
+				id: "5FBC75D303DEFE8A"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			id: "5FC13CD8C7D37A48"
+			tasks: [{
+				id: "5F518C0BA3C446BC"
+				item: { count: 1, id: "immersiveengineering:crusher" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			id: "392F2D1E7A9832E0"
+			tasks: [{
+				id: "005A533A678B674B"
+				item: { count: 1, id: "industrialforegoing:washing_factory" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			id: "7EB97BAD878AA13B"
+			tasks: [{
+				id: "11168353DA867A2D"
+				item: { count: 1, id: "railcraft:crusher" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			id: "26F7EA3622409436"
+			tasks: [{
+				id: "3C95D9D00ECD488F"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+	]
+}
