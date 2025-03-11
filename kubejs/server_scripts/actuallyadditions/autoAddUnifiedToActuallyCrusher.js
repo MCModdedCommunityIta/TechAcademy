@@ -2,7 +2,7 @@ ServerEvents.recipes((event) => {
 
   const allTag = AlmostUnified.getTags();
 
-  // copper, gold e iron sono gia presenti
+  // copper, gold e iron sono gia presenti (solo ore2raws)
   const noMaterials = [
     `copper`,
     `gold`,
@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
     if (tag.includes("c:raw_materials")) {
       let material = tag.split("/")[1]
 
-      if (allTag.some(t => t.includes(`c:dusts/${material}`)) && !noMaterials.includes(material)) {
+      if (allTag.some(t => t.includes(`c:dusts/${material}`))) {
         // raws2dust
         let targetItem = AlmostUnified.getTagTargetItem(`c:dusts/${material}`);
 
