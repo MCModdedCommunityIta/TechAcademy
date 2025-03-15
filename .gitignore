@@ -32,3 +32,4 @@
 config/jei/world/*
 .probe
 /knownkeys.txt
+/emi.json
