@@ -1,10 +1,19 @@
 {
-  "favorites": [
-    {
-      "stack": "item:actuallyadditions:empowered_oil_bucket"
-    }
-  ],
+  "favorites": [],
   "lookup_history": [
+    "item:enderio:conduit{\"enderio:conduit\":\"enderio:ender_chemical\"}",
+    "item:enderio:conduit{\"enderio:conduit\":\"enderio:ender_fluid\"}",
+    "item:enderio:conduit{\"enderio:conduit\":\"enderio:pressurized_fluid\"}",
+    "item:enderio:conduit{\"enderio:conduit\":\"enderio:chemical\"}",
+    "item:enderio:conduit{\"enderio:conduit\":\"enderio:heat\"}",
+    "item:enderio:conduit{\"enderio:conduit\":\"enderio:fluid\"}",
+    "item:enderio:conduit{\"enderio:conduit\":\"enderio:ender_energy\"}",
+    "item:enderio:conduit{\"enderio:conduit\":\"enderio:dense_me\"}",
+    "item:enderio:conduit{\"enderio:conduit\":\"enderio:enhanced_energy\"}",
+    "item:enderio:conduit{\"enderio:conduit\":\"enderio:redstone\"}",
+    "item:enderio:conduit{\"enderio:conduit\":\"enderio:me\"}",
+    "item:enderio:conduit{\"enderio:conduit\":\"enderio:energy\"}",
+    "item:enderio:powered_spawner",
     "item:mekanism:basic_fluid_tank",
     {
       "type": "fluid",
