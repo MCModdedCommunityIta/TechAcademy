@@ -332,7 +332,7 @@
 				item: { count: 1, id: "immersiveengineering:hammer" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -16.0d
 		}
 		{
@@ -587,7 +587,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -15.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["684B224447B64520"]
@@ -655,32 +655,8 @@
 				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -16.0d
-		}
-		{
-			dependencies: ["3A06DAA6736EF1D4"]
-			id: "5890E74471C9557B"
-			rewards: [{
-				id: "561CD784B0007D82"
-				item: {
-					components: {
-						"patchouli:book": "railcraft:guide_book"
-					}
-					count: 1
-					id: "patchouli:guide_book"
-				}
-				type: "item"
-			}]
-			shape: "gear"
-			tasks: [{
-				count: 4L
-				id: "0C79088F947230C4"
-				item: { count: 1, id: "mekanism:ingot_bronze" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -12.0d
+			x: 5.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["3A06DAA6736EF1D4"]
@@ -725,8 +701,8 @@
 				item: { count: 1, id: "powah:dielectric_paste" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -13.0d
+			x: 4.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["3A06DAA6736EF1D4"]
@@ -776,7 +752,7 @@
 				}
 			]
 			x: 5.0d
-			y: -14.0d
+			y: -13.0d
 		}
 		{
 			can_repeat: true
