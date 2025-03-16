@@ -1047,7 +1047,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 1.0d
 			y: 10.5d
 		}
 		{
@@ -1148,7 +1148,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 3.0d
 			y: 16.0d
 		}
 		{
@@ -1217,8 +1217,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 11.0d
+			x: 2.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3D77515C24637FB6"]
@@ -1237,7 +1237,7 @@
 				item: { count: 1, id: "immersiveengineering:dust_coke" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 13.0d
 		}
 		{
@@ -1260,7 +1260,7 @@
 				item: { count: 1, id: "immersiveengineering:dust_hop_graphite" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: 13.0d
 		}
 		{
@@ -1279,7 +1279,7 @@
 				item: { count: 1, id: "immersiveengineering:graphite_electrode" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 14.5d
 		}
 		{
@@ -1404,6 +1404,7 @@
 			dependencies: [
 				"25A9C0592E5F0810"
 				"7AEB0052AC1674E3"
+				"1C93AC966539482E"
 			]
 			icon: {
 				id: "immersiveengineering:refinery"
@@ -1473,7 +1474,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: 0.0d
 			y: 14.5d
 		}
 		{
@@ -1539,7 +1540,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: 0.0d
 			y: 17.5d
 		}
 		{
@@ -1631,7 +1632,7 @@
 				item: { count: 1, id: "immersiveengineering:plantoil_bucket" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 13.0d
 		}
 		{
@@ -1650,7 +1651,7 @@
 				item: { count: 1, id: "immersiveengineering:biodiesel_bucket" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 16.0d
 		}
 		{
@@ -1775,7 +1776,7 @@
 				item: { count: 1, id: "immersiveengineering:ethanol_bucket" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 13.0d
 		}
 		{
@@ -1855,6 +1856,22 @@
 			]
 			x: 1.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["3D77515C24637FB6"]
+			id: "1C93AC966539482E"
+			rewards: [{
+				id: "79490E5105209BCD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75635FAE7F9D6150"
+				item: { count: 1, id: "immersiveengineering:dust_saltpeter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
 		}
 	]
 }
