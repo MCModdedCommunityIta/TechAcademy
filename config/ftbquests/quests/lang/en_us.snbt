@@ -7,7 +7,6 @@
 	chapter.17547FC8D4FFF9D2.title: "Applied Energistics"
 	chapter.270A92A60A72F31F.title: "Industrial Foregoing"
 	chapter.292FB7C1D54BC605.title: "Storage"
-	chapter.2F56F75578C00CCE.title: "RailCraft"
 	chapter.33C620697A86841F.title: "Mining"
 	chapter.36364A58523642A8.title: "Introduzione"
 	chapter.389D9BC71F4B252E.title: "Farming"
@@ -100,6 +99,7 @@
 	quest.1A22D30B4C17A666.title: "Phantom si o no?"
 	quest.1C3BF5937425266D.quest_desc: ["Questo macchinario taglia gli alberi e raccoglie i crops maturi"]
 	quest.1CCF624F5168B4B8.quest_desc: ["Teletrasporto tra due Anchor se mentre sei su una guardi l'altra e premi spazio! Puoi rinominarle! Con la Staff of Traveling ci puoi andare direttamente!"]
+	quest.1D59AE589AD5A7A2.quest_desc: ["Materiale avanzato dai prima un'occhiata alle altre quest!"]
 	quest.1DBD2374710BB50A.quest_desc: ["Ti permette di accedere all'inventario se entro un certo raggio"]
 	quest.1E5AE5851B9C60D2.quest_desc: ["Dopo aver piazzato il modulo puoi specializziarlo in per una specifica funzione cliccandoci sopra con uno di questi oggetti."]
 	quest.1E9BA4503E54C277.quest_desc: [
@@ -514,6 +514,7 @@
 	quest.684B224447B64520.quest_subtitle: "Ci siamo quasi!"
 	quest.684B224447B64520.title: "Crafting Table"
 	quest.6886B94EC94A32A6.quest_desc: ["Ti permette di convertire l'energia cinetica in energia elettrica!"]
+	quest.69FA82253D762BB1.quest_desc: ["Materiale avanzato dai prima un'occhiata alle altre quest!"]
 	quest.6A3E86E748063BD3.quest_desc: ["Come prima, una struttura 3x3x3, ma con un hopper sopra!"]
 	quest.6A3E86E748063BD3.title: "Improved Blast Furnace"
 	quest.6A61E5F6BC63B622.quest_desc: [
@@ -667,8 +668,10 @@
 		""
 		"Ergo, ti basterà avere a portata di mano (sia principale che secondaria) qualcosa che faccia luce, per &oilluminare la scena!&r"
 	]
+	quest.7B7759630F91077B.quest_desc: [""]
 	quest.7C5C40E5751272C5.quest_desc: ["Creazione dello Steel della Mekanism!"]
 	quest.7C5C40E5751272C5.quest_subtitle: "TIP: non è l'unico modo per creare lo Steel"
+	quest.7DBB41426456551B.quest_desc: ["Materiale avanzato dai prima un'occhiata alle altre quest!"]
 	quest.7DD157FC2E23127E.quest_desc: [
 		"Costruisci una struttura 3x3x3 e smartellala col martellozzo dell'Immersive!"
 		""

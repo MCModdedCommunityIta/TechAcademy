@@ -58,16 +58,6 @@
 			y: -1.0d
 		}
 		{
-			id: "3522E9CF324C31AC"
-			tasks: [{
-				id: "3085F0E455AB0FCB"
-				item: { count: 1, id: "railcraft:tunnel_bore" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
 			id: "207DE33EB7DF0695"
 			tasks: [{
 				id: "0F46308056A75F45"

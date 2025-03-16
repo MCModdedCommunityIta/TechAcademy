@@ -14,7 +14,7 @@
 				item: { count: 1, id: "enderio:sag_mill" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.5d
 			y: 2.5d
 		}
 		{
@@ -35,16 +35,6 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 2.5d
-		}
-		{
-			id: "7EB97BAD878AA13B"
-			tasks: [{
-				id: "11168353DA867A2D"
-				item: { count: 1, id: "railcraft:crusher" }
-				type: "item"
-			}]
-			x: -6.5d
 			y: 2.5d
 		}
 		{
