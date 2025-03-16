@@ -1,6 +1,6 @@
 {
 	// - default: false
-	requireHoe: true,
+	requireHoe: false,
 	// - default: true
 	harvestInRadius: true,
 	/* - default: NONE
