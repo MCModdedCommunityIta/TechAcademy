@@ -20,7 +20,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			size: 1.0d
+			size: 1.5d
 			tasks: [{
 				id: "459B86A098274F05"
 				item: { count: 1, id: "ae2:meteorite_compass" }
@@ -453,7 +453,7 @@
 			}
 			id: "7B30435B2993D639"
 			tasks: [{
-				id: "24A8A06C6B6DB463"
+				id: "18DB08A641F3F7E2"
 				observe_type: 0
 				timer: 0L
 				to_observe: "ae2:mysterious_cube"
@@ -768,19 +768,29 @@
 				item: { count: 1, id: "megacells:sky_steel_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: -15.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["7B30435B2993D639"]
+			dependencies: ["770BC6D95E31F6F7"]
 			id: "74D13E6ABB29E05C"
+			rewards: [{
+				count: 8
+				id: "365E9C4C1F27A6F1"
+				item: {
+					count: 1
+					id: "ae2:sky_stone_block"
+				}
+				type: "item"
+			}]
+			shape: "square"
 			tasks: [{
 				id: "1B66BF0C30159561"
 				item: { count: 1, id: "ae2:sky_stone_block" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: -17.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4BD7A4C0E1DB16A5"]
@@ -803,7 +813,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["40498708BF9EDB0B"]
+			dependencies: [
+				"40498708BF9EDB0B"
+				"1D59AE589AD5A7A2"
+			]
 			id: "42AE61C53B9E1DF6"
 			rewards: [{
 				count: 4
@@ -846,14 +859,24 @@
 		{
 			dependencies: ["752B9C23DC83504F"]
 			id: "1AA6AEB702EAF089"
-			rewards: [{
-				id: "4457303CFED2FB6F"
-				item: {
-					count: 1
-					id: "ae2:tiny_tnt"
+			rewards: [
+				{
+					id: "4457303CFED2FB6F"
+					item: {
+						count: 1
+						id: "ae2:tiny_tnt"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "635702F90309E2B6"
+					item: {
+						count: 1
+						id: "enderio:powdered_ender_pearl"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6962B145D66FB375"
 				item: { count: 1, id: "ae2:singularity" }
@@ -927,8 +950,8 @@
 				item: { count: 1, id: "megacells:mega_item_cell_housing" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: -15.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["74D13E6ABB29E05C"]
@@ -947,8 +970,8 @@
 				item: { count: 1, id: "megacells:sky_bronze_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: -17.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["74D13E6ABB29E05C"]
@@ -967,8 +990,8 @@
 				item: { count: 1, id: "megacells:sky_osmium_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: -19.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4E8EEBFEA3542A69"]
@@ -1011,8 +1034,8 @@
 				item: { count: 1, id: "ae2_mega_things:mega_item_disk_housing" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: -15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["69FA82253D762BB1"]
@@ -1027,8 +1050,8 @@
 				item: { count: 1, id: "megacells:mega_fluid_cell_housing" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: -17.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2EE8DAF97821D463"]
@@ -1043,7 +1066,7 @@
 				item: { count: 1, id: "ae2_mega_things:mega_fluid_disk_housing" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: -17.0d
 			y: -1.5d
 		}
 		{
@@ -1059,7 +1082,7 @@
 				item: { count: 1, id: "ae2_mega_things:mega_chemical_disk_housing" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: -19.0d
 			y: 0.0d
 		}
 		{
@@ -1075,8 +1098,8 @@
 				item: { count: 1, id: "megacells:mega_chemical_cell_housing" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: -19.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0456FD41E791DF59"]
@@ -1476,6 +1499,7 @@
 			dependencies: ["145402221B5446BB"]
 			id: "7B7759630F91077B"
 			rewards: [{
+				count: 3
 				id: "25B16A32E16013C4"
 				item: {
 					count: 1
@@ -1714,6 +1738,14 @@
 		{
 			dependencies: ["03C347295E468BEC"]
 			id: "5FDD99EF4FBF0C0E"
+			rewards: [{
+				id: "641137E2620C5A7D"
+				item: {
+					count: 1
+					id: "ae2:cell_component_1k"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "10005EB84794582D"
 				item: { count: 1, id: "ae2:portable_item_cell_1k" }
@@ -1725,6 +1757,14 @@
 		{
 			dependencies: ["03C347295E468BEC"]
 			id: "6F819BE010BDAB5A"
+			rewards: [{
+				id: "377B9D58B25A65E3"
+				item: {
+					count: 1
+					id: "ae2:cell_component_1k"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A604F3C523212C7"
 				item: { count: 1, id: "ae2:portable_fluid_cell_1k" }
@@ -1768,6 +1808,26 @@
 			}]
 			x: -1.5d
 			y: 7.5d
+		}
+		{
+			dependencies: ["4264579CC6BFE4BB"]
+			id: "79D0354ED1B7D632"
+			rewards: [{
+				count: 8
+				id: "2193D0819CCFF54B"
+				item: {
+					count: 1
+					id: "ae2:sky_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BCE58F92C00E2C2"
+				item: { count: 1, id: "ae2:sky_dust" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
 		}
 	]
 }

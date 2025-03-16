@@ -34,8 +34,8 @@
 				item: { count: 14, id: "immersiveengineering:cokebrick" }
 				type: "item"
 			}]
-			x: -0.75d
-			y: -2.25d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7DD157FC2E23127E"]
@@ -54,8 +54,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:coal_coke)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7DD157FC2E23127E"]
@@ -74,7 +74,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -96,8 +96,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.5d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["29541D1F71E6A026"]
@@ -118,8 +118,8 @@
 				item: { count: 1, id: "immersiveengineering:blastbrick" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: -6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["580869FDAF268E79"]
@@ -140,7 +140,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -154,7 +154,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["565C059562BD3746"]
@@ -172,8 +172,8 @@
 				item: { count: 1, id: "immersiveengineering:watermill" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: 4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5122AE8542B16C93"]
@@ -194,7 +194,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -216,11 +216,11 @@
 				item: { count: 1, id: "immersiveengineering:dynamo" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.5d
+			x: 6.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["758640628AFCFC68"]
+			dependencies: ["565C059562BD3746"]
 			icon: {
 				id: "immersiveengineering:tank"
 			}
@@ -258,11 +258,11 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 0.5d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["580869FDAF268E79"]
+			dependencies: ["03F047AC1F09EE0D"]
 			id: "758640628AFCFC68"
 			rewards: [{
 				count: 8
@@ -280,8 +280,8 @@
 				item: { count: 1, id: "immersiveengineering:fluid_pipe" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6886B94EC94A32A6"]
@@ -315,8 +315,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 6.0d
+			x: 8.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0277EA11A4261E6E"]
@@ -347,8 +347,8 @@
 				item: { count: 1, id: "immersiveengineering:slag" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 3.0d
+			x: -8.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -361,7 +361,7 @@
 				item: { count: 1, id: "immersiveengineering:blastbrick_reinforced" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.5d
 			y: 3.0d
 		}
 		{
@@ -372,8 +372,8 @@
 				item: { count: 1, id: "immersiveengineering:fluid_pump" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -0.5d
+			x: -1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -421,8 +421,8 @@
 				item: { count: 1, id: "immersiveengineering:workbench" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["29541D1F71E6A026"]
@@ -434,8 +434,8 @@
 				item: { count: 1, id: "immersiveengineering:wirecutter" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -469,8 +469,8 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: 4.0d
+			x: -1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["121797E36578B6C6"]
@@ -507,8 +507,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 3.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -559,8 +559,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 4.5d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["188782D238B34E5D"]
@@ -579,8 +579,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/electrum)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.5d
+			x: 4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["29541D1F71E6A026"]
@@ -602,8 +602,8 @@
 				item: { count: 8, id: "immersiveengineering:alloybrick" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.5d
+			x: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -620,8 +620,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			shape: "heart"
-			size: 1.2d
+			size: 1.5d
 			tasks: [
 				{
 					count: 2L
@@ -645,8 +644,8 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: 6.0d
+			x: 1.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -668,8 +667,8 @@
 				item: { count: 1, id: "immersiveengineering:plate_steel" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6A3E86E748063BD3"]
@@ -687,8 +686,8 @@
 				item: { count: 2, id: "immersiveengineering:blastfurnace_preheater" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 3.5d
+			x: -7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["29541D1F71E6A026"]
@@ -712,8 +711,8 @@
 				item: { count: 1, id: "immersiveengineering:conveyor_basic" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 5.0d
+			x: 1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["29541D1F71E6A026"]
@@ -726,7 +725,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["29541D1F71E6A026"]
@@ -747,23 +746,19 @@
 				item: { count: 1, id: "immersiveengineering:seed" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 2.5d
+			x: 6.5d
+			y: 5.5d
 		}
 		{
-			dependencies: [
-				"159AD21CB2A8EF34"
-				"758640628AFCFC68"
-				"7E2E259B5323CECC"
-			]
+			dependencies: ["24C5C528DE10D27E"]
 			id: "3E4B44324815E272"
 			tasks: [{
 				id: "69CF9EF277B95CFF"
 				item: { count: 1, id: "immersiveengineering:cloche" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["159AD21CB2A8EF34"]
@@ -783,10 +778,10 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 1.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["06DCF4C8B2DC2B4E"]
+			dependencies: ["7E2E259B5323CECC"]
 			id: "47E69F126EC4C351"
 			rewards: [{
 				count: 4
@@ -814,11 +809,11 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 8.0d
+			x: 10.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["704457D019E55ACD"]
+			dependencies: ["47E69F126EC4C351"]
 			id: "328A9A7BFA21E5A4"
 			rewards: [{
 				count: 4
@@ -846,8 +841,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 10.0d
+			x: 12.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7E2E259B5323CECC"]
@@ -857,8 +852,8 @@
 				item: { count: 1, id: "immersiveengineering:capacitor_lv" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 7.0d
+			x: 8.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["47E69F126EC4C351"]
@@ -868,8 +863,8 @@
 				item: { count: 1, id: "immersiveengineering:capacitor_mv" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 9.0d
+			x: 10.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["328A9A7BFA21E5A4"]
@@ -879,8 +874,8 @@
 				item: { count: 1, id: "immersiveengineering:capacitor_hv" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 11.0d
+			x: 12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7E2E259B5323CECC"]
@@ -899,8 +894,8 @@
 				item: { count: 1, id: "immersiveengineering:wirecoil_copper_ins" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.0d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["47E69F126EC4C351"]
@@ -919,66 +914,11 @@
 				item: { count: 1, id: "immersiveengineering:wirecoil_electrum_ins" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 9.0d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["7E2E259B5323CECC"]
-			id: "06DCF4C8B2DC2B4E"
-			rewards: [{
-				id: "0D509F8E9E293329"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "4827D45BDFFB8A43"
-				item: { count: 1, id: "immersiveengineering:transformer" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["47E69F126EC4C351"]
-			id: "704457D019E55ACD"
-			rewards: [{
-				id: "484A1CFBC289D24F"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "3BD2C4C59B176A4A"
-				item: { count: 1, id: "immersiveengineering:transformer_hv" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["072307C843A753B0"]
-			id: "323452EBF936CAAE"
-			rewards: [{
-				count: 4
-				id: "0B7DF5547586619F"
-				item: {
-					count: 1
-					id: "immersiveengineering:wire_aluminum"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "62D63A3BAF353FA6"
-				item: { count: 1, id: "immersiveengineering:wire_aluminum" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 7.0d
-		}
-		{
-			dependencies: [
-				"323452EBF936CAAE"
-				"477B6C5B20489116"
-			]
+			dependencies: ["6DFAFF3F336D9002"]
 			id: "0AED47780569C643"
 			rewards: [{
 				count: 2
@@ -1006,8 +946,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 8.5d
+			x: -3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0AED47780569C643"]
@@ -1038,25 +978,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["17547FC8D4FFF9D2"]
-			id: "477B6C5B20489116"
-			rewards: [{
-				id: "2DF4382A54E47F6D"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "5B153542E5884B7B"
-				item: { count: 1, id: "ae2:fluix_glass_cable" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 9.5d
+			x: -4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["072307C843A753B0"]
@@ -1124,14 +1047,11 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: 7.5d
+			x: 2.5d
+			y: 10.5d
 		}
 		{
-			dependencies: [
-				"5D4F3CE1751B7CB9"
-				"7CD23F8F5BA2CE54"
-			]
+			dependencies: ["5D4F3CE1751B7CB9"]
 			icon: {
 				id: "immersiveengineering:arc_furnace"
 			}
@@ -1228,8 +1148,8 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: 13.5d
+			x: 2.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["072307C843A753B0"]
@@ -1297,8 +1217,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 7.5d
+			x: 1.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["3D77515C24637FB6"]
@@ -1317,8 +1237,8 @@
 				item: { count: 1, id: "immersiveengineering:dust_coke" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 10.0d
+			x: 2.5d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -1340,8 +1260,8 @@
 				item: { count: 1, id: "immersiveengineering:dust_hop_graphite" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 10.0d
+			x: 1.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["58A23BE09F7FBEDF"]
@@ -1359,8 +1279,8 @@
 				item: { count: 1, id: "immersiveengineering:graphite_electrode" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 12.0d
+			x: 2.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["5B5E256017685138"]
@@ -1434,8 +1354,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 9.0d
+			x: 4.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["179AF11C02A204F1"]
@@ -1477,8 +1397,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 8.0d
+			x: 4.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -1553,8 +1473,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 12.0d
+			x: -0.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["031DE9A4341A95C6"]
@@ -1619,11 +1539,11 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 15.0d
+			x: -0.5d
+			y: 17.5d
 		}
 		{
-			dependencies: ["7CDD6AC73A501B2F"]
+			dependencies: ["072307C843A753B0"]
 			icon: {
 				id: "immersiveengineering:fermenter"
 			}
@@ -1692,8 +1612,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 12.0d
+			x: -0.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["60280B472FF110B9"]
@@ -1711,34 +1631,8 @@
 				item: { count: 1, id: "immersiveengineering:plantoil_bucket" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["3E4B44324815E272"]
-			id: "7CDD6AC73A501B2F"
-			rewards: [{
-				id: "5C8CAA09534FF623"
-				item: {
-					count: 1
-					id: "immersiveengineering:cloche"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "4EB8CC7B9D80EE4B"
-					item: { count: 1, id: "minecraft:glow_berries" }
-					type: "item"
-				}
-				{
-					id: "6D2EB9F0077C1854"
-					item: { count: 1, id: "minecraft:moss_block" }
-					type: "item"
-				}
-			]
-			x: 7.0d
-			y: 12.0d
+			x: 0.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["5EF99A7E7246ECA8"]
@@ -1756,11 +1650,11 @@
 				item: { count: 1, id: "immersiveengineering:biodiesel_bucket" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 13.5d
+			x: -0.5d
+			y: 16.0d
 		}
 		{
-			dependencies: ["323452EBF936CAAE"]
+			dependencies: ["7A02D59AAAC02A7F"]
 			id: "0CFC75F98DF71CA1"
 			rewards: [{
 				id: "2DA15BAF29C4282F"
@@ -1784,7 +1678,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 4.5d
 			y: 8.0d
 		}
 		{
@@ -1862,8 +1756,8 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: 7.0d
+			x: -2.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["126BE832AFCAE3E5"]
@@ -1881,40 +1775,8 @@
 				item: { count: 1, id: "immersiveengineering:ethanol_bucket" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["3D77515C24637FB6"]
-			id: "7CD23F8F5BA2CE54"
-			rewards: [{
-				id: "1DA3DAB5D8B30BB9"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "2460884B212B4219"
-				item: { count: 1, id: "immersiveengineering:dust_iron" }
-				type: "item"
-			}]
-			x: -8.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["599C86EAC7020D7F"]
-			id: "0E4F3D39E09F87D1"
-			rewards: [{
-				id: "4C25B48A2FC4BD8A"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "691A31782D5451BB"
-				item: { count: 1, id: "minecraft:iron_ore" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 10.0d
+			x: -0.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["072307C843A753B0"]
@@ -1929,8 +1791,8 @@
 				item: { count: 1, id: "immersiveengineering:sample_drill" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 7.0d
+			x: 4.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7E2E259B5323CECC"]
@@ -1958,13 +1820,22 @@
 				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 4.5d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6F0084A8D5D7B9BA"]
 			id: "0451EEAAFA78C399"
 			optional: true
+			rewards: [{
+				count: 8
+				id: "4510FCD3DEA66808"
+				item: {
+					count: 1
+					id: "immersiveengineering:conveyor_basic"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3D1C01BAF1DB6C46"
@@ -1982,8 +1853,8 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: 6.0d
+			x: 1.0d
+			y: 5.5d
 		}
 	]
 }

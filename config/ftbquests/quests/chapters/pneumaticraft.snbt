@@ -52,13 +52,14 @@
 				type: "item"
 			}]
 			shape: "square"
+			size: 1.5d
 			tasks: [{
 				id: "750F141B2AB5CF8E"
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
 			}]
 			x: -0.5d
-			y: -6.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["5BB1CA2FDAC0315B"]
@@ -78,7 +79,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -117,8 +118,7 @@
 				}
 				type: "item"
 			}]
-			shape: "heart"
-			size: 1.0d
+			size: 1.5d
 			tasks: [
 				{
 					count: 2L
@@ -609,6 +609,7 @@
 		}
 		{
 			dependencies: ["7A8E9E7BF4A409D7"]
+			hide_dependency_lines: true
 			id: "0C1002162598B040"
 			rewards: [{
 				id: "32AAB13642D3ACC1"
@@ -809,7 +810,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6F31C4CFA489F0DB"]
@@ -971,6 +972,7 @@
 		}
 		{
 			dependencies: ["7A8E9E7BF4A409D7"]
+			hide_dependency_lines: true
 			id: "3FCEED4D8E605366"
 			rewards: [{
 				count: 8

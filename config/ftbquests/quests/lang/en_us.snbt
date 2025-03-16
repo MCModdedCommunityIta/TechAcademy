@@ -26,12 +26,15 @@
 	quest.026404C1E714F6D2.title: "UTILITA'"
 	quest.0277EA11A4261E6E.quest_desc: ["Segui le istruzioni del Coke Oven per questa struttura multiblocco. Non puoi ne prendere ne mettere item in maniera automatica, dovrai creare la Blast avanzata!"]
 	quest.0277EA11A4261E6E.quest_subtitle: "TIP: non è l'unico modo per creare lo Steel"
+	quest.0277EA11A4261E6E.title: "Crude Blast Furnace"
+	quest.0301BA2BF08820F0.title: "Arc Furnace"
 	quest.03C5C074DF15F357.quest_desc: [
 		"Un metodo di crafting particolare che fonde oggetti per ottenerne di nuovi."
 		"L'automatizzazione è complessa e la spiegheremo in seguito"
 	]
 	quest.062609874E69872D.quest_desc: ["Trasforma il liquame in fertilizzante!"]
 	quest.071DB6AF939A3E3C.quest_desc: ["Queste vele manderanno più veloce il tuo mulino, che produrrà più corrente!"]
+	quest.072307C843A753B0.title: "Metal Press"
 	quest.07735D93EC888469.quest_desc: ["Una bussola che punta verso gli ore di metalli come Ferro, Oro e Stagno!"]
 	quest.079BB648273FA6EA.quest_desc: ["Tre gadget per il building WIP info"]
 	quest.07EF8759FDE967A0.quest_desc: ["Se posizionato sull'Inventory Connector permette di visualizzare e ricercare gli oggetti in tutti gli inventari adiacenti"]
@@ -73,6 +76,8 @@
 		"Valuta se disattivarli rendendo i canali infiniti (nessun limite di connessione)"
 	]
 	quest.1268B60817262B01.title: "Li vuoi quei canali?"
+	quest.126BE832AFCAE3E5.title: "Industrial Fermenter"
+	quest.12A3B33CEFC94345.title: "Sawmill"
 	quest.136483920DF38D4D.quest_desc: [
 		"Un Jetpack di ferro che ti permette di volare e scendere dolcemente. Va caricato e non annulla i danni da caduta!"
 		""
@@ -87,6 +92,7 @@
 	]
 	quest.15D045DF76328901.quest_desc: ["wip"]
 	quest.1640E08845D6EA1A.quest_desc: ["Usa l'acqua per far muovere il mulino e produrre corrente"]
+	quest.188782D238B34E5D.title: "Kiln"
 	quest.1A22D30B4C17A666.quest_desc: [
 		"Se i phantom ti annoiano puoi selezionare questa quest per abilitarli o disabilitarli."
 		"Tieni presente che quando vorrai, potrai farmarli direttamente tenendo la loro generazione disattivata!"
@@ -94,7 +100,6 @@
 	quest.1A22D30B4C17A666.title: "Phantom si o no?"
 	quest.1C3BF5937425266D.quest_desc: ["Questo macchinario taglia gli alberi e raccoglie i crops maturi"]
 	quest.1CCF624F5168B4B8.quest_desc: ["Teletrasporto tra due Anchor se mentre sei su una guardi l'altra e premi spazio! Puoi rinominarle! Con la Staff of Traveling ci puoi andare direttamente!"]
-	quest.1D59AE589AD5A7A2.quest_desc: ["Materiale avanzato dai prima un'occhiata alle altre quest!"]
 	quest.1DBD2374710BB50A.quest_desc: ["Ti permette di accedere all'inventario se entro un certo raggio"]
 	quest.1E5AE5851B9C60D2.quest_desc: ["Dopo aver piazzato il modulo puoi specializziarlo in per una specifica funzione cliccandoci sopra con uno di questi oggetti."]
 	quest.1E9BA4503E54C277.quest_desc: [
@@ -110,6 +115,7 @@
 	quest.21FA1ED194A0764B.quest_desc: ["Queste chest funzionano come Ender Chest, ma è possibile cambiare la frequenza per avere infiniti collegamenti!"]
 	quest.23E97256E02EC67F.quest_desc: ["Come per le DimensionalChest, ma per i liquidi!"]
 	quest.240281FFE6A26645.quest_desc: ["Questo oggetto può intrappolare l'essenza di un mob!"]
+	quest.2468030BF5117C30.title: "Diesel Generator"
 	quest.2471B86146F5F9C9.quest_desc: [
 		"&lCreate&r"
 		"Mod ingegneristica che introduce macchinari meccanici e sistemi di automazione basati su ingranaggi, cinghie e motori a rotazione, offrendo un’alternativa alla Redstone con un’estetica steampunk e interazioni fisiche uniche."
@@ -181,6 +187,7 @@
 	]
 	quest.2CD86B4F3D831CC3.quest_desc: ["Una struttura multiblocco per contenere i liquidi! Inserisci dall'alto e preleva dal basso, per esportare i fluidi devi dare un segnale di redstone al parte inferiore."]
 	quest.2CD86B4F3D831CC3.quest_subtitle: "Tips: ci sono tank migliori e meno costose!"
+	quest.2CD86B4F3D831CC3.title: "Fluid Tank"
 	quest.2D8B2704F5C9101D.quest_desc: ["WIP"]
 	quest.2DC1AD436D716A0F.quest_desc: ["Inserisci gli upgrade in un macchinario valido per aumentarne la velocità e l'efficienza"]
 	quest.2E9648F3F7A3A080.quest_desc: ["Raccoglie liquame dagli animali sopra di esso"]
@@ -301,6 +308,7 @@
 	quest.3C7D57AE2D755BB1.quest_desc: ["Il pannello solare della Mekanism è autonomo ed ecologico, ma di notte non produrrà energia"]
 	quest.3C7D57AE2D755BB1.quest_subtitle: "TIP: i pannelli solari della Powah sono più economici"
 	quest.3D5FF071BA9F8EF2.quest_desc: ["Un sacco a pelo che ti permette di dormire mentre sei in esplorazione!"]
+	quest.3D77515C24637FB6.title: "Crusher"
 	quest.3DF37B39C975AC49.quest_desc: ["Inserisci il Certus Quartz nel Charger per caricarlo!"]
 	quest.3F5D4751A3314A12.quest_desc: ["Getta in una pozza d'acqua Nether Quartz, Charged Certus Quartz e Redstone in parti uguali per ottenere il Fluix Crystal!"]
 	quest.40D1AF04C0F70419.quest_desc: [
@@ -311,7 +319,6 @@
 	]
 	quest.40E89E80A3E6F387.quest_desc: ["Il blocco di base per creare i macchinari dell'Actually Additions!"]
 	quest.4188276A3B73FD98.quest_desc: ["Crea le leghe della mekanism!"]
-	quest.4264579CC6BFE4BB.quest_desc: ["Ogni Inscriber p"]
 	quest.441D6AD1CE49C8BA.quest_desc: [
 		"[{\"text\":\"Premendo \"},{\"keybind\":\"key.inventory\",\"bold\":true, \"color\":\"red\"}, {\"text\":\" a destra troverai tutti gli oggetti del pack.\"}]"
 		""
@@ -398,6 +405,7 @@
 	]
 	quest.5890E74471C9557B.quest_subtitle: "Crafta la tua prima lega: il bronzo!"
 	quest.5890E74471C9557B.title: "Railcraft"
+	quest.599C86EAC7020D7F.title: "Excavator"
 	quest.59E099943069F343.quest_desc: [
 		"La Crafting Station è una Crafting Table avanzata che ti permette di craftare con gli oggetti contenuti nelle chest che le sono adiacenti."
 		"Se mentre sei nella Station guardi un crafting con la JEI puoi premere + per inserire automaticamente gli oggetti (+ shift per più stack) "
@@ -414,6 +422,7 @@
 		""
 		"&l&eAttenzione, l'unico tipo di terra che permette il drop dei vermi è il Grass Vanilla&r"
 	]
+	quest.5B5E256017685138.title: "Bucket Wheel"
 	quest.5BB1CA2FDAC0315B.title: "Compressed Iron"
 	quest.5C66F1791DA3294B.quest_desc: ["Sblocca il tier Hardened"]
 	quest.5C854E0EF8837E98.quest_desc: ["COMPLETAMENTE WIP, AGGIUNTA DI RECENTE"]
@@ -462,9 +471,11 @@
 	]
 	quest.5E68C97FCEDE57A9.quest_subtitle: "Crafta un Model Framework"
 	quest.5E68C97FCEDE57A9.title: "Hostile Network"
+	quest.5EF99A7E7246ECA8.title: "Refinery"
 	quest.5F5B866003531CC7.quest_desc: ["Le Rod sono essenziali per dare energia all'Energizing Orb"]
 	quest.5F5B866003531CC7.quest_subtitle: "TIP: devono essere posizionati su cavi energetici!"
 	quest.5FDD99EF4FBF0C0E.quest_desc: ["Come uno zaino! Funziona a corrente!"]
+	quest.60280B472FF110B9.title: "Industrial Squeezer"
 	quest.616B482B523020C6.quest_desc: [
 		"Appunto. Spiega i tag e i forge ore  c:ores"
 		""
@@ -477,6 +488,7 @@
 	quest.620072118A9EA0E5.title: "Letti!"
 	quest.62C3DD5C170B9991.quest_desc: ["Piazza il Fluid Extractor davanti un Log per prelevare il Latex."]
 	quest.62C3DD5C170B9991.quest_subtitle: "TIP: Prova l'acacia!"
+	quest.62EEFD57D1E0217A.title: "Quantum Ring"
 	quest.646D259A74A59660.quest_desc: [
 		"Grosse quantità di materiali sono necessari bla bla"
 		"sotto trovi degli esempi, che puoi unire o modificare in base a quello che hai imparato."
@@ -502,8 +514,8 @@
 	quest.684B224447B64520.quest_subtitle: "Ci siamo quasi!"
 	quest.684B224447B64520.title: "Crafting Table"
 	quest.6886B94EC94A32A6.quest_desc: ["Ti permette di convertire l'energia cinetica in energia elettrica!"]
-	quest.69FA82253D762BB1.quest_desc: ["Materiale avanzato dai prima un'occhiata alle altre quest!"]
 	quest.6A3E86E748063BD3.quest_desc: ["Come prima, una struttura 3x3x3, ma con un hopper sopra!"]
+	quest.6A3E86E748063BD3.title: "Improved Blast Furnace"
 	quest.6A61E5F6BC63B622.quest_desc: [
 		"Puoi ricaricare e personalizzare questa armatura aggiungendogli degli upgarde nella Charging Station!"
 		""
@@ -521,7 +533,7 @@
 		"Script, Unificazione item e ore, Worldgen e Quests"
 		""
 		"&lBuddafai:&r"
-		"Quests dei capitoli ImmersiveEngineering e Pneumaticraft"
+		"Quests dei capitoli: AE2, Ender IO, ImmersiveEngineering e Pneumaticraft"
 		""
 		"&lYouseffo13:&r"
 		"Quests del capitolo Create"
@@ -540,6 +552,7 @@
 		""
 		"{image:techacademy:textures/quests/backpack.png width:160 height:100 align:center}"
 	]
+	quest.6F819BE010BDAB5A.quest_desc: ["Come una tank ma multi-fluido! Funziona a corrente!"]
 	quest.6FAE4CF10F8D7B84.quest_desc: ["Il Trader ti molesta? Disattivalo, non troverà più la strada per la tua camera da letto"]
 	quest.6FAE4CF10F8D7B84.title: "Trader Fastidiosi?"
 	quest.6FD66F8843C74696.quest_desc: ["Come per la sua controparte normale, ma aggiunge una crafting table"]
@@ -654,10 +667,8 @@
 		""
 		"Ergo, ti basterà avere a portata di mano (sia principale che secondaria) qualcosa che faccia luce, per &oilluminare la scena!&r"
 	]
-	quest.7B7759630F91077B.quest_desc: [""]
 	quest.7C5C40E5751272C5.quest_desc: ["Creazione dello Steel della Mekanism!"]
 	quest.7C5C40E5751272C5.quest_subtitle: "TIP: non è l'unico modo per creare lo Steel"
-	quest.7DBB41426456551B.quest_desc: ["Materiale avanzato dai prima un'occhiata alle altre quest!"]
 	quest.7DD157FC2E23127E.quest_desc: [
 		"Costruisci una struttura 3x3x3 e smartellala col martellozzo dell'Immersive!"
 		""
@@ -665,6 +676,7 @@
 		""
 		"Inserisci il coal o il blocco di coal per produrre Coal Coke e Creosote Oil!"
 	]
+	quest.7DD157FC2E23127E.title: "Coke Oven"
 	quest.7E0734D239A3F437.quest_desc: ["Punta verso il bioma selezionato"]
 	quest.7E2E259B5323CECC.quest_desc: ["Per trasferire la corrente usa un LV Connector sul produttore e su dove vuoi farla arrivare collegando entrambi con un LV Wire. Se il cavo non ci arriva usa gli LV Relay come ponte. Usa i tralicci (Post) per gestire il tuo sistema di cavi elettrici!"]
 	quest.7E2E259B5323CECC.quest_subtitle: "Ci sono cavi migliori, ma questi sono super belli"
