@@ -11,8 +11,7 @@
     "pneumaticcraft",
     "bigreactors",
     "bno",
-    "megacells",
-    "railcraft"
+    "megacells"
   ],
   "priority_overrides": {
     "c:ingots/bronze": "mekanism",

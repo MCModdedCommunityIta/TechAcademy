@@ -60,12 +60,6 @@
     "dim_block_base": true,
     "dim_tank": true
   },
-  "railcraft": {
-    "signals": true,
-    "track_component": true,
-    "locomotive": true,
-    "switch_track": true
-  },
   "jade_access": {
     "held_item": true,
     "sign": true,

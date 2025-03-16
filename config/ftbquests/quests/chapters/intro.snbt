@@ -109,10 +109,7 @@
 		{
 			dependencies: ["6CE00D9DF699753D"]
 			icon: {
-				components: {
-					"patchouli:book": "railcraft:guide_book"
-				}
-				id: "patchouli:guide_book"
+				id: "minecraft:knowledge_book"
 			}
 			id: "441D6AD1CE49C8BA"
 			rewards: [{

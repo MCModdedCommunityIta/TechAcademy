@@ -386,25 +386,7 @@
 	quest.558FD52595B2CC70.quest_desc: ["WIPPONE"]
 	quest.565C059562BD3746.quest_desc: ["Il Legno trattato dell'Immersive è alla base di tutti i suoi crafting"]
 	quest.580869FDAF268E79.quest_desc: ["Ti permette di trattare il legno!"]
-	quest.5890E74471C9557B.quest_desc: [
-		"Railcraft"
-		"Mod incentrata sulla costruzione di ferrovie avanzate, con locomotive, binari personalizzati e logistica su rotaia."
-		""
-		"Gioca questa mod se:"
-		""
-		"Vuoi trasportare risorse su lunghe distanze."
-		"Ti piace costruire reti ferroviarie realistiche."
-		"Vuoi un sistema di trasporto alternativo ai tubi e condotti."
-		"Focus:"
-		"✅ Ferrovie avanzate"
-		"✅ Logistica e trasporto risorse"
-		"✅ Locomotive e sistemi a vapore"
-		"✅ Automazione ferroviaria"
-		""
-		"Difficoltà: 3/5 – Richiede pianificazione per reti ferroviarie efficienti."
-	]
 	quest.5890E74471C9557B.quest_subtitle: "Crafta la tua prima lega: il bronzo!"
-	quest.5890E74471C9557B.title: "Railcraft"
 	quest.599C86EAC7020D7F.title: "Excavator"
 	quest.59E099943069F343.quest_desc: [
 		"La Crafting Station è una Crafting Table avanzata che ti permette di craftare con gli oggetti contenuti nelle chest che le sono adiacenti."
