@@ -1,5 +1,5 @@
 {
   "enabled": true,
   "port": 61423,
-  "public_address": ""
+  "public_address": "192.168.1.126"
 }
