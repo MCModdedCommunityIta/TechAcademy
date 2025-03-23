@@ -58,6 +58,7 @@
 	quest.101D9B065F04C857.quest_desc: ["Questo blocco ti permette di tenere caricati tutti i chunk dove si trova almeno un cavo della tua Applied. Verranno caricati anche tutti quei chunk non direttamente connessi alla tua rete principale, come ad esempio le sottoreti che puoi creare con l'utilizzo del Quantum Ring."]
 	quest.1127CD3D3B2803E4.quest_desc: ["Lana gratis, senza tanti giri. Hai usato le shears di legno?"]
 	quest.114992D32397A35D.quest_desc: ["Una bussola che punta verso gli ore di gemme come Diamanti, Smeraldi e Quarzo!"]
+	quest.11C0A65737D20782.quest_desc: ["Sono scarti della &l&9Simalation Chamber&r che permettono di craftare alcuni blocchi o item appartenenti alla dimensione corrispondente"]
 	quest.121C885E07CB9E81.quest_desc: [
 		"Il Configurator è la Wrench universale della Mekanism."
 		""
@@ -75,6 +76,8 @@
 	quest.1268B60817262B01.quest_desc: [
 		"L'AE2 funziona a canali, scegliere di tenerli attivi rende la gestione dei cavi più complessa. "
 		"Valuta se disattivarli rendendo i canali infiniti (nessun limite di connessione)"
+		""
+		"&l&6AD OGNI FUTURO AGGIORNAMENTO POTRÀ ESSERE NECESSARIO RI-ESEGUIRE QUESTO COMANDO&r"
 	]
 	quest.1268B60817262B01.title: "Li vuoi quei canali?"
 	quest.126BE832AFCAE3E5.title: "Industrial Fermenter"
@@ -314,7 +317,8 @@
 	quest.3B3049F6C9591CC0.title: "Actually Addition"
 	quest.3C018F69792DA825.quest_desc: [
 		"Ti permette di trasferire corrente wireless (anche tra dimensioni diverse) tra due EnderCell con la stessa frequenza (il numero sotto, più è alto il tier e più frequenze potrai selezionare)"
-		"&ePer funzionare, devi inserire una Storage Cell o una Battery per dargli capienza.&r"
+		""
+		"&e&lPER FARLA FUNZIONARE, DEVI INSERIRE UNA STORAGE CELL O UNA BATTERY PER DARE CAPIENZA ALLA FREQUENZA SELEZIONATA.&r"
 	]
 	quest.3C018F69792DA825.quest_subtitle: "TIPS: esistono altri metodi per l'energia wireless!"
 	quest.3C508BEAD1B3C541.quest_desc: ["Materiale di scarto della Blast Furnace, puoi usarlo per creare mattoni o fertilizzante!"]
@@ -422,8 +426,6 @@
 	]
 	quest.5B2C6BAA372915A7.quest_desc: [
 		"Zappa la terra per trovare dei vermi, posizionali nel tuo orto per concimare il terreno e velocizzare la crescita delle piante!"
-		""
-		"&l&eAttenzione, l'unico tipo di terra che permette il drop dei vermi è il Grass Vanilla&r"
 	]
 	quest.5B5E256017685138.title: "Bucket Wheel"
 	quest.5BB1CA2FDAC0315B.title: "Compressed Iron"
@@ -564,7 +566,6 @@
 		"L'adapter serve per arrestare il reattore in determinate condizioni, come ad esempio temperatura troppo elevata!"
 	]
 	quest.6EE713F4CE1B3ED0.title: "Fission Reactor"
-	quest.6F819BE010BDAB5A.quest_desc: ["Come una tank ma multi-fluido! Funziona a corrente!"]
 	quest.6FAE4CF10F8D7B84.quest_desc: ["Il Trader ti molesta? Disattivalo, non troverà più la strada per la tua camera da letto"]
 	quest.6FAE4CF10F8D7B84.title: "Trader Fastidiosi?"
 	quest.6FD66F8843C74696.quest_desc: ["Come per la sua controparte normale, ma aggiunge una crafting table"]
@@ -681,6 +682,7 @@
 		""
 		"Ergo, ti basterà avere a portata di mano (sia principale che secondaria) qualcosa che faccia luce, per &oilluminare la scena!&r"
 	]
+	quest.7BB83DDA5A5EA2E9.quest_desc: ["In base al mod corrispondente permettono di generare uno o più dei suoi drop usando il &l&9Loot Fabricator&r"]
 	quest.7C5C40E5751272C5.quest_desc: ["Creazione dello Steel della Mekanism!"]
 	quest.7C5C40E5751272C5.quest_subtitle: "TIP: non è l'unico modo per creare lo Steel"
 	quest.7DD157FC2E23127E.quest_desc: [
@@ -719,42 +721,68 @@
 	reward_table.2E6EABAE17A9D842.title: "Trader"
 	reward_table.317D45D3C953414E.title: "Phantom"
 	task.00997334514B9B73.title: "Any #constructionstick:construction_sticks"
+	task.02373582EDA6B457.title: "Any #c:dusts/obsidian"
 	task.05CD4540EED61253.title: "Any #minecraft:hoes"
 	task.081C63EC28B85A2D.title: "FTBUltimine"
+	task.0B520B0BB9FE1577.title: "Solar_panel"
 	task.0C13C5564EA921EA.title: "Clicca qui se hai letto!"
+	task.0F21F865C2FACAEC.title: "Energizing Rod"
+	task.1254EE5A29E2C776.title: "Biofuel"
 	task.13DF1F1760B2F81E.title: "Osserva un blocco d'Erba"
+	task.14B62843831E78A5.title: "Furnator"
 	task.155DCD11CC5C6847.title: "Basic Machine"
 	task.17AAF4E8CA140719.title: "Electrum!"
+	task.17C4426FF8A56FE3.title: "Reactor"
 	task.1919E95E131A22BF.title: "Any #c:tools/knife"
+	task.1D67FA394D2E0D9E.title: "Ender Gate"
+	task.1EAD344B2E94CFE5.title: "Energy Discharger"
 	task.202522DAF111E514.title: "Il Coke!"
 	task.206071D367D4AF6B.title: "Any #minecraft:logs"
 	task.25BA1D13EA6DE73A.title: "Ottone!"
 	task.2933D95CADBB7027.title: "JourneyMap"
+	task.299C7CBAC17DB778.title: "Ender Cell"
 	task.29A2F2B5AA0AB057.title: "Any #minecraft:beds"
 	task.3007BF141E9AA55A.title: "cappello"
 	task.34EA039F7E38C90F.title: "Cibo Automatico"
 	task.382EE9D3348FCCB4.title: "Any #c:bucket/refined_canola_oil"
 	task.38B7C89F231EAF05.title: "Any #sophisticatedstorage:base_tier_wooden_storage"
 	task.40429F6B19237131.title: "All Armor Upgrade"
+	task.419E28A877014FB3.title: "Player Transmitter"
 	task.41CF49286DC8E73C.title: "Any #c:raw_materials/osmium"
 	task.4285646017DDC82B.title: "Any #c:player_workstations/crafting_tables"
 	task.430B442D80A570BD.title: "FTBULTIMINE"
+	task.43A5CB757177296A.title: "Energy Cable"
+	task.43F217F99B58A420.title: "Pink Slime"
 	task.447648435A3A94BD.title: "Iniziamo il moddato"
 	task.448E50457CD32AE7.title: "Cuoco Provetto"
 	task.44E1B6463F9FB034.title: "Pants Upgrade"
 	task.46977B7FF3EBE014.title: "Iniziamo?"
 	task.47621D88D4522158.title: "Any #sophisticatedstorage:base_tier_wooden_storage"
 	task.47BE4135DF692932.title: "Boots Upgrade"
+	task.4973E10437BA2BE7.title: "Latex"
+	task.4CADDE2AE7A15590.title: "Le Predictions"
+	task.4D9421B724C163E4.title: "Energy Hopper"
+	task.52D9EB8933E76802.title: "Thermo Generator"
 	task.52EF39014DB3A6DC.title: "Shader"
+	task.53D871E0EBD6D628.title: "Energy Cell"
 	task.563EA40547907739.title: "Start Machine"
 	task.58EF5BF015717D2B.title: "Any #c:silicon"
+	task.5AE4C9F44C338149.title: "Ether Gas"
+	task.5CB05CAACB4B92BD.title: "Prediction Consigliate"
 	task.5E4580C8325B18FD.title: "Any #c:wools"
 	task.5F452F088DDC1F46.title: "SCAVAGGIO"
+	task.63F23784D29AB99E.title: "Latex"
+	task.6409A7003ED335DF.title: "Basic Capacitor"
 	task.651CA32C0CDECE55.title: "Elite Machine"
 	task.66E273FD0D2EB565.title: "Vai fino alla bedrock e dalle fuoco!"
+	task.68554C29758C64DC.title: "Battery"
+	task.68C7810C69FF3A1B.title: "Sludege"
 	task.6E1928EB3271CA5C.title: "Any #minecraft:logs"
 	task.6F66FF677464938C.title: "LEGGIMI"
 	task.701F125F96433E3F.title: "Acciaio!"
 	task.70879A2D05C74983.title: "BodyArmor Upgrade"
+	task.7156ED848E62007C.title: "Essence"
+	task.72144F2FC22BE47A.title: "Liquid Meat"
+	task.75392F411A1D608E.title: "Magmator"
 	task.7828717662487BCA.title: "Any #actuallyadditions:drills"
 }
