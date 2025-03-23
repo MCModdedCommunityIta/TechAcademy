@@ -34,7 +34,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "5DC8C08B9BB355A4"
 				item: { count: 1, id: "actuallyadditions:iron_casing" }

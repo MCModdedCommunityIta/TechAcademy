@@ -1,4 +1,5 @@
 {
+	autofocus_id: "2FA751DE3D56EAFE"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ender_io"
@@ -23,14 +24,14 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "520C90ADC9E629BA"
 				item: { count: 1, id: "enderio:grains_of_infinity" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.0d
+			x: -7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2FA751DE3D56EAFE"]
@@ -50,8 +51,8 @@
 				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.5d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6AFC771583A1B78C"]
@@ -70,8 +71,8 @@
 				item: { count: 1, id: "enderio:sag_mill" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.5d
+			x: 6.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["79C3E4DCC14FE751"]
@@ -90,8 +91,8 @@
 				item: { count: 1, id: "enderio:void_chassis" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: 5.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6AFC771583A1B78C"]
@@ -110,8 +111,8 @@
 				item: { count: 1, id: "enderio:stirling_generator" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: 6.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["6AFC771583A1B78C"]
@@ -130,8 +131,8 @@
 				item: { count: 1, id: "enderio:alloy_smelter" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7B911C5384D08884"]
@@ -152,8 +153,8 @@
 				item: { count: 1, id: "enderio:conduit_binder_composite" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: -1.5d
+			x: 11.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -186,8 +187,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -1.5d
+			x: 12.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["41D88E62DFEE4B9E"]
@@ -197,8 +198,8 @@
 				item: { count: 1, id: "enderio:staff_of_travelling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 2.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["387F3764A36F2E48"]
@@ -211,14 +212,14 @@
 				}
 				type: "item"
 			}]
-			size: 1.4d
+			size: 1.5d
 			tasks: [{
 				id: "60667C690FB7AB0B"
 				item: { count: 1, id: "enderio:ensouled_chassis" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -241,8 +242,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -3.0d
+			x: 9.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -265,7 +266,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -9.5d
+			x: 12.5d
 			y: 0.0d
 		}
 		{
@@ -276,8 +277,8 @@
 				item: { count: 1, id: "enderio:slice_and_splice" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: 1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["213E530CC3BE8123"]
@@ -287,8 +288,8 @@
 				item: { count: 1, id: "enderio:soul_binder" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.5d
+			x: 3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["24ECCA7C4D345B06"]
@@ -306,8 +307,8 @@
 				item: { count: 1, id: "enderio:travel_anchor" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -4.0d
+			x: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7B911C5384D08884"]
@@ -344,8 +345,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 0.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7B911C5384D08884"]
@@ -364,8 +365,8 @@
 				item: { count: 1, id: "enderio:dark_steel_ingot" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: -1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6AFC771583A1B78C"]
@@ -380,8 +381,8 @@
 				item: { count: 1, id: "enderio:wired_charger" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.5d
+			x: 7.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6AFC771583A1B78C"]
@@ -396,8 +397,8 @@
 				item: { count: 1, id: "enderio:enchanter" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.0d
+			x: 6.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7B911C5384D08884"]
@@ -416,8 +417,8 @@
 				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0947A710B701B542"]
@@ -436,8 +437,8 @@
 				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -0.5d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7B911C5384D08884"]
@@ -456,8 +457,8 @@
 				item: { count: 1, id: "enderio:pulsating_alloy_ingot" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7B911C5384D08884"]
@@ -477,7 +478,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7B911C5384D08884"]
@@ -496,8 +497,8 @@
 				item: { count: 1, id: "enderio:copper_alloy_ingot" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["45670563892FAD33"]
@@ -516,8 +517,8 @@
 				item: { count: 1, id: "enderio:conductive_alloy_ingot" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -0.5d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["79C3E4DCC14FE751"]
@@ -536,8 +537,8 @@
 				item: { count: 1, id: "enderio:end_steel_ingot" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
+			x: 0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7B911C5384D08884"]
@@ -556,8 +557,8 @@
 				item: { count: 1, id: "enderio:soularium_ingot" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5EE7A8609B93CBB4"]
@@ -580,8 +581,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 1.0d
+			x: 13.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2893F3421100DC31"]
@@ -604,8 +605,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 2.0d
+			x: 14.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["159A7663B99D6343"]
@@ -615,8 +616,8 @@
 				item: { count: 1, id: "enderio:extraction_speed_upgrade_1" }
 				type: "item"
 			}]
-			x: -12.0d
-			y: -1.0d
+			x: 13.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["12FC17E8AFB7388D"]
@@ -626,8 +627,8 @@
 				item: { count: 1, id: "enderio:extraction_speed_upgrade_2" }
 				type: "item"
 			}]
-			x: -13.0d
-			y: -1.0d
+			x: 14.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["20D6A80BDF4ADC05"]
@@ -637,8 +638,8 @@
 				item: { count: 1, id: "enderio:extraction_speed_upgrade_3" }
 				type: "item"
 			}]
-			x: -15.0d
-			y: -1.0d
+			x: 14.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["158E1F90A8E37FA5"]
@@ -648,8 +649,8 @@
 				item: { count: 1, id: "enderio:extraction_speed_upgrade_4" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -1.0d
+			x: 13.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["526E5AFE8E2AFCB1"]
@@ -672,8 +673,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -4.0d
+			x: 8.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5226145F112A67FC"]
@@ -696,8 +697,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -5.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -720,8 +721,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -3.0d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["18F3691400EBB051"]
@@ -744,8 +745,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -4.0d
+			x: 8.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["676897CC88987E9E"]
@@ -768,8 +769,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -5.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["159A7663B99D6343"]
@@ -787,8 +788,8 @@
 				item: { count: 1, id: "enderio:basic_filter" }
 				type: "item"
 			}]
-			x: -12.0d
-			y: -2.0d
+			x: 12.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["18F3691400EBB051"]
@@ -806,8 +807,8 @@
 				item: { count: 1, id: "enderio:chemical_filter" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -3.0d
+			x: 9.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["213E530CC3BE8123"]
@@ -825,8 +826,8 @@
 				item: { count: 1, id: "enderio:advanced_filter" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["526E5AFE8E2AFCB1"]
@@ -844,8 +845,8 @@
 				item: { count: 1, id: "enderio:fluid_filter" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: -3.0d
+			x: 9.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -868,8 +869,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.0d
+			x: 11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2430BB11016FAFFC"]
@@ -887,8 +888,8 @@
 				item: { count: 1, id: "enderio:redstone_timer_filter" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.0d
+			x: 11.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1A3DAF41BCB8484D"]
@@ -898,8 +899,8 @@
 				item: { count: 1, id: "enderio:powered_spawner" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -1.5d
+			x: 6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0B17DF6EC2965A95"]
@@ -918,8 +919,8 @@
 				item: { count: 1, id: "enderio:end_steel_grinding_ball" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.5d
+			x: 3.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1A3DAF41BCB8484D"]
@@ -937,8 +938,8 @@
 				item: { count: 1, id: "enderio:ender_crystal" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: 3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6E8C7D306EC6162D"]
@@ -956,8 +957,8 @@
 				item: { count: 1, id: "enderio:pulsating_crystal" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -2.5d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["24ECCA7C4D345B06"]
@@ -975,8 +976,8 @@
 				item: { count: 1, id: "enderio:vacuum_chest" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.5d
+			x: -5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["24ECCA7C4D345B06"]
@@ -994,11 +995,11 @@
 				item: { count: 1, id: "enderio:xp_vacuum" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.5d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["7B911C5384D08884"]
+			dependencies: ["2FA751DE3D56EAFE"]
 			id: "2A30E39EE241DB85"
 			rewards: [{
 				count: 3
@@ -1014,11 +1015,14 @@
 				item: { count: 1, id: "enderio:basic_capacitor" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["2A30E39EE241DB85"]
+			dependencies: [
+				"0947A710B701B542"
+				"2A30E39EE241DB85"
+			]
 			id: "080A9259205AF29D"
 			rewards: [{
 				count: 3
@@ -1034,11 +1038,14 @@
 				item: { count: 1, id: "enderio:double_layer_capacitor" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["080A9259205AF29D"]
+			dependencies: [
+				"3F1D1142EE194CBF"
+				"080A9259205AF29D"
+			]
 			id: "07982A512AC5BBD6"
 			rewards: [{
 				count: 3
@@ -1055,7 +1062,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["080A9259205AF29D"]
@@ -1074,8 +1081,8 @@
 				item: { count: 1, id: "enderio:pulsating_photovoltaic_module" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 3.5d
+			x: -5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2A30E39EE241DB85"]
@@ -1094,8 +1101,8 @@
 				item: { count: 1, id: "enderio:energetic_photovoltaic_module" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: -7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["07982A512AC5BBD6"]
@@ -1114,8 +1121,8 @@
 				item: { count: 1, id: "enderio:vibrant_photovoltaic_module" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.5d
+			x: -2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2A30E39EE241DB85"]
@@ -1133,8 +1140,8 @@
 				item: { count: 1, id: "enderio:basic_capacitor_bank" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 2.5d
+			x: -6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["080A9259205AF29D"]
@@ -1153,7 +1160,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["07982A512AC5BBD6"]
@@ -1171,8 +1178,8 @@
 				item: { count: 1, id: "enderio:vibrant_capacitor_bank" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 6.5d
+			x: -3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["387F3764A36F2E48"]
@@ -1198,8 +1205,8 @@
 				item: { count: 1, id: "enderio:empty_soul_vial" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.5d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["41D88E62DFEE4B9E"]
@@ -1214,8 +1221,8 @@
 				item: { count: 1, id: "enderio:inhibitor_obelisk" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -4.0d
+			x: 4.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["442AF1C736C7DB01"]
@@ -1230,8 +1237,8 @@
 				item: { count: 1, id: "enderio:xp_obelisk" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -1254,8 +1261,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -3.0d
+			x: 9.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -1278,8 +1285,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 0.0d
+			x: 11.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["108CD9122209C7AD"]
@@ -1302,8 +1309,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 1.0d
+			x: 11.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1A3DAF41BCB8484D"]
@@ -1321,8 +1328,8 @@
 				item: { count: 1, id: "enderio:player_token" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6EBAEDE69B188AD3"]
@@ -1342,8 +1349,8 @@
 				item: { count: 2, id: "enderio:fused_quartz_dp" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.5d
+			x: 6.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["79C3E4DCC14FE751"]
@@ -1362,8 +1369,8 @@
 				item: { count: 1, id: "enderio:dark_steel_sword" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.5d
+			x: -2.5d
+			y: 8.5d
 		}
 	]
 }

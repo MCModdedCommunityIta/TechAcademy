@@ -23,19 +23,17 @@
 				type: "item"
 			}]
 			shape: "square"
+			size: 2.0d
 			tasks: [{
 				id: "7B5B34B461523FA7"
 				item: { count: 1, id: "hostilenetworks:deep_learner" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.5d
+			x: -8.0d
+			y: -3.5d
 		}
 		{
-			dependencies: [
-				"2FA74528348FA5D9"
-				"786452B4388E25B4"
-			]
+			dependencies: ["786452B4388E25B4"]
 			id: "7AF7468A8624E5D2"
 			rewards: [{
 				id: "573716C9397DCCA0"
@@ -50,11 +48,12 @@
 				item: { count: 1, id: "hostilenetworks:sim_chamber" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.5d
 			y: -3.5d
 		}
 		{
-			dependencies: ["7AF7468A8624E5D2"]
+			dependencies: ["7BB83DDA5A5EA2E9"]
+			dependency_requirement: "one_completed"
 			id: "34BFB0DFBAA8FD92"
 			rewards: [{
 				id: "685AB863B1A95D19"
@@ -69,10 +68,11 @@
 				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -5.5d
+			x: 4.5d
+			y: -3.5d
 		}
 		{
+			dependencies: ["2FA74528348FA5D9"]
 			id: "786452B4388E25B4"
 			rewards: [{
 				count: 16
@@ -88,11 +88,11 @@
 				item: { count: 1, id: "hostilenetworks:prediction_matrix" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.5d
+			x: -5.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["7AF7468A8624E5D2"]
+			dependencies: ["3791A9EB5FCA88CB"]
 			id: "66E48ECEBF0ED49A"
 			rewards: [{
 				id: "7DEB489AF3A3ABE0"
@@ -108,11 +108,11 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: 1.5d
+			y: -7.5d
 		}
 		{
-			dependencies: ["7AF7468A8624E5D2"]
+			dependencies: ["3791A9EB5FCA88CB"]
 			icon: {
 				components: {
 					"hostilenetworks:data_model": "hostilenetworks:blaze"
@@ -134,11 +134,11 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: 2.5d
+			y: -7.5d
 		}
 		{
-			dependencies: ["7AF7468A8624E5D2"]
+			dependencies: ["3791A9EB5FCA88CB"]
 			id: "7F059F539404329C"
 			rewards: [{
 				id: "0398BF8AED989D53"
@@ -154,11 +154,11 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: 0.5d
+			y: -7.5d
 		}
 		{
-			dependencies: ["7AF7468A8624E5D2"]
+			dependencies: ["3791A9EB5FCA88CB"]
 			id: "5EF7266BF7285199"
 			rewards: [{
 				id: "3A87611C1377637F"
@@ -174,11 +174,11 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.5d
+			x: -0.5d
+			y: -7.5d
 		}
 		{
-			dependencies: ["7AF7468A8624E5D2"]
+			dependencies: ["3791A9EB5FCA88CB"]
 			id: "3A21E53099F09430"
 			rewards: [{
 				id: "4AC672D916390FA3"
@@ -194,11 +194,11 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.5d
+			x: 3.5d
+			y: -7.5d
 		}
 		{
-			dependencies: ["7AF7468A8624E5D2"]
+			dependencies: ["3791A9EB5FCA88CB"]
 			id: "2E5AA8332C9EF1ED"
 			rewards: [{
 				id: "268B3F2604106406"
@@ -214,11 +214,11 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: -1.5d
+			y: -7.5d
 		}
 		{
-			dependencies: ["7AF7468A8624E5D2"]
+			dependencies: ["3791A9EB5FCA88CB"]
 			id: "460B16D3F2A3B537"
 			rewards: [{
 				id: "390EC95FC0DD8927"
@@ -234,8 +234,45 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 3.0d
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7AF7468A8624E5D2"]
+			id: "7BB83DDA5A5EA2E9"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4CADDE2AE7A15590"
+				item: { components: { "ftbfiltersystem:filter": "or(item(hostilenetworks:prediction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["7AF7468A8624E5D2"]
+			id: "11C0A65737D20782"
+			optional: true
+			tasks: [{
+				id: "26BB5510B3A0368C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(hostilenetworks:end_prediction)item(hostilenetworks:nether_prediction)item(hostilenetworks:overworld_prediction))", "minecraft:custom_name": "\"Generalized Prediction\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BB83DDA5A5EA2E9"]
+			id: "3791A9EB5FCA88CB"
+			optional: true
+			tasks: [{
+				id: "5CB05CAACB4B92BD"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -5.5d
 		}
 	]
 }

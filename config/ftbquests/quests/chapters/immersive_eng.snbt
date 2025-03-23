@@ -27,15 +27,15 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				count: 15L
 				id: "0E8AEFE55D8E23E6"
 				item: { count: 14, id: "immersiveengineering:cokebrick" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7DD157FC2E23127E"]
@@ -54,8 +54,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:coal_coke)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.5d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7DD157FC2E23127E"]
@@ -73,7 +73,7 @@
 				item: { count: 1, id: "immersiveengineering:creosote_bucket" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -96,8 +96,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 0.5d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["29541D1F71E6A026"]
@@ -118,8 +118,8 @@
 				item: { count: 1, id: "immersiveengineering:blastbrick" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 0.5d
+			x: 0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["580869FDAF268E79"]
@@ -139,8 +139,8 @@
 				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -153,8 +153,8 @@
 				item: { count: 1, id: "immersiveengineering:windmill" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 0.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["565C059562BD3746"]
@@ -172,8 +172,8 @@
 				item: { count: 1, id: "immersiveengineering:watermill" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.0d
+			x: 2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5122AE8542B16C93"]
@@ -193,8 +193,8 @@
 				item: { count: 4, id: "immersiveengineering:windmill_sail" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: -1.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -216,8 +216,8 @@
 				item: { count: 1, id: "immersiveengineering:dynamo" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.0d
+			x: 1.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["565C059562BD3746"]
@@ -280,8 +280,8 @@
 				item: { count: 1, id: "immersiveengineering:fluid_pipe" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.0d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6886B94EC94A32A6"]
@@ -315,8 +315,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 1.0d
+			x: 8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["0277EA11A4261E6E"]
@@ -347,8 +347,8 @@
 				item: { count: 1, id: "immersiveengineering:slag" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 0.5d
+			x: 0.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -361,8 +361,8 @@
 				item: { count: 1, id: "immersiveengineering:blastbrick_reinforced" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 4.0d
+			x: 4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["758640628AFCFC68"]
@@ -372,8 +372,8 @@
 				item: { count: 1, id: "immersiveengineering:fluid_pump" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -421,8 +421,8 @@
 				item: { count: 1, id: "immersiveengineering:workbench" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["29541D1F71E6A026"]
@@ -434,8 +434,8 @@
 				item: { count: 1, id: "immersiveengineering:wirecutter" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -469,8 +469,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 5.0d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["121797E36578B6C6"]
@@ -507,8 +507,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 5.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -559,8 +559,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 6.5d
+			x: 6.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["188782D238B34E5D"]
@@ -579,8 +579,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/electrum)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.5d
+			x: 6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["29541D1F71E6A026"]
@@ -602,8 +602,8 @@
 				item: { count: 8, id: "immersiveengineering:alloybrick" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.0d
+			x: 8.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -644,8 +644,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 9.0d
+			x: 9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -667,8 +667,8 @@
 				item: { count: 1, id: "immersiveengineering:plate_steel" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 4.0d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6A3E86E748063BD3"]
@@ -686,8 +686,8 @@
 				item: { count: 2, id: "immersiveengineering:blastfurnace_preheater" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 4.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["29541D1F71E6A026"]
@@ -711,8 +711,8 @@
 				item: { count: 1, id: "immersiveengineering:conveyor_basic" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.5d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["29541D1F71E6A026"]
@@ -724,8 +724,8 @@
 				item: { count: 1, id: "immersiveengineering:hammer" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["29541D1F71E6A026"]
@@ -746,8 +746,8 @@
 				item: { count: 1, id: "immersiveengineering:seed" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: -3.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["24C5C528DE10D27E"]
@@ -757,8 +757,8 @@
 				item: { count: 1, id: "immersiveengineering:cloche" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.5d
+			x: 3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["159AD21CB2A8EF34"]
@@ -777,8 +777,8 @@
 				item: { count: 1, id: "immersiveengineering:hemp_fiber" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7E2E259B5323CECC"]
@@ -809,8 +809,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 1.0d
+			x: 11.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["47E69F126EC4C351"]
@@ -841,8 +841,8 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
-			y: 1.0d
+			x: 13.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["7E2E259B5323CECC"]
@@ -852,8 +852,8 @@
 				item: { count: 1, id: "immersiveengineering:capacitor_lv" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -0.5d
+			x: 9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["47E69F126EC4C351"]
@@ -863,8 +863,8 @@
 				item: { count: 1, id: "immersiveengineering:capacitor_mv" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -0.5d
+			x: 11.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["328A9A7BFA21E5A4"]
@@ -874,8 +874,8 @@
 				item: { count: 1, id: "immersiveengineering:capacitor_hv" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -0.5d
+			x: 13.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["7E2E259B5323CECC"]
@@ -894,8 +894,8 @@
 				item: { count: 1, id: "immersiveengineering:wirecoil_copper_ins" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.5d
+			x: 8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["47E69F126EC4C351"]
@@ -914,8 +914,8 @@
 				item: { count: 1, id: "immersiveengineering:wirecoil_electrum_ins" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.5d
+			x: 11.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6DFAFF3F336D9002"]
@@ -946,8 +946,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: 6.0d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0AED47780569C643"]
@@ -978,8 +978,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 6.0d
+			x: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["072307C843A753B0"]
@@ -1047,8 +1047,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 11.0d
+			x: 11.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5D4F3CE1751B7CB9"]
@@ -1148,8 +1148,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 14.0d
+			x: 14.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["072307C843A753B0"]
@@ -1217,8 +1217,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 11.0d
+			x: 11.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -1258,8 +1258,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 11.0d
+			x: 11.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0F871114B88D2297"]
@@ -1277,8 +1277,8 @@
 				item: { count: 1, id: "immersiveengineering:graphite_electrode" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 12.5d
+			x: 13.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5B5E256017685138"]
@@ -1352,8 +1352,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 9.0d
+			x: 9.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["179AF11C02A204F1"]
@@ -1395,8 +1395,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 9.0d
+			x: 9.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -1472,8 +1472,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 15.0d
+			x: 15.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["031DE9A4341A95C6"]
@@ -1538,8 +1538,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 18.0d
+			x: 18.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["072307C843A753B0"]
@@ -1611,8 +1611,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 11.0d
+			x: 11.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["60280B472FF110B9"]
@@ -1630,8 +1630,8 @@
 				item: { count: 1, id: "immersiveengineering:plantoil_bucket" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 15.0d
+			x: 15.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5EF99A7E7246ECA8"]
@@ -1649,8 +1649,8 @@
 				item: { count: 1, id: "immersiveengineering:biodiesel_bucket" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 16.5d
+			x: 17.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7A02D59AAAC02A7F"]
@@ -1677,8 +1677,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 6.5d
+			x: 6.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["072307C843A753B0"]
@@ -1755,8 +1755,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 9.0d
+			x: 9.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["126BE832AFCAE3E5"]
@@ -1774,8 +1774,8 @@
 				item: { count: 1, id: "immersiveengineering:ethanol_bucket" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 15.0d
+			x: 15.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["072307C843A753B0"]
@@ -1790,8 +1790,8 @@
 				item: { count: 1, id: "immersiveengineering:sample_drill" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 9.0d
+			x: 9.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7E2E259B5323CECC"]
@@ -1819,8 +1819,8 @@
 				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -0.5d
+			x: 7.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["6F0084A8D5D7B9BA"]
@@ -1852,8 +1852,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 6.0d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3D77515C24637FB6"]
@@ -1868,8 +1868,8 @@
 				item: { count: 1, id: "immersiveengineering:dust_saltpeter" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 12.5d
+			x: 13.0d
+			y: -1.5d
 		}
 	]
 }

@@ -1,4 +1,5 @@
 {
+	autofocus_id: "34FF34BE6EECC2BA"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "powah"
@@ -22,40 +23,35 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "powah:thermo_generator_starter"
+				}
 				id: "52D9EB8933E76802"
-				item: { count: 1, id: "powah:thermo_generator_starter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:thermo_generators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["34FF34BE6EECC2BA"]
-			id: "03526D1B07D5C3C8"
-			tasks: [{
-				id: "5E4D576F6F07B22E"
-				item: { count: 1, id: "powah:binding_card" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.5d
+			x: -5.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["325C115E99FD5FB2"]
 			id: "7F80243E70689795"
 			tasks: [{
+				icon: {
+					id: "powah:reactor_starter"
+				}
 				id: "17C4426FF8A56FE3"
-				item: { count: 1, id: "powah:reactor_starter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:reactors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.5d
+			x: -5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7A8569C741A8FBF5"]
 			id: "03D0501B7B0AA689"
 			rewards: [{
-				id: "6C80A61E0AE0EC02"
+				id: "5B0D32869905C172"
 				item: {
 					count: 1
 					id: "powah:battery_starter"
@@ -63,12 +59,15 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "5105D4474EC009A0"
-				item: { count: 1, id: "powah:battery_starter" }
+				icon: {
+					id: "powah:battery_starter"
+				}
+				id: "68554C29758C64DC"
+				item: { components: { "ftbfiltersystem:filter": "or(item(powah:battery_starter)item(powah:battery_basic)item(powah:battery_hardened)item(powah:battery_blazing)item(powah:battery_niotic)item(powah:battery_spirited)item(powah:battery_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: -5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7A8569C741A8FBF5"]
@@ -84,14 +83,18 @@
 			}]
 			tasks: [{
 				count: 12L
+				icon: {
+					id: "powah:energy_cable_starter"
+				}
 				id: "43A5CB757177296A"
-				item: { count: 1, id: "powah:energy_cable_starter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:energy_cables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -4.0d
+			x: -5.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["639179B74EC1E36D"]
 			id: "5F5B866003531CC7"
 			rewards: [{
 				count: 4
@@ -103,12 +106,15 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "powah:energizing_rod_starter"
+				}
 				id: "0F21F865C2FACAEC"
-				item: { count: 1, id: "powah:energizing_rod_starter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:energizing_rods)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -3.0d
-			y: 0.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -121,8 +127,8 @@
 				item: { count: 1, id: "powah:energizing_orb" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.5d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["325C115E99FD5FB2"]
@@ -136,12 +142,15 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "powah:furnator_starter"
+				}
 				id: "14B62843831E78A5"
-				item: { count: 1, id: "powah:furnator_starter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:furnators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -3.5d
+			x: -5.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["325C115E99FD5FB2"]
@@ -155,45 +164,70 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "powah:magmator_starter"
+				}
 				id: "75392F411A1D608E"
-				item: { count: 1, id: "powah:magmator_starter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:magmators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.5d
+			x: -5.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7A8569C741A8FBF5"]
+			icon: {
+				id: "powah:player_transmitter_starter"
+			}
 			id: "3B653F19EC7A3E33"
-			tasks: [{
-				id: "419E28A877014FB3"
-				item: { count: 1, id: "powah:player_transmitter_starter" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 1.0d
+			tasks: [
+				{
+					icon: {
+						id: "powah:player_transmitter_starter"
+					}
+					id: "419E28A877014FB3"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:player_transmitters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "powah:binding_card"
+					}
+					id: "69B003D00B7360E1"
+					item: { components: { "ftbfiltersystem:filter": "or(item(powah:binding_card)item(powah:binding_card_dim))", "minecraft:custom_name": "\"Binding Cards\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7A8569C741A8FBF5"]
 			id: "6468616CDF198F76"
 			tasks: [{
+				icon: {
+					id: "powah:energy_hopper_starter"
+				}
 				id: "4D9421B724C163E4"
-				item: { count: 1, id: "powah:energy_hopper_starter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:energy_hoppers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			x: -5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7A8569C741A8FBF5"]
 			id: "0E9EFC4E9080AC88"
 			tasks: [{
+				icon: {
+					id: "powah:energy_discharger_starter"
+				}
 				id: "1EAD344B2E94CFE5"
-				item: { count: 1, id: "powah:energy_discharger_starter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:energy_dischargers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.0d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["325C115E99FD5FB2"]
@@ -207,12 +241,15 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "powah:solar_panel_starter"
+				}
 				id: "0B520B0BB9FE1577"
-				item: { count: 1, id: "powah:solar_panel_starter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:solar_panels)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.5d
+			x: -5.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3C018F69792DA825"]
@@ -226,12 +263,15 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "powah:ender_gate_starter"
+				}
 				id: "1D67FA394D2E0D9E"
-				item: { count: 1, id: "powah:ender_gate_starter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:ender_gates)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: -1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7A8569C741A8FBF5"]
@@ -245,29 +285,33 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "powah:energy_cell_starter"
+				}
 				id: "53D871E0EBD6D628"
-				item: { count: 1, id: "powah:energy_cell_starter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:energy_cells)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.0d
+			x: -5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["377CBAEB1D5FE594"]
+			icon: {
+				id: "powah:wrench"
+			}
 			id: "34FF34BE6EECC2BA"
 			shape: "square"
+			size: 2.0d
 			tasks: [{
 				id: "6F66FF677464938C"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: -1.5d
+			x: -8.0d
+			y: 6.0d
 		}
 		{
-			dependencies: [
-				"377CBAEB1D5FE594"
-				"34FF34BE6EECC2BA"
-			]
+			dependencies: ["34FF34BE6EECC2BA"]
 			icon: {
 				components: {
 					"ftbquests:icon": "ftbquests:block/energy_input"
@@ -279,14 +323,11 @@
 				id: "6EF5EFF929A8FFC2"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: -1.5d
+			x: -8.0d
+			y: 9.0d
 		}
 		{
-			dependencies: [
-				"377CBAEB1D5FE594"
-				"34FF34BE6EECC2BA"
-			]
+			dependencies: ["34FF34BE6EECC2BA"]
 			icon: {
 				components: {
 					"ftbquests:icon": "pneumaticcraft:textures/gui/gui_buildcraft_energy.png"
@@ -298,8 +339,8 @@
 				id: "7542689A8811470A"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: -8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["03C5C074DF15F357"]
@@ -309,8 +350,8 @@
 				item: { count: 1, id: "powah:steel_energized" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: 0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5C66F1791DA3294B"]
@@ -320,8 +361,8 @@
 				item: { count: 1, id: "powah:crystal_blazing" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1B9ECADA335A8D83"]
@@ -331,8 +372,8 @@
 				item: { count: 1, id: "powah:crystal_niotic" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.0d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["40E9A158E761DA75"]
@@ -342,7 +383,7 @@
 				item: { count: 1, id: "powah:crystal_nitro" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 4.5d
 			y: 6.0d
 		}
 		{
@@ -361,8 +402,8 @@
 				item: { count: 1, id: "powah:ender_core" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0BC21A1CC5C31227"]
@@ -372,8 +413,8 @@
 				item: { count: 1, id: "powah:crystal_spirited" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.0d
+			x: 3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["038D5BBC5C474A52"]
@@ -387,12 +428,88 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "powah:ender_cell_starter"
+				}
 				id: "299C7CBAC17DB778"
-				item: { count: 1, id: "powah:ender_cell_starter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:ender_cells)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "639179B74EC1E36D"
+			tasks: [{
+				icon: {
+					id: "powah:capacitor_basic_large"
+				}
+				id: "6409A7003ED335DF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(powah:capacitor_basic_tiny)item(powah:capacitor_basic)item(powah:capacitor_basic_large))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5C66F1791DA3294B"]
+			id: "727A7940C54A439F"
+			optional: true
+			tasks: [{
+				id: "49A0A7E94A79A4AD"
+				item: { count: 1, id: "powah:capacitor_hardened" }
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B9ECADA335A8D83"]
+			id: "5628C75117DBB4EB"
+			optional: true
+			tasks: [{
+				id: "4E1F25DDEBE14EF5"
+				item: { count: 1, id: "powah:capacitor_blazing" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0BC21A1CC5C31227"]
+			id: "5107A63A398520B0"
+			optional: true
+			tasks: [{
+				id: "4C15E1DEE7D08925"
+				item: { count: 1, id: "powah:capacitor_niotic" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["40E9A158E761DA75"]
+			id: "6D9D0F8DB012257F"
+			optional: true
+			tasks: [{
+				id: "4305014AE5798E06"
+				item: { count: 1, id: "powah:capacitor_spirited" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["280E769EA68D929E"]
+			id: "7D9FA3639199F153"
+			optional: true
+			tasks: [{
+				id: "33B10ADE02181BED"
+				item: { count: 1, id: "powah:capacitor_nitro" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
 		}
 	]
 }
