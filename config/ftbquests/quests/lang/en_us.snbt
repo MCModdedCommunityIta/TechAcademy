@@ -424,9 +424,7 @@
 		""
 		"Per utilizzarlo clicca su un Tube Module, come ad esempio un Air Grate Tube Module."
 	]
-	quest.5B2C6BAA372915A7.quest_desc: [
-		"Zappa la terra per trovare dei vermi, posizionali nel tuo orto per concimare il terreno e velocizzare la crescita delle piante!"
-	]
+	quest.5B2C6BAA372915A7.quest_desc: ["Zappa la terra per trovare dei vermi, posizionali nel tuo orto per concimare il terreno e velocizzare la crescita delle piante!"]
 	quest.5B5E256017685138.title: "Bucket Wheel"
 	quest.5BB1CA2FDAC0315B.title: "Compressed Iron"
 	quest.5C66F1791DA3294B.quest_desc: ["Sblocca il tier Hardened"]

@@ -177,6 +177,9 @@
 		}
 		{
 			dependencies: ["395D8BC75A79A1C3"]
+			icon: {
+				id: "minecraft:crafting_table"
+			}
 			id: "684B224447B64520"
 			tasks: [{
 				id: "4285646017DDC82B"
