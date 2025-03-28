@@ -5,6 +5,9 @@
 	filename: "utility"
 	group: ""
 	icon: {
+		components: {
+			"buildinggadgets2:forge_energy": 500000
+		}
 		id: "buildinggadgets2:gadget_building"
 	}
 	id: "7A3DDEC3BE3BE902"
