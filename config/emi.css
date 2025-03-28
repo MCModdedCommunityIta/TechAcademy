@@ -14,12 +14,12 @@
 	/**
 	 * How much EMI should use tooltips and popups to show controls and information.
 	 */
-	help-level: verbose;
+	help-level: normal;
 
 	/**
 	 * Where EMI should pull stacks from to populate the index.
 	 */
-	index-source: creative;
+	index-source: creative-plus-registered;
 
 	/**
 	 * Which sidebar should be searched using the search bar.
@@ -76,7 +76,7 @@
 	/**
 	 * The unit to display fluids as.
 	 */
-	fluid-unit: liters;
+	fluid-unit: millibuckets;
 
 	/**
 	 * Whether to use the batched render system. Batching is faster, but may have

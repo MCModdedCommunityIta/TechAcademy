@@ -1,10 +1,10 @@
 {
-  "machine.compactmachines.colossal": "Colossal Compact Machine (13x13x13) ",
-  "machine.compactmachines.giant": "Giant Compact Machine (11x11x11)",
-  "machine.compactmachines.large": "Large Compact Machine (9x9x9)",
-  "machine.compactmachines.normal": "Normal Compact Machine (7x7x7)",
-  "machine.compactmachines.small": "Small Compact Machine (5x5x5)",
-  "machine.compactmachines.soaryn": "Soaryn Compact Machine (45x45x45)",
-  "machine.compactmachines.farming": "Farming Compact Machine (3x3x3)",
-  "machine.compactmachines.tiny": "Tiny Compact Machine (21x11x21)"
+  "machine.compactmachines.colossal": "Compact Machine (Colossal)",
+  "machine.compactmachines.giant": "Compact Machine (Giant)",
+  "machine.compactmachines.large": "Compact Machine (Large)",
+  "machine.compactmachines.normal": "Compact Machine (Normal)",
+  "machine.compactmachines.small": "Compact Machine (Small)",
+  "machine.compactmachines.soaryn": "Compact Machine (Soaryn)",
+  "machine.compactmachines.farming": "Compact Machine (Farming)",
+  "machine.compactmachines.tiny": "Compact Machine (Tiny)"
 }

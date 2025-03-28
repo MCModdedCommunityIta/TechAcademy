@@ -29,8 +29,8 @@
 				item: { count: 1, id: "hostilenetworks:deep_learner" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: -3.5d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["786452B4388E25B4"]
@@ -48,8 +48,8 @@
 				item: { count: 1, id: "hostilenetworks:sim_chamber" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.5d
+			x: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7BB83DDA5A5EA2E9"]
@@ -68,8 +68,8 @@
 				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.5d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2FA74528348FA5D9"]
@@ -88,8 +88,8 @@
 				item: { count: 1, id: "hostilenetworks:prediction_matrix" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -3.5d
+			x: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3791A9EB5FCA88CB"]
@@ -249,7 +249,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7AF7468A8624E5D2"]
@@ -260,8 +260,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(hostilenetworks:end_prediction)item(hostilenetworks:nether_prediction)item(hostilenetworks:overworld_prediction))", "minecraft:custom_name": "\"Generalized Prediction\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -1.5d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7BB83DDA5A5EA2E9"]

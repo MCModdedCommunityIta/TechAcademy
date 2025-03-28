@@ -35,6 +35,7 @@
 	]
 	quest.05F60818F640E4DE.title: "Thermal Evaporation Tower"
 	quest.062609874E69872D.quest_desc: ["Trasforma il liquame in fertilizzante!"]
+	quest.068357C835E7AD81.quest_desc: ["Velocizza la crescita dei crop"]
 	quest.071DB6AF939A3E3C.quest_desc: ["Queste vele manderanno più veloce il tuo mulino, che produrrà più corrente!"]
 	quest.072307C843A753B0.title: "Metal Press"
 	quest.07735D93EC888469.quest_desc: ["Una bussola che punta verso gli ore di metalli come Ferro, Oro e Stagno!"]
@@ -99,7 +100,7 @@
 		"L'AIOT è la fusione di piccone, spada, ascia, pala e zappa. "
 		"Ti permette di arare il terreno, ma i danni rimangono limitati e non ci sono di materiali moddati"
 	]
-	quest.15D045DF76328901.quest_desc: ["wip"]
+	quest.15D045DF76328901.quest_desc: ["Piazza l'Empowerer al centro e metti 4 stand a + a due blocchi di distanza"]
 	quest.1640E08845D6EA1A.quest_desc: ["Usa l'acqua per far muovere il mulino e produrre corrente"]
 	quest.188782D238B34E5D.title: "Kiln"
 	quest.1A22D30B4C17A666.quest_desc: [
@@ -172,6 +173,7 @@
 	quest.29541D1F71E6A026.title: "Immersive Engineering"
 	quest.29750A09473D11F7.quest_desc: ["Piazza nel mondo i fluidi all'interno"]
 	quest.2A2F71AC24F98BE3.title: "Bracciniiiii"
+	quest.2A87ECEB5B47A582.quest_desc: ["Una versione potenziata della canola!"]
 	quest.2AB70BF9106004EC.title: "Helmet Upgrade"
 	quest.2B9C12EC646BE10D.quest_desc: [
 		"Industrial Foregoing"
@@ -205,6 +207,7 @@
 	quest.2CD86B4F3D831CC3.quest_subtitle: "Tips: ci sono tank migliori e meno costose!"
 	quest.2CD86B4F3D831CC3.title: "Fluid Tank"
 	quest.2D8B2704F5C9101D.quest_desc: ["WIP"]
+	quest.2DB96A67331326EE.quest_desc: ["Questa mod ti permette di creare dei cubi in una dimensione a se per isolare le tue farm e far laggare di meno il mondo principale."]
 	quest.2DC1AD436D716A0F.quest_desc: ["Inserisci gli upgrade in un macchinario valido per aumentarne la velocità e l'efficienza"]
 	quest.2E9648F3F7A3A080.quest_desc: ["Raccoglie liquame dagli animali sopra di esso"]
 	quest.2FA74528348FA5D9.quest_desc: [
@@ -408,7 +411,7 @@
 	]
 	quest.5526470283630FA1.quest_desc: ["Un hopper rudimentale, fatto di legno! Non ha un inventario interno, ma ti permette di spostare oggetti prima di trovare del ferro!"]
 	quest.555A38A59CCEBB90.quest_desc: ["Il Mining Helmet conferisce NightVision, purtroppo, ha una durabilità che si consuma nel tempo (mettilo nel tuo backpack per non consumarlo involontariamente!)"]
-	quest.558FD52595B2CC70.quest_desc: ["WIPPONE"]
+	quest.558FD52595B2CC70.quest_desc: ["Ti permette di convertire dei blocchi piazzati davanti l'Atomic Recostructor in ores"]
 	quest.565C059562BD3746.quest_desc: ["Il Legno trattato dell'Immersive è alla base di tutti i suoi crafting"]
 	quest.580869FDAF268E79.quest_desc: ["Ti permette di trattare il legno!"]
 	quest.5890E74471C9557B.quest_subtitle: "Crafta la tua prima lega: il bronzo!"
@@ -558,6 +561,7 @@
 		""
 		"{image:techacademy:textures/quests/backpack.png width:160 height:100 align:center}"
 	]
+	quest.6EC93EE46B975EFD.quest_desc: ["Un generatore che produce corrente consumando Oil"]
 	quest.6EE713F4CE1B3ED0.quest_desc: [
 		"&6&lQUESTO REATTORE ESPLODE RILASCIANDO DELLE RADIAZIONI CHE PERSISTONO NEL TEMPO!!! COSTRUISCILO LONTANO DA CASA!&r&r"
 		""

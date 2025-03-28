@@ -15,12 +15,6 @@
     ],
     "c:ores/uranium": [
       "c:ores/yellorite"
-    ],
-    "c:ingots/aluminum": [
-      "c:ingots/aluminium"
-    ],
-    "c:ores/aluminum": [
-      "c:ores/aluminium"
     ]
   },
   "item_tag_inheritance_mode": "ALLOW",

@@ -5,9 +5,6 @@
 	filename: "utility"
 	group: ""
 	icon: {
-		components: {
-			"buildinggadgets2:forge_energy": 500000
-		}
 		id: "buildinggadgets2:gadget_building"
 	}
 	id: "7A3DDEC3BE3BE902"
@@ -314,6 +311,44 @@
 			}]
 			x: -10.0d
 			y: -9.0d
+		}
+		{
+			icon: {
+				components: {
+					"compactmachines:machine_color": "#43D6CD"
+					"compactmachines:room_template": "compactmachines:giant"
+				}
+				id: "compactmachines:new_machine"
+			}
+			id: "2DB96A67331326EE"
+			rewards: [{
+				id: "6E45A36682ED4308"
+				item: {
+					count: 1
+					id: "compactmachines:personal_shrinking_device"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "503618B1D8A4CE45"
+					item: { count: 1, id: "compactmachines:wall" }
+					type: "item"
+				}
+				{
+					id: "49EFFCD39C4C86A0"
+					item: { count: 1, id: "compactmachines:shrinking_module" }
+					type: "item"
+				}
+				{
+					id: "240F65BD669AA954"
+					item: { count: 1, id: "compactmachines:enlarging_module" }
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 0.5d
 		}
 	]
 }

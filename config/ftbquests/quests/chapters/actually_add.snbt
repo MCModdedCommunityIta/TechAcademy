@@ -267,6 +267,15 @@
 		{
 			dependencies: ["15D045DF76328901"]
 			id: "2A87ECEB5B47A582"
+			rewards: [{
+				count: 4
+				id: "712D97D624C5FF43"
+				item: {
+					count: 1
+					id: "actuallyadditions:empowered_canola_seed"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "48372D7B826C5606"
 				item: { count: 1, id: "actuallyadditions:empowered_canola_seed" }
