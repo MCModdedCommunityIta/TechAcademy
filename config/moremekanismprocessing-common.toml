@@ -4,7 +4,7 @@
 	showOreNotExistRecipes = false
 	#Each recipes output item be determined by this list.
 	#First is Highest.
-	recipeOutputPriority = ["alltheores", "create", "immersiveengineering"]
+	recipeOutputPriority = ["minecraft","kubejs","immersiveengineering","mekanism","create","moremekanismprocessing","enderio","industrialforegoing","pneumaticcraft","bigreactors","bno","megacells"]
 
 #processingLevel: Set ores processing max level
 #    5 : can into up x5 (able all procssing)
@@ -203,7 +203,7 @@
 		#    e.g.) "ingredient":{"tag":"c:dusts/coal"}},"amount":8
 		# Default: 0
 		# Range: 0 ~ 5
-		processingLevel = 0
+		processingLevel = 5
 
 	[ores.lapis]
 		#Exist for modpacks, set greater than 2 to enable this material recipes
@@ -213,7 +213,7 @@
 		#    e.g.) "ingredient":{"tag":"c:dusts/lapis"}},"amount":8
 		# Default: 0
 		# Range: 0 ~ 5
-		processingLevel = 0
+		processingLevel = 5
 
 	[ores.diamond]
 		#Exist for modpacks, set greater than 2 to enable this material recipes
@@ -223,7 +223,7 @@
 		#    e.g.) "ingredient":{"tag":"c:dusts/diamond"}},"amount":8
 		# Default: 0
 		# Range: 0 ~ 5
-		processingLevel = 0
+		processingLevel = 5
 
 	[ores.redstone]
 		#Exist for modpacks, set greater than 2 to enable this material recipes
@@ -233,7 +233,7 @@
 		#    e.g.) "ingredient":{"tag":"c:dusts/redstone"}},"amount":8
 		# Default: 0
 		# Range: 0 ~ 5
-		processingLevel = 0
+		processingLevel = 5
 
 	[ores.emerald]
 		#Exist for modpacks, set greater than 2 to enable this material recipes
@@ -243,7 +243,7 @@
 		#    e.g.) "ingredient":{"tag":"c:dusts/emerald"}},"amount":8
 		# Default: 0
 		# Range: 0 ~ 5
-		processingLevel = 0
+		processingLevel = 5
 
 	[ores.quartz]
 		#Exist for modpacks, set greater than 2 to enable this material recipes
@@ -253,4 +253,4 @@
 		#    e.g.) "ingredient":{"tag":"c:dusts/quartz"}},"amount":8
 		# Default: 0
 		# Range: 0 ~ 5
-		processingLevel = 0
+		processingLevel = 5
