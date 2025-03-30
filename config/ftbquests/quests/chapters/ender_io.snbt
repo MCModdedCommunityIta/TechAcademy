@@ -71,8 +71,8 @@
 				item: { count: 1, id: "enderio:sag_mill" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 6.5d
+			x: 2.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["79C3E4DCC14FE751"]
@@ -91,8 +91,8 @@
 				item: { count: 1, id: "enderio:void_chassis" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.5d
+			x: 1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6AFC771583A1B78C"]
@@ -111,8 +111,8 @@
 				item: { count: 1, id: "enderio:stirling_generator" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 8.5d
+			x: 2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6AFC771583A1B78C"]
@@ -131,75 +131,79 @@
 				item: { count: 1, id: "enderio:alloy_smelter" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.5d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7B911C5384D08884"]
 			id: "44A494578D0A64E4"
-			rewards: [{
-				count: 8
-				id: "14954B6414265BA4"
-				item: {
-					count: 1
-					id: "enderio:conduit_binder"
-				}
-				type: "item"
-			}]
-			size: 1.5d
-			tasks: [{
-				count: 8L
-				id: "000EB2B551BBCA51"
-				item: { count: 1, id: "enderio:conduit_binder_composite" }
-				type: "item"
-			}]
-			x: 11.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["44A494578D0A64E4"]
-			id: "159A7663B99D6343"
 			rewards: [
 				{
-					id: "02D5825CF2E68804"
+					count: 8
+					id: "14954B6414265BA4"
+					item: {
+						count: 1
+						id: "enderio:conduit_binder"
+					}
+					type: "item"
+				}
+				{
+					id: "53A4B1EC7AFB002D"
 					item: {
 						count: 1
 						id: "enderio:yeta_wrench"
 					}
 					type: "item"
 				}
-				{
-					count: 8
-					id: "114240D3ACD092FB"
-					item: {
-						components: {
-							"enderio:conduit": "enderio:item"
-						}
-						count: 1
-						id: "enderio:conduit"
-					}
-					type: "item"
-				}
 			]
+			tasks: [{
+				count: 8L
+				id: "000EB2B551BBCA51"
+				item: { count: 1, id: "enderio:conduit_binder_composite" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44A494578D0A64E4"]
+			id: "159A7663B99D6343"
+			rewards: [{
+				count: 8
+				id: "114240D3ACD092FB"
+				item: {
+					components: {
+						"enderio:conduit": "enderio:item"
+					}
+					count: 1
+					id: "enderio:conduit"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B32BA67A8645F90"
 				item: { components: { "enderio:conduit": "enderio:item" }, count: 1, id: "enderio:conduit" }
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 1.5d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["41D88E62DFEE4B9E"]
 			id: "4B3054591338224E"
+			rewards: [{
+				id: "397988275CF3E191"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2A40A0011035F044"
 				item: { count: 1, id: "enderio:staff_of_travelling" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -7.0d
+			x: 3.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["387F3764A36F2E48"]
@@ -218,8 +222,8 @@
 				item: { count: 1, id: "enderio:ensouled_chassis" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.5d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -242,8 +246,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 2.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -266,12 +270,20 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.0d
+			x: 8.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["442AF1C736C7DB01"]
 			id: "213E530CC3BE8123"
+			rewards: [{
+				id: "504314ABABCD70BE"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:zombie_trophy"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D1C181B9C139161"
 				item: { count: 1, id: "enderio:slice_and_splice" }
@@ -283,12 +295,20 @@
 		{
 			dependencies: ["213E530CC3BE8123"]
 			id: "1A3DAF41BCB8484D"
+			rewards: [{
+				id: "22B1D35DD47BA5FE"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:charged_creeper_trophy"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "243A7C5BAA7E5BAA"
 				item: { count: 1, id: "enderio:soul_binder" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: -4.5d
 		}
 		{
@@ -307,8 +327,8 @@
 				item: { count: 1, id: "enderio:travel_anchor" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.0d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7B911C5384D08884"]
@@ -345,8 +365,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 3.0d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7B911C5384D08884"]
@@ -366,7 +386,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6AFC771583A1B78C"]
@@ -381,8 +401,8 @@
 				item: { count: 1, id: "enderio:wired_charger" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 7.5d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6AFC771583A1B78C"]
@@ -397,8 +417,8 @@
 				item: { count: 1, id: "enderio:enchanter" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 9.5d
+			x: 2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7B911C5384D08884"]
@@ -457,8 +477,8 @@
 				item: { count: 1, id: "enderio:pulsating_alloy_ingot" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -0.5d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7B911C5384D08884"]
@@ -477,7 +497,7 @@
 				item: { count: 1, id: "enderio:redstone_alloy_ingot" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -497,8 +517,8 @@
 				item: { count: 1, id: "enderio:copper_alloy_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["45670563892FAD33"]
@@ -517,8 +537,8 @@
 				item: { count: 1, id: "enderio:conductive_alloy_ingot" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["79C3E4DCC14FE751"]
@@ -537,8 +557,8 @@
 				item: { count: 1, id: "enderio:end_steel_ingot" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.5d
+			x: -0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7B911C5384D08884"]
@@ -557,8 +577,8 @@
 				item: { count: 1, id: "enderio:soularium_ingot" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.0d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5EE7A8609B93CBB4"]
@@ -581,8 +601,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 0.0d
+			x: 9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2893F3421100DC31"]
@@ -605,52 +625,72 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 0.0d
+			x: 10.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["159A7663B99D6343"]
 			id: "12FC17E8AFB7388D"
+			rewards: [{
+				id: "57A6E5653F632146"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3D525362F5422560"
 				item: { count: 1, id: "enderio:extraction_speed_upgrade_1" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: 1.5d
+			x: 8.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["12FC17E8AFB7388D"]
 			id: "158E1F90A8E37FA5"
+			rewards: [{
+				id: "60FA8B4B1AF126F4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "19EE696921DAD8E0"
 				item: { count: 1, id: "enderio:extraction_speed_upgrade_2" }
 				type: "item"
 			}]
-			x: 14.5d
-			y: 1.5d
+			x: 9.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["20D6A80BDF4ADC05"]
+			dependencies: ["158E1F90A8E37FA5"]
 			id: "43F6448510ECFB57"
+			rewards: [{
+				id: "4FBDC7F2FBAE22CF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "468CF13059108F8D"
 				item: { count: 1, id: "enderio:extraction_speed_upgrade_3" }
 				type: "item"
 			}]
-			x: 14.5d
-			y: 2.5d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["158E1F90A8E37FA5"]
+			dependencies: ["43F6448510ECFB57"]
 			id: "20D6A80BDF4ADC05"
+			rewards: [{
+				id: "5C23D42A6018B90A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0ED4BFB40BCB4699"
 				item: { count: 1, id: "enderio:extraction_speed_upgrade_4" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: 2.5d
+			x: 11.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["526E5AFE8E2AFCB1"]
@@ -674,7 +714,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5226145F112A67FC"]
@@ -697,8 +737,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -721,7 +761,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -745,7 +785,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -769,7 +809,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -788,8 +828,8 @@
 				item: { count: 1, id: "enderio:basic_filter" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 2.5d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["18F3691400EBB051"]
@@ -807,7 +847,7 @@
 				item: { count: 1, id: "enderio:chemical_filter" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
@@ -826,8 +866,8 @@
 				item: { count: 1, id: "enderio:advanced_filter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.0d
+			x: 0.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["526E5AFE8E2AFCB1"]
@@ -845,8 +885,8 @@
 				item: { count: 1, id: "enderio:fluid_filter" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 3.0d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -869,8 +909,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -0.5d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2430BB11016FAFFC"]
@@ -888,18 +928,26 @@
 				item: { count: 1, id: "enderio:redstone_timer_filter" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1A3DAF41BCB8484D"]
 			id: "0A4756D348201EEF"
+			rewards: [{
+				id: "04B6526AE317326A"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:wither_trophy"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "585E332D58A6E761"
 				item: { count: 1, id: "enderio:powered_spawner" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: -4.5d
 		}
 		{
@@ -919,8 +967,8 @@
 				item: { count: 1, id: "enderio:end_steel_grinding_ball" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 6.5d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1A3DAF41BCB8484D"]
@@ -938,8 +986,8 @@
 				item: { count: 1, id: "enderio:ender_crystal" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -6.0d
+			x: 4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6E8C7D306EC6162D"]
@@ -977,7 +1025,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["24ECCA7C4D345B06"]
@@ -995,8 +1043,8 @@
 				item: { count: 1, id: "enderio:xp_vacuum" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.5d
+			x: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2FA751DE3D56EAFE"]
@@ -1121,7 +1169,7 @@
 				item: { count: 1, id: "enderio:vibrant_photovoltaic_module" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: 5.0d
 		}
 		{
@@ -1178,7 +1226,7 @@
 				item: { count: 1, id: "enderio:vibrant_capacitor_bank" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -2.5d
 			y: 5.0d
 		}
 		{
@@ -1205,7 +1253,7 @@
 				item: { count: 1, id: "enderio:empty_soul_vial" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -1.5d
 		}
 		{
@@ -1221,8 +1269,8 @@
 				item: { count: 1, id: "enderio:inhibitor_obelisk" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -7.0d
+			x: 5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["442AF1C736C7DB01"]
@@ -1237,8 +1285,8 @@
 				item: { count: 1, id: "enderio:xp_obelisk" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -1261,8 +1309,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 1.0d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -1285,8 +1333,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 2.5d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["108CD9122209C7AD"]
@@ -1309,8 +1357,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 3.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1A3DAF41BCB8484D"]
@@ -1328,8 +1376,8 @@
 				item: { count: 1, id: "enderio:player_token" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.0d
+			x: 4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6EBAEDE69B188AD3"]
@@ -1349,8 +1397,8 @@
 				item: { count: 2, id: "enderio:fused_quartz_dp" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.0d
+			x: 5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["79C3E4DCC14FE751"]
@@ -1370,7 +1418,28 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["79C3E4DCC14FE751"]
+			id: "5A12AC9532E8111E"
+			rewards: [{
+				count: 8
+				id: "2B86830C810D46C3"
+				item: {
+					count: 1
+					id: "enderio:reinforced_obsidian_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "6C8CF648AFF1CCCF"
+				item: { count: 1, id: "enderio:reinforced_obsidian_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
 		}
 	]
 }

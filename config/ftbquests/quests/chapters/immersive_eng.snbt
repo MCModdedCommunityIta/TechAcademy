@@ -148,6 +148,14 @@
 				"565C059562BD3746"
 			]
 			id: "7AB83A6412BB0EFF"
+			rewards: [{
+				id: "1408DB0156D3A9B4"
+				item: {
+					count: 1
+					id: "immersiveengineering:windmill"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "69A206BB763369E1"
 				item: { count: 1, id: "immersiveengineering:windmill" }
@@ -367,6 +375,11 @@
 		{
 			dependencies: ["758640628AFCFC68"]
 			id: "6280EB5D107F6521"
+			rewards: [{
+				id: "029AD5CFBA431D96"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "54BD53D205E5D872"
 				item: { count: 1, id: "immersiveengineering:fluid_pump" }
@@ -428,6 +441,14 @@
 			dependencies: ["29541D1F71E6A026"]
 			hide_dependency_lines: true
 			id: "47CF47CD43214665"
+			rewards: [{
+				id: "4DE965461040687C"
+				item: {
+					count: 1
+					id: "immersiveengineering:wirecutter"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6ECF4771F14AD7D2"
@@ -718,6 +739,14 @@
 			dependencies: ["29541D1F71E6A026"]
 			hide_dependency_lines: true
 			id: "03F047AC1F09EE0D"
+			rewards: [{
+				id: "7746EF640B728633"
+				item: {
+					count: 1
+					id: "immersiveengineering:hammer"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6861CAC69AF7C35B"
@@ -732,11 +761,10 @@
 			hide_dependency_lines: true
 			id: "159AD21CB2A8EF34"
 			rewards: [{
-				count: 9
-				id: "3A3767607AFC62AD"
+				id: "47FE8C068D216A77"
 				item: {
 					count: 1
-					id: "immersiveengineering:hemp_fiber"
+					id: "minecraft:farmland"
 				}
 				type: "item"
 			}]
@@ -752,6 +780,14 @@
 		{
 			dependencies: ["24C5C528DE10D27E"]
 			id: "3E4B44324815E272"
+			rewards: [{
+				id: "15A8CBEDE476FCF5"
+				item: {
+					count: 1
+					id: "immersiveengineering:cloche"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "69CF9EF277B95CFF"
 				item: { count: 1, id: "immersiveengineering:cloche" }
@@ -847,6 +883,14 @@
 		{
 			dependencies: ["7E2E259B5323CECC"]
 			id: "1865986DABC2378D"
+			rewards: [{
+				id: "3483179542356A11"
+				item: {
+					count: 1
+					id: "immersiveengineering:voltmeter"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3926FBDD89CA8F82"
 				item: { count: 1, id: "immersiveengineering:capacitor_lv" }
@@ -858,6 +902,11 @@
 		{
 			dependencies: ["47E69F126EC4C351"]
 			id: "0A24CE3FEF1B3131"
+			rewards: [{
+				id: "57EBF04CB302FEBE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "576E91FD3D2BFEDC"
 				item: { count: 1, id: "immersiveengineering:capacitor_mv" }
@@ -869,6 +918,11 @@
 		{
 			dependencies: ["328A9A7BFA21E5A4"]
 			id: "137CCA74567106B7"
+			rewards: [{
+				id: "55DC53420A2E6035"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "472EDF0B070014E0"
 				item: { count: 1, id: "immersiveengineering:capacitor_hv" }
