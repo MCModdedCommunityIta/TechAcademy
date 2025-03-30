@@ -1,0 +1,4 @@
+[interdimensionalWirelessTransmitter]
+	# Default: 100
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 100

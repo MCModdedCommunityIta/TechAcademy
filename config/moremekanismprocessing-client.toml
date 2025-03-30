@@ -4,12 +4,12 @@
 	[ores.aluminum]
 		#if empty, use default
 		#default : a0c4d8
-		color = ""
+		color = "cbd2d5"
 
 	[ores.amethyst]
 		#if empty, use default
 		#default : cc33cc
-		color = ""
+		color = "b18cf0"
 
 	[ores.apatite]
 		#if empty, use default
@@ -84,7 +84,7 @@
 	[ores.nickel]
 		#if empty, use default
 		#default : e5e09e
-		color = ""
+		color = "dce2cf"
 
 	[ores.niter]
 		#if empty, use default
@@ -124,7 +124,7 @@
 	[ores.silver]
 		#if empty, use default
 		#default : d8e4ed
-		color = ""
+		color = "cdd8e1"
 
 	[ores.sulfur]
 		#if empty, use default
@@ -149,29 +149,29 @@
 	[ores.coal]
 		#if empty, use default
 		#default : 2d2d2d
-		color = ""
+		color = "2d2d2d"
 
 	[ores.lapis]
 		#if empty, use default
 		#default : 2c69c8
-		color = ""
+		color = "1c52a6"
 
 	[ores.diamond]
 		#if empty, use default
 		#default : 49ead6
-		color = ""
+		color = "20c3b3"
 
 	[ores.redstone]
 		#if empty, use default
 		#default : ff0000
-		color = ""
+		color = "a80f01"
 
 	[ores.emerald]
 		#if empty, use default
 		#default : 17da61
-		color = ""
+		color = "00a82b"
 
 	[ores.quartz]
 		#if empty, use default
 		#default : ebe3db
-		color = ""
+		color = "dad1c4"

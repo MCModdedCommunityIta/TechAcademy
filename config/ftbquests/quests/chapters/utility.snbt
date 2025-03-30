@@ -5,7 +5,6 @@
 	filename: "utility"
 	group: ""
 	icon: {
-	icon: {
 		components: {
 			"buildinggadgets2:forge_energy": 500000
 		}
