@@ -40,7 +40,10 @@
     "c:storage_blocks/{material}",
     "c:wires/{material}",
     "c:silicon",
-    "c:coal_coke"
+    "c:coal_coke",
+    "c:dyes/green",
+    "c:dyes/brown",
+    "c:dyes/black"
   ],
   "ignored_tags": [],
   "ignored_items": [
