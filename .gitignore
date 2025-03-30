@@ -19,7 +19,6 @@
 /mods*
 /moddata*
 /logs*
-/local*
 /journeymap*
 /fancymenu_data*
 /ESM*
@@ -34,3 +33,4 @@ config/jei/world/*
 /knownkeys.txt
 /emi.json
 /archivio.zip
+/local/kubejs
