@@ -14,3 +14,10 @@
 		# Default: 16
 		# Range: 4 ~ 256
 		ae_denseMaxLen = 16
+
+	#RS Cable Cable Stettings
+	[wires.rs]
+		#RS Cable Cable Max Length
+		# Default: 16
+		# Range: 4 ~ 256
+		rsMaxLen = 16
