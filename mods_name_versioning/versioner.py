@@ -25,8 +25,9 @@ Lo script produce un file YAML contenente le modifiche rilevate:
 from hashlib import md5
 from yaml import dump
 from os import chdir, path, listdir
+from os.path import abspath, dirname, join, isfile
 
-chdir(path.dirname(path.abspath(__file__)))
+chdir(dirname(abspath(__file__)))
 FOLDER_PATH = "../mods/"
 
 def get_file_list(directory):
@@ -38,8 +39,8 @@ def get_checksums(directory):
     print("Calcolo checksum...")
     checksums = {}
     for file in sorted(listdir(directory)):
-        path = path.join(directory, file)
-        if path.isfile(path) and file.endswith(".jar"):
+        path = join(directory, file)
+        if isfile(path) and file.endswith(".jar"):
             with open(path, "rb") as f:
                 checksums[file] = md5(f.read()).hexdigest()
     return checksums
