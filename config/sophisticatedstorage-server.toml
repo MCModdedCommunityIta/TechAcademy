@@ -6,6 +6,8 @@
 	# Default: 200
 	# Range: 0 ~ 1000
 	tooManyItemEntityDrops = 200
+	#Determines if limited barrel counts can be dyed to change their color
+	limitedBarrelCountDyeingEnabled = true
 
 	#Wood Barrel Settings
 	[server.WoodBarrel]
