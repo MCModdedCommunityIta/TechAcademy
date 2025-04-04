@@ -625,7 +625,7 @@
 				id: "04E8EB4CCF6E1F69"
 				item: {
 					count: 1
-					id: "ae2:cell_component_256k"
+					id: "ae2:cell_component_64k"
 				}
 				type: "item"
 			}]
@@ -644,7 +644,7 @@
 				id: "2E23056AD122542B"
 				item: {
 					count: 1
-					id: "ae2:cell_component_64k"
+					id: "ae2:cell_component_256k"
 				}
 				type: "item"
 			}]
