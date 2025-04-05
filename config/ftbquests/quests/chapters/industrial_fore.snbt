@@ -16,12 +16,23 @@
 				"5424BD3317414183"
 				"024338359C75CD80"
 			]
+			icon: {
+				id: "industrialforegoing:latex_processing_unit"
+			}
 			id: "51502D13AB1B2157"
-			tasks: [{
-				id: "71548C208D70EBD2"
-				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "71548C208D70EBD2"
+					item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
+					type: "item"
+				}
+				{
+					id: "421B72E737EE0BCD"
+					item: { count: 1, id: "industrialforegoing:dryrubber" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 2.0d
 		}
