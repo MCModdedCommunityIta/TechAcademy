@@ -43,7 +43,8 @@
     "c:coal_coke",
     "c:dyes/green",
     "c:dyes/brown",
-    "c:dyes/black"
+    "c:dyes/black",
+    "c:dusts/wood"
   ],
   "ignored_tags": [],
   "ignored_items": [
