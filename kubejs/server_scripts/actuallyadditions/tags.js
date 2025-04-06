@@ -5,3 +5,9 @@ ServerEvents.tags("block", (event) => {
   })
 
 });
+
+
+ServerEvents.tags('item', event => {
+  event.add('c:tiny/charcoal', 'actuallyadditions:tiny_charcoal')
+  event.add('c:tiny/coal', 'actuallyadditions:tiny_coal')
+})

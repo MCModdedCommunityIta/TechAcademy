@@ -11,7 +11,10 @@
     "pneumaticcraft",
     "bigreactors",
     "bno",
-    "megacells"
+    "megacells",
+    "refiendstorage",
+    "actuallyadditions",
+    "utilitarian"
   ],
   "priority_overrides": {
     "c:ingots/bronze": "mekanism",
@@ -44,7 +47,9 @@
     "c:dyes/green",
     "c:dyes/brown",
     "c:dyes/black",
-    "c:dusts/wood"
+    "c:dusts/wood",
+    "c:tiny/coal",
+    "c:tiny/charcoal"
   ],
   "ignored_tags": [],
   "ignored_items": [
