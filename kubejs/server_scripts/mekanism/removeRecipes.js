@@ -1,9 +1,3 @@
-ServerEvents.recipes((event) => {
-  const recipesToRemove = [
-    "mekanism:rails",
-  ];
-  
-  recipesToRemove.forEach((recipeId) => {
-    event.remove({ id: recipeId });
-  });
-});
+console.error("!!!Fai doppio click qui!!!!");
+// Elimina questo file non serve più
+// È stato riorganizzato
