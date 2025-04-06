@@ -4,7 +4,7 @@
 	order_index: 2
 	rewards: [
 		{
-			command: "/ae2 channelmode infinite"
+			command: "/techacademyAE2ChannelPersist infinite"
 			icon: {
 				components: {
 					"ftbquests:icon": "ae2:part/cable/dense_smart/channels_00"
@@ -16,7 +16,7 @@
 			type: "command"
 		}
 		{
-			command: "/ae2 channelmode default"
+			command: "/techacademyAE2ChannelPersist default"
 			icon: {
 				components: {
 					"ftbquests:icon": "ae2:part/cable/dense_smart/channels_14"

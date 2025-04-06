@@ -204,7 +204,7 @@
 		"L'AE2 funziona a canali, scegliere di tenerli attivi rende la gestione dei cavi più complessa. "
 		"Valuta se disattivarli rendendo i canali infiniti (nessun limite di connessione)"
 		""
-		"&l&6AD OGNI FUTURO AGGIORNAMENTO POTRÀ ESSERE NECESSARIO RI-ESEGUIRE QUESTO COMANDO&r"
+		"&l&6SE NOTI CHE I CANALI TORNANO AD ESSERE LIMITATI RI-ESEGUI QUESTA QUEST&r"
 	]
 	quest.1268B60817262B01.title: "Li vuoi quei canali?"
 	quest.126BE832AFCAE3E5.quest_desc: [
