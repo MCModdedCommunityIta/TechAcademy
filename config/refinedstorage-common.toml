@@ -234,10 +234,10 @@ autocraftingNotification = true
 
 [relay]
 	# Default: 8
-	# Range: 8 ~ 9223372036854775807
+	# Range: 0 ~ 9223372036854775807
 	inputNetworkEnergyUsage = 8
 	# Default: 8
-	# Range: 8 ~ 9223372036854775807
+	# Range: 0 ~ 9223372036854775807
 	outputNetworkEnergyUsage = 8
 
 [autocrafter]

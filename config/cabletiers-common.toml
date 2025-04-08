@@ -1,0 +1,126 @@
+[tieredImporters]
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	eliteEnergyUsage = 4
+	# Default: 8
+	# Range: 0 ~ 9223372036854775807
+	ultraEnergyUsage = 8
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	megaEnergyUsage = 16
+	# Default: 2
+	# Range: > 0
+	eliteSpeed = 2
+	# Default: 5
+	# Range: > 0
+	ultraSpeed = 5
+	# Default: 8
+	# Range: > 0
+	megaSpeed = 8
+	# Default: 15000
+	# Range: > 0
+	creativeSpeed = 15000
+	eliteStackUpgradeIntegrated = false
+	ultraStackUpgradeIntegrated = true
+	megaStackUpgradeIntegrated = true
+
+[tieredExporters]
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	eliteEnergyUsage = 4
+	# Default: 8
+	# Range: 0 ~ 9223372036854775807
+	ultraEnergyUsage = 8
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	megaEnergyUsage = 16
+	# Default: 2
+	# Range: > 0
+	eliteSpeed = 2
+	# Default: 5
+	# Range: > 0
+	ultraSpeed = 5
+	# Default: 8
+	# Range: > 0
+	megaSpeed = 8
+	# Default: 15000
+	# Range: > 0
+	creativeSpeed = 15000
+	eliteStackUpgradeIntegrated = false
+	ultraStackUpgradeIntegrated = true
+	megaStackUpgradeIntegrated = true
+
+[tieredDestructors]
+	# Default: 5
+	# Range: 0 ~ 9223372036854775807
+	eliteEnergyUsage = 5
+	# Default: 9
+	# Range: 0 ~ 9223372036854775807
+	ultraEnergyUsage = 9
+	# Default: 17
+	# Range: 0 ~ 9223372036854775807
+	megaEnergyUsage = 17
+	# Default: 2
+	# Range: > 0
+	eliteSpeed = 2
+	# Default: 5
+	# Range: > 0
+	ultraSpeed = 5
+	# Default: 8
+	# Range: > 0
+	megaSpeed = 8
+	# Default: 15000
+	# Range: > 0
+	creativeSpeed = 15000
+
+[tieredConstructors]
+	# Default: 5
+	# Range: 0 ~ 9223372036854775807
+	eliteEnergyUsage = 5
+	# Default: 9
+	# Range: 0 ~ 9223372036854775807
+	ultraEnergyUsage = 9
+	# Default: 17
+	# Range: 0 ~ 9223372036854775807
+	megaEnergyUsage = 17
+	# Default: 2
+	# Range: > 0
+	eliteSpeed = 2
+	# Default: 5
+	# Range: > 0
+	ultraSpeed = 5
+	# Default: 8
+	# Range: > 0
+	megaSpeed = 8
+	# Default: 15000
+	# Range: > 0
+	creativeSpeed = 15000
+	eliteStackUpgradeIntegrated = false
+	ultraStackUpgradeIntegrated = true
+	megaStackUpgradeIntegrated = true
+
+[tieredDiskInterfaces]
+	# Default: 6
+	# Range: 0 ~ 9223372036854775807
+	eliteEnergyUsage = 6
+	# Default: 10
+	# Range: 0 ~ 9223372036854775807
+	ultraEnergyUsage = 10
+	# Default: 18
+	# Range: 0 ~ 9223372036854775807
+	megaEnergyUsage = 18
+	# Default: 2000
+	# Range: > 0
+	eliteSpeed = 2000
+	# Default: 5000
+	# Range: > 0
+	ultraSpeed = 5000
+	# Default: 8000
+	# Range: > 0
+	megaSpeed = 8000
+	# Default: 750000
+	# Range: > 0
+	creativeSpeed = 750000
+	eliteStackUpgradeIntegrated = false
+	ultraStackUpgradeIntegrated = true
+	megaStackUpgradeIntegrated = true
