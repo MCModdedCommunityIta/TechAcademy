@@ -1072,7 +1072,7 @@
 		"&6&lAttento a non mischiarle tra di loro se ne possiedi altre.&r&r"
 	]
 	quest.502645D548DF8B57.quest_desc: [
-		"Questo upgrade inserito all'interno del tuo wireles terminal, gli applica il potere di un magnete."
+		"Questo upgrade inserito all'interno del tuo wireless terminal, gli applica il potere di un magnete."
 		""
 		"Tramite configurazione delle impostazioni del terminal si può decidere se raccogliere gli item solo nel tuo inventario oppure di metterli direttamente all'interno della tua Applied!"
 	]
@@ -1745,7 +1745,7 @@
 	]
 	quest.7E73F5CAAA767749.title: "Puoi scavare più blocchi alla volta!"
 	quest.7E77B946AE391A4E.quest_desc: [
-		"Piazza una di queste card all'interno del tuo Wireles Crafting Terminal assieme ad una delle due Quantum Entagled Singularity. L'altra Quantum Entagled Singularity posizionala all'interno del Quantum Ring. "
+		"Piazza una di queste card all'interno del tuo Wireless Crafting Terminal assieme ad una delle due Quantum Entagled Singularity. L'altra Quantum Entagled Singularity posizionala all'interno del Quantum Ring. "
 		""
 		"Questo ti permetterà di avere la tua Applied ovunque in qualunque dimensione!"
 	]
