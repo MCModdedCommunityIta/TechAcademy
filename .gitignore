@@ -34,5 +34,4 @@ config/jei/world/*
 /emi.json
 /archivio.zip
 /local/kubejs
-!/mods_name_versioning
 !/mods_placeholder
