@@ -187,7 +187,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["41D88E62DFEE4B9E"]
@@ -247,7 +247,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -271,7 +271,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["442AF1C736C7DB01"]
@@ -602,7 +602,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2893F3421100DC31"]
@@ -626,7 +626,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["159A7663B99D6343"]
@@ -642,7 +642,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["12FC17E8AFB7388D"]
@@ -658,7 +658,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["158E1F90A8E37FA5"]
@@ -674,7 +674,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["43F6448510ECFB57"]
@@ -690,7 +690,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["526E5AFE8E2AFCB1"]
@@ -714,7 +714,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5226145F112A67FC"]
@@ -738,7 +738,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -829,7 +829,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["18F3691400EBB051"]
@@ -886,7 +886,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["44A494578D0A64E4"]
@@ -909,8 +909,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 8.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2430BB11016FAFFC"]
@@ -928,8 +928,8 @@
 				item: { count: 1, id: "enderio:redstone_timer_filter" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1A3DAF41BCB8484D"]
@@ -1440,6 +1440,30 @@
 			}]
 			x: -0.5d
 			y: 7.5d
+		}
+		{
+			dependencies: ["44A494578D0A64E4"]
+			id: "5943C6B88D9D867A"
+			rewards: [{
+				count: 8
+				id: "6EAC97FE37DD982C"
+				item: {
+					components: {
+						"enderio:conduit": "enderio:rs"
+					}
+					count: 1
+					id: "enderio:conduit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C569F13D1BBD5F9"
+				item: { components: { "enderio:conduit": "enderio:rs" }, count: 1, id: "enderio:conduit" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
 		}
 	]
 }
