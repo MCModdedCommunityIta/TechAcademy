@@ -4,7 +4,7 @@
 	filename: "food"
 	group: "32571A4D4DB47570"
 	id: "050D313A1C827180"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
