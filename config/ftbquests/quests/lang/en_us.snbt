@@ -952,7 +952,7 @@
 		""
 		"Per alimentare questo macchinario ti basterà attaccarlo alla tua network dell'AE2 oppure inizialmente ad una qualsiasi fonte di energia come una batteria o un cavo."
 		""
-		"&6&lTUTTI GLI OGGETTI DELLA APPLIED HANNO UNA SPIEGAZIONE ALL'INTERNO DEL MANUALE IN GAME. PUOI ACCEDERE A QUESTO MATERIALE TENENDO IL CURSORE DEL MOUSE SOPRA L'OGGETTO E TENENDO PREMUTO IL TASTO 7 DEL TASTIERINO NUMERICO!!!&r&r"
+		"[\"\", {\"text\":\"TUTTI GLI OGGETTI DELLA APPLIED HANNO UNA SPIEGAZIONE ALL'INTERNO DEL MANUALE IN GAME. PUOI ACCEDERE A QUESTO MATERIALE TENENDO IL CURSORE DEL MOUSE SOPRA L'OGGETTO E TENENDO PREMUTO: \", \"color\":\"gold\",\"bold\":true}, {\"keybind\":\"key.guideme.guide\",\"bold\":true,\"color\":\"gold\"}]"
 	]
 	quest.429C3BDA75B566E3.quest_desc: ["Applica al giocatore velocità di attacco, incrementandola di 5 punti perennemente!"]
 	quest.42AE61C53B9E1DF6.quest_desc: ["Stesso scopo e utilizzo dei Processor Circuit base!"]
