@@ -158,28 +158,11 @@
 				}
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "5DFDCC5F05C4AA3B"
-					item: { count: 1, id: "actuallyadditions:worm" }
-					type: "item"
-				}
-				{
-					disable_toast: true
-					icon: {
-						components: {
-							"ftbquests:icon": "minecraft:block/grass_block_side"
-						}
-						id: "ftbquests:custom_icon"
-					}
-					id: "13DF1F1760B2F81E"
-					observe_type: 0
-					optional_task: true
-					timer: 0L
-					to_observe: "minecraft:grass_block"
-					type: "observation"
-				}
-			]
+			tasks: [{
+				id: "5DFDCC5F05C4AA3B"
+				item: { count: 1, id: "actuallyadditions:worm" }
+				type: "item"
+			}]
 			x: -6.0d
 			y: -4.5d
 		}

@@ -1,0 +1,34 @@
+// function recipeExist(id) {
+//   Item.of(id).forEachRecipe((recipe) => {
+//     return true
+//   })
+//   return false
+// }
+
+
+// if (recipeExist("moremekanismprocessing:crystal_aluminum")) {
+//   console.log("che belli i cazzi")
+// }
+
+// {
+//   "neoforge:conditions": [
+//     {
+//       "type": "moremekanismprocessing:processing_level",
+//       "materialType": "aluminum",
+//       "requireLevel": 5
+//     }
+//   ],
+//   "type": "mekanism:washing",
+//   "chemical_input": {
+//     "amount": 1,
+//     "chemical": "moremekanismprocessing:dirty_aluminum"
+//   },
+//   "fluid_input": {
+//     "amount": 5,
+//     "fluid": "minecraft:water"
+//   },
+//   "output": {
+//     "amount": 1,
+//     "id": "moremekanismprocessing:clean_aluminum"
+//   }
+// }

@@ -14,6 +14,7 @@
 	chapter.40EC0EFCAF17763D.title: "Create"
 	chapter.456B59BC611C4AF1.title: "Ender Io"
 	chapter.46A364DC04B0C01E.title: "Pneumaticraft"
+	chapter.4B91FBE61460CC63.title: "Le Quest"
 	chapter.4F8C1FBE943C4B53.title: "Processing"
 	chapter.5127EAB07A1BA40A.title: "Mekanism"
 	chapter.592CF3629B80B6FA.title: "Powah"
@@ -81,15 +82,9 @@
 	]
 	quest.03880CAE54DB6819.quest_desc: ["Come il precedente ma più capiente!"]
 	quest.03C347295E468BEC.quest_desc: [
-		"La combinazione di una Cell Housing con una Storage Component, è possibile creare una Storage Cell per immagazzinare gli oggetti, i fluidi e i gas della Mekanism, digitalmente all'interno della tua Applied!"
+		"&6&lAttenzione, le Storage Cell permettono di immagazzinare solamente 63 di tipi di oggetti, per ciascuna Storage Cell!"
 		""
-		"&6&lAttenzione, le Storage Cell base della AE2 permettono di immagazzinare solamente un certo numero di tipi di oggetti, fluidi e gas per ciscuna Storage Cell!&r&r"
-		""
-		"&l- Il limite di tipi di oggetti per le Item Storage Cell è di 63 tipi&r"
-		""
-		"&l- Il limite di tipi di fluidi per le Fluid Storage Cell è di 18 tipi&r"
-		""
-		"&l- Il limite di tipi di gas per le Chemical Storage Cell è di 5 tipi&r"
+		"&2&lPer evitare ciò crafta il disk corrispettivo"
 	]
 	quest.03C5C074DF15F357.quest_desc: [
 		"Un metodo di crafting particolare che fonde oggetti per ottenerne di nuovi."
@@ -113,6 +108,7 @@
 		""
 		"&6&lPer funzionare necessita di calore e non di aria compressa!&r&r"
 	]
+	quest.052F7FB65B7F476C.title: "Come funzionano le Dipendenze?"
 	quest.05C2BE7BBF698971.quest_desc: ["Base per il crafting di alcuni upgrade!"]
 	quest.05F60818F640E4DE.title: "Thermal Evaporation Tower"
 	quest.061294882A3740A8.quest_desc: [
@@ -145,6 +141,7 @@
 	quest.080A9259205AF29D.quest_desc: ["Come il precedente ma più potente!"]
 	quest.084A860C5F782C20.quest_desc: ["Stesso utilizzo delle Crafting Unit base!"]
 	quest.087CE4A1731BA8CA.quest_desc: ["Esistono diversi modi per ottenere il Silicon!"]
+	quest.087CE4A1731BA8CA.title: "Silicon"
 	quest.08F8CD6E466380A4.quest_desc: [
 		"Sfrutta l'energia solare per produrre aria compressa. Migliora la sua produzione se si fornisce calore al macchinario!"
 		""
@@ -652,9 +649,15 @@
 		"&6&lAttensione che però raggiunta una certa soglia di temperatura l'efficienza del macchinario si riduce e di conseguenza avrai bisogno di più carburante per produrre pressione!&r&r"
 	]
 	quest.2E9648F3F7A3A080.quest_desc: ["Raccoglie liquame dagli animali sopra di esso"]
-	quest.2EE8DAF97821D463.quest_desc: ["Funzionana essattamente come le Cell Housing classiche della AE2, permettendo di immagazzinare fino ad un massimo di 18 diversi tipi di fluidi!"]
-	quest.2EE8DAF97821D463.quest_subtitle: "Una casa per il tuo MEGA storage!"
-	quest.2F6E5EAF2C41C23A.quest_desc: ["Versione migliorata di Housing, che permette di creare una Disk Drive per immagazzinare oggetti senza alcun limite sui tipi!"]
+	quest.2EE8DAF97821D463.quest_desc: [
+		"Funziona essattamente come le Fluid Cell Housing classiche della AE2,"
+		"ma con una capienza nettamente maggiorata"
+		""
+		"&6&lAttenzione! Il limite di tipo è il medesimo delle celle di base."
+		""
+		"&2&lPer aggirare questo limite craftare il DISK corrispettivo"
+	]
+	quest.2F5E304604D9CC32.quest_desc: ["Dalla combinazione di una Cell o DISK Housing con una Storage Component, è possibile creare una Storage Cell o uno Storage DISK per immagazzinare gli oggetti, i fluidi e i gas della Mekanism, digitalmente all'interno della tua Applied!"]
 	quest.2F9D53195202597B.quest_desc: ["Espande le capacità del Crafting CPU, consentendo l'elaborazione simultanea di più operazioni di crafting."]
 	quest.2FA74528348FA5D9.quest_desc: [
 		"Clicca con un Model Framework col tasto destro  su un mob e quando cambia forma, inseriscilo nel Deep Learner. Ora puoi uccidere i mostri e farlo livellare."
@@ -678,7 +681,6 @@
 		""
 		"Può essere configurato nell'apposito menù!"
 	]
-	quest.319751D0F975DD5A.quest_desc: ["Versione migliorata di Housing, che permette di creare una Disk Drive per immagazzinare gas della Mekanism senza alcun limite sui tipi!"]
 	quest.319E7F89FB1557BB.quest_desc: ["Questo macchinario se posizionato al di sopra di uno spawner trovato nel mondo e messo in sottovuoto estrae lentamente l'essenza del mob, restituendo uno Spawner Core puro!"]
 	quest.319E7F89FB1557BB.quest_subtitle: "Tips: non utilizza aria compressa ma il sottovuoto!"
 	quest.31A62BC78B7E7E54.quest_desc: [
@@ -1003,10 +1005,16 @@
 		"&lIl loro funzionamento rimane inveriato!&r"
 	]
 	quest.483034689AB417DC.quest_desc: ["Base per il crafting degli upgrade della Quantum Armor!"]
+	quest.49315A0FDE1470BF.title: "Come funziona il Quest Book?"
 	quest.4947E160357627D3.quest_desc: ["Stesso scopo e utilizzo dei Processor Circuit base!"]
 	quest.497BC18BEC8F1121.quest_desc: ["Lega metallica utile per i crafting della mod!"]
 	quest.4983648693750173.quest_desc: ["Trova uno spawner!"]
 	quest.49998CE5BC8C6866.quest_desc: ["Verisone avanzata dei cavi precedenti, che seguono la progrssione dei cavi della AE2."]
+	quest.4999AC4A851083F3.quest_desc: [
+		"&6&lAttenzione, le Storage Cell permettono di immagazzinare solamente un 18 tipi di fluidi per ciascuna Storage Cell!&r&r"
+		""
+		"&2&lPer evitare ciò crafta il disk corrispettivo"
+	]
 	quest.49CD835D183DFFF5.quest_desc: ["I cavi normali se toccati provocano danni al giocatore, ma se isolati questo danno viene annullato ed il giocatore potrà giocare liberamente senza preoccuparsi di prendere la scossa!"]
 	quest.49DEDB6803423F66.quest_desc: [
 		"&lPuò essere trovato nel modo come una pozza di lava!&r"
@@ -1019,7 +1027,14 @@
 		""
 		"Utilizza questo blocco per raccogliere tutta l'esperienza dal mondo in un'area delimitata!"
 	]
-	quest.4A38FF3F862B8AD9.quest_desc: ["Funzionana essattamente come le Cell Housing classiche della AE2, permettendo di immagazzinare fino ad un massimo di 63 diversi tipi di oggetti!"]
+	quest.4A38FF3F862B8AD9.quest_desc: [
+		"Funziona essattamente come le Item Cell Housing classiche della AE2,"
+		"ma con una capienza nettamente maggiorata"
+		""
+		"&6&lAttenzione! Il limite di tipo è il medesimo delle celle di base."
+		""
+		"&2&lPer aggirare questo limite craftare il DISK corrispettivo"
+	]
 	quest.4A38FF3F862B8AD9.quest_subtitle: "Una casa per il tuo MEGA storage!"
 	quest.4A5E3234D6883FD1.quest_desc: [
 		"Questo è forse il più utile e fondamentale degli upgrade!"
@@ -1125,6 +1140,19 @@
 	quest.54234D181E4E7FE5.quest_desc: ["Collega tutti gli inventari adiacenti in una grande area"]
 	quest.54234D181E4E7FE5.quest_subtitle: "TIP: non usare chest doppie!"
 	quest.5424BD3317414183.quest_desc: ["Un generatore basico della Industrial"]
+	quest.543EBDFC1BCCA9A1.quest_desc: [
+		"Una quest è una missione o un compito che ti guida nell'esplorare le nuove meccaniche e funzionalità introdotte dalle mod."
+		""
+		"In pratica, è una specie di \"guida interattiva\" che ti propone obiettivi da raggiungere (come creare un oggetto specifico, esplorare una zona o costruire qualcosa)"
+		"per farti apprendere e sfruttare le meccaniche offerte dal modpack in modo divertente, in questo caso, aiutando anche i neofiti a non perdersi in questo vasto mondo chiamato Minecraft Moddato Tecnico"
+		""
+		"{@pagebreak}"
+		""
+		"Questa è una quest:"
+		""
+		"{image:techacademy:textures/quests/ch_le_quest/quest.png width:100 height:100 align:center}"
+	]
+	quest.543EBDFC1BCCA9A1.title: "Come funziona una Quest"
 	quest.54E5CEC907CECAFD.quest_desc: [
 		"Un filtro da applicare ai tuoi Chemical Conduit."
 		""
@@ -1272,7 +1300,12 @@
 	quest.5EF99A7E7246ECA8.title: "Refinery"
 	quest.5F5B866003531CC7.quest_desc: ["Le Rod sono essenziali per dare energia all'Energizing Orb"]
 	quest.5F5B866003531CC7.quest_subtitle: "TIP: devono essere posizionati su cavi energetici!"
-	quest.5FDD99EF4FBF0C0E.quest_desc: ["Come uno zaino! Funziona a corrente!"]
+	quest.5FDD99EF4FBF0C0E.quest_desc: ["Si puo realizzare con &4&o&lquasi&r&r&r ogni housing, e permette di portare il corrispettivo tipo a mo' di zaino, ma funziona a corrente"]
+	quest.5FF3759F5FAD93CE.quest_desc: [
+		"&6&lAttenzione, le Storage Cell permettono di immagazzinare solamente 5 tipi di gas per ciascuna Storage Cell!&r&r"
+		""
+		"&2&lPer evitare ciò crafta il disk corrispettivo"
+	]
 	quest.60280B472FF110B9.quest_desc: [
 		"Questo macchinario permette di produrre il Plant Oil, uno dei due liquidi di base per la produzione di Bio Diesel."
 		""
@@ -1431,26 +1464,31 @@
 		"Il Budding che si crea funziona esattamente come un Budding di Certus Quartz."
 	]
 	quest.6CE00D9DF699753D.quest_desc: [
-		"Sto creando questo modpack per far conoscere il moddato tecnico al pubblico italiano. Creerò le quest man mano che andrà avanti il mio letsplay su Youtube. Molte cose verranno cambiate in corso d'opera, soprattutto &laspetta a giocarlo se sei molto neofita&r perchè mancano sicuramente i reward e gli approcci che arriveranno dopo."
+		"&oHola io sono &l&aMarcusKron!&r&r"
+		""
+		"E sto creando questo modpack per far conoscere il moddato tecnico al pubblico italiano. Creerò le quest man mano che andrà avanti il mio letsplay su Youtube. Molte cose verranno cambiate in corso d'opera, soprattutto &laspetta a giocarlo se sei molto neofita&r perchè mancano sicuramente i reward e gli approcci che arriveranno dopo."
 		""
 		"Puoi aprire le quest anche premendo:"
 		"{\"keybind\":\"key.ftbquests.quests\",\"bold\":true}"
 		""
-		"&dRingraziamenti&r"
-		""
-		"&lSiriosDev:&r"
-		"Script, Unificazione item e ore, Worldgen e Quests"
-		""
-		"&lBuddafai:&r"
-		"Quests dei capitoli: AE2, Ender IO, Immersive Engineering, Mekanism e Pneumaticraft"
-		""
-		"&lYouseffo13:&r"
-		"Quests del capitolo Create"
+		"[ \"Per approfondire il funzionamento delle quest invece \", { \"text\": \"clicca qui\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"543EBDFC1BCCA9A1\" },\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Clicca qui\"} } ]"
 		""
 		"Per qualsiasi dubbio entra nel server discord:"
-		"{\"text\":\"https://discord.gg/marcuskron\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/marcuskron\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Clicca qui per entrare\"}}"
+		"{\"text\":\"https://discord.gg/marcuskron\", \"underlined\": true, \"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/marcuskron\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Clicca qui per entrare\"}}"
+		"{@pagebreak}"
+		"&l&dRingraziamenti&r"
+		""
+		"&6&lSiriosDev:&r"
+		"Scripts, Unificazione item e ore, Worldgen e Quests"
+		""
+		"&e&lBuddafai:&r"
+		"Quests dei capitoli: AE2, Ender IO, Immersive Engineering, Mekanism e Pneumaticraft"
+		""
+		"&b&lYouseffo13:&r"
+		"Quests del capitolo Create"
 	]
 	quest.6CE00D9DF699753D.quest_subtitle: "IL MODPACK NON E' FINITO"
+	quest.6CE00D9DF699753D.title: "Introduzione!"
 	quest.6D360B5F9E372A1C.quest_desc: ["Questi upgrade possono essere inseriti in tutti i pezzi della Quantum Armor!"]
 	quest.6D360B5F9E372A1C.title: "All Armor Upgrade"
 	quest.6D69F85AF2112FC4.quest_desc: [
@@ -1558,7 +1596,6 @@
 		"Ovvero un componente avanzato per la creazione di macchinari e strumenti avanzati della mod."
 	]
 	quest.758640628AFCFC68.quest_desc: ["Cavi che trasportano fluidi!"]
-	quest.75A1551BA76046BA.quest_desc: ["Versione migliorata di Housing, che permette di creare una Disk Drive per immagazzinare fluidi senza alcun limite sui tipi!"]
 	quest.75AAC3FA2B42430E.quest_desc: ["Versione potenziata dell'Import Bus!"]
 	quest.75DA989D2EFC8A51.quest_desc: [
 		"Il mondo è diverso dal vanilla!"
@@ -1749,8 +1786,14 @@
 		""
 		"Questo ti permetterà di avere la tua Applied ovunque in qualunque dimensione!"
 	]
-	quest.7EC6B129833115BA.quest_desc: ["Funzionana essattamente come le Cell Housing classiche della AE2, permettendo di immagazzinare fino ad un massimo di 5 diversi tipi di gas della Mekanism!"]
-	quest.7EC6B129833115BA.quest_subtitle: "Una casa per il tuo MEGA storage!"
+	quest.7EC6B129833115BA.quest_desc: [
+		"Funziona essattamente come le Chemical Cell Housing classiche della AE2 Mekanistics,"
+		"ma con una capienza nettamente maggiorata"
+		""
+		"&6&lAttenzione! Il limite di tipo è il medesimo delle celle di base."
+		""
+		"&2&lPer aggirare questo limite craftare il DISK corrispettivo"
+	]
 	quest.7EED6A7D635097B4.quest_desc: ["Versione potenziata dell'Inscriber!"]
 	quest.7F6919A38259BECE.quest_desc: ["In molti pack la maggior parte dei semi moddati sono ottenibili rompendo il grass, in questo modpack ti serviranno moltissimi Hemp Seed"]
 	quest.7F6919A38259BECE.title: "Rompi il grass!"
@@ -1765,13 +1808,14 @@
 	reward_table.317D45D3C953414E.title: "Phantom"
 	task.00997334514B9B73.title: "Any #constructionstick:construction_sticks"
 	task.02373582EDA6B457.title: "Any #c:dusts/obsidian"
+	task.058D027B9BAE4093.title: "Ho Capito!"
 	task.05CD4540EED61253.title: "Any #minecraft:hoes"
+	task.0647D4E2F6AC145A.title: "Portable Cells"
 	task.081C63EC28B85A2D.title: "FTBUltimine"
 	task.0B520B0BB9FE1577.title: "Solar_panel"
 	task.0C13C5564EA921EA.title: "Clicca qui se hai letto!"
 	task.0F21F865C2FACAEC.title: "Energizing Rod"
 	task.1254EE5A29E2C776.title: "Biofuel"
-	task.13DF1F1760B2F81E.title: "Osserva un blocco d'Erba"
 	task.14B62843831E78A5.title: "Furnator"
 	task.155DCD11CC5C6847.title: "Basic Machine"
 	task.17AAF4E8CA140719.title: "Electrum!"
@@ -1787,11 +1831,13 @@
 	task.29A2F2B5AA0AB057.title: "Any #minecraft:beds"
 	task.2B25F8E6F344B3DB.title: "Link!"
 	task.3007BF141E9AA55A.title: "cappello"
+	task.34E4D0401AC82934.title: "Housing, Cells e DISK"
 	task.34EA039F7E38C90F.title: "Cibo Automatico"
 	task.37802C5A3B5D1088.title: "Helmet Upgrade"
 	task.382EE9D3348FCCB4.title: "Any #c:bucket/refined_canola_oil"
 	task.38B7C89F231EAF05.title: "Any #sophisticatedstorage:base_tier_wooden_storage"
 	task.3E316A102AF45A37.title: "Upgrade per tutti i pezzi!"
+	task.3F4DB66B1336E1A5.title: "Ho Capito!"
 	task.40429F6B19237131.title: "All Armor Upgrade"
 	task.419E28A877014FB3.title: "Player Transmitter"
 	task.41CF49286DC8E73C.title: "Any #c:raw_materials/osmium"
@@ -1829,6 +1875,8 @@
 	task.70879A2D05C74983.title: "BodyArmor Upgrade"
 	task.7156ED848E62007C.title: "Essence"
 	task.72144F2FC22BE47A.title: "Liquid Meat"
+	task.751DDBAD93D4E477.title: "Ho Capito!"
 	task.75392F411A1D608E.title: "Magmator"
 	task.7828717662487BCA.title: "Any #actuallyadditions:drills"
+	task.7E65506226DE7B25.title: "ExtendedAE"
 }

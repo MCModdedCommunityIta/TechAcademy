@@ -1,0 +1,41 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "le_quest"
+	group: ""
+	icon: {
+		id: "ftbquests:book"
+	}
+	id: "4B91FBE61460CC63"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "543EBDFC1BCCA9A1"
+			tasks: [{
+				id: "751DDBAD93D4E477"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			id: "052F7FB65B7F476C"
+			tasks: [{
+				id: "058D027B9BAE4093"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "49315A0FDE1470BF"
+			tasks: [{
+				id: "3F4DB66B1336E1A5"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+	]
+}
