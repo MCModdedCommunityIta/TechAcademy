@@ -1,11 +1,10 @@
 {
-	autofocus_id: "718C54A843D76478"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tips"
 	group: "6021C862F01F642A"
 	icon: {
-		id: "ae2:controller"
+		id: "ae2:singularity"
 	}
 	id: "17547FC8D4FFF9D2"
 	order_index: 2

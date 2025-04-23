@@ -108,6 +108,12 @@
     "crafting_monitor": true,
     "part_name": true
   },
+  "productivebees": {
+    "bee": true,
+    "solitary_nest": true,
+    "canvas_beehive": true,
+    "bee_attributes": true
+  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
