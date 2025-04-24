@@ -5,6 +5,6 @@
   "machine.compactmachines.normal": "Compact Machine - Normal - (7x7x7)",
   "machine.compactmachines.small": "Compact Machine - Small - (5x5x5)",
   "machine.compactmachines.soaryn": "Compact Machine - Soaryn - (45x45x45)",
-  "machine.compactmachines.farming": "Compact Machine - Farming - (3x3x3)",
-  "machine.compactmachines.tiny": "Compact Machine - Tiny - (21x11x21)"
+  "machine.compactmachines.farming": "Compact Machine - Farming - (21x11x21)",
+  "machine.compactmachines.tiny": "Compact Machine - Tiny - (3x3x3)"
 }
