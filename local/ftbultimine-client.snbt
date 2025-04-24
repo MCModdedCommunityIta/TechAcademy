@@ -18,7 +18,7 @@
 		
 		# When holding the Ultimine key, must the player also be sneaking to show the shapes menu?
 		# Default: true
-		require_sneak_for_menu: false
+		require_sneak_for_menu: true
 		
 		# When displaying the shape selection menu by holding the Ultimine key
 		# and sneaking at the same time, the number of shape names to display
