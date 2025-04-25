@@ -9,9 +9,9 @@ RecipeViewerEvents.removeEntriesCompletely("item", (event) => {
     AlmostUnified.getTagEntries(tag).forEach((item) => {
       let mainItem = AlmostUnified.getVariantItemTarget(item).id;
 
-      if (!mainItem == "minecraft:air" || mainItem != item) {
+      if (mainItem != "minecraft:air" && mainItem != item) {
         event.remove(item);
-        console.log(`${item} rimosso dopo l'unificazione dalla JEI/EMI`);
+        console.log(`${item} rimosso dalla JEI/EMI dopo l'unificazione con ${mainItem}`);
       }
     });
   });
