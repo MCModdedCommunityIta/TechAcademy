@@ -2,6 +2,8 @@
   "mod_priorities": [
     "minecraft",
     "kubejs",
+    "productivebees",
+    "productivetrees",
     "immersiveengineering",
     "mekanism",
     "create",
@@ -13,6 +15,7 @@
     "bno",
     "megacells",
     "refiendstorage",
+    "ae2",
     "actuallyadditions",
     "utilitarian"
   ],
