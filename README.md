@@ -6,7 +6,7 @@ Separare i primi con un nome significativo e i secondi con un nome diverso, tipo
 Creazione dell'archivio compresso in windows (basato su 7z, git e pwsh7):
 
 ```pwsh
-# scegliere SOLO gli hash dei commit che effettivamente modificano un file di gioco
+# scegliere SOLO gli hash dei commit che effettivamente modificano un file di gioco utile all'update
 
 7z a -spf archivio.zip (git show --name-only --pretty=format: HASH1 HASH2 HASH3 | Sort-Object -Unique | Where-Object { $_.Trim() -ne '' })
 ```
