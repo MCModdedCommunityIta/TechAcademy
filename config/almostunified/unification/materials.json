@@ -63,7 +63,7 @@
     "cucumber:shaped_tag"
   ],
   "ignored_recipe_ids": [],
-  "recipe_viewer_hiding": true,
+  "recipe_viewer_hiding": false,
   "loot_unification": true,
   "ignored_loot_tables": []
 }
