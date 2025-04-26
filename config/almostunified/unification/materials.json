@@ -56,10 +56,10 @@
   ],
   "ignored_tags": [],
   "ignored_items": [
-    "denseores:[a-zA-Z0-9_]+",
-    "densemekanism:[a-zA-Z0-9_]+",
-    "bno:[a-zA-Z0-9_]+_ore",
-    "create:crushed_raw_[a-zA-Z0-9_]+"
+    "denseores:.+",
+    "densemekanism:.+",
+    "bno:.+_ore",
+    "create:crushed_raw_.+"
 
   ],
   "ignored_recipe_types": [
