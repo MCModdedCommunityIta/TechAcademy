@@ -659,11 +659,7 @@
 	]
 	quest.2F5E304604D9CC32.quest_desc: ["Dalla combinazione di una Cell o DISK Housing con una Storage Component, è possibile creare una Storage Cell o uno Storage DISK per immagazzinare gli oggetti, i fluidi e i gas della Mekanism, digitalmente all'interno della tua Applied!"]
 	quest.2F9D53195202597B.quest_desc: ["Espande le capacità del Crafting CPU, consentendo l'elaborazione simultanea di più operazioni di crafting."]
-	quest.2FA74528348FA5D9.quest_desc: [
-		"Clicca con un Model Framework col tasto destro  su un mob e quando cambia forma, inseriscilo nel Deep Learner. Ora puoi uccidere i mostri e farlo livellare."
-		""
-		"&l&eNon usarlo nella curio, altrimenti a causa di un bug c'è il rischio di perdere tutti i progressi dei data model al suo interno, solo mano secondaria!&r&r"
-	]
+	quest.2FA74528348FA5D9.quest_desc: ["Clicca con un Model Framework col tasto destro  su un mob e quando cambia forma, inseriscilo nel Deep Learner. Ora puoi uccidere i mostri e farlo livellare."]
 	quest.2FA751DE3D56EAFE.quest_desc: [
 		"Inizialmente questo materiale può essere ricavato accedendo del fuoco e aspettando che si spenga sopra ad un pezzo di Bedrock o di Deepslate."
 		""
@@ -913,6 +909,8 @@
 	]
 	quest.3D77515C24637FB6.title: "Crusher"
 	quest.3DC013AB3DE2CC6D.quest_desc: ["Modulo acquistabile da Amadron, necessario per poter utilizzare l'Assembly."]
+	quest.3DCDB13967F5C2D9.quest_desc: ["Usando questo item è possibile copiare la configurazione di un loot fabircator, per applicarla poi a molti altri loot fabircator"]
+	quest.3DCDB13967F5C2D9.quest_subtitle: "Farmare su larga scala"
 	quest.3DD4170BD45B32AD.quest_desc: ["Come il precedente ma più capiente!"]
 	quest.3DF37B39C975AC49.quest_desc: ["Inserisci il Certus Quartz nel Charger per caricarlo!"]
 	quest.3E2E090C6AC6DB12.quest_desc: ["Un semplice macchinario per ricaricare di corrente i tuoi strumenti che utilizzano energia elettrica!"]

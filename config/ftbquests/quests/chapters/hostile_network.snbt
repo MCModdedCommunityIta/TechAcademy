@@ -274,5 +274,17 @@
 			x: 0.5d
 			y: -5.5d
 		}
+		{
+			dependencies: ["34BFB0DFBAA8FD92"]
+			id: "3DCDB13967F5C2D9"
+			optional: true
+			tasks: [{
+				id: "3FCC64828C154C9A"
+				item: { count: 1, id: "hostilenetworks:fab_directive" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
 	]
 }
