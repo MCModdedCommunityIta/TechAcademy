@@ -9,16 +9,16 @@
 	# Range: 0 ~ 9223372036854775807
 	megaEnergyUsage = 16
 	# Default: 2
-	# Range: > 0
+	# Range: > 1
 	eliteSpeed = 2
 	# Default: 5
-	# Range: > 0
+	# Range: > 1
 	ultraSpeed = 5
 	# Default: 8
-	# Range: > 0
+	# Range: > 1
 	megaSpeed = 8
 	# Default: 15000
-	# Range: > 0
+	# Range: > 1
 	creativeSpeed = 15000
 	eliteStackUpgradeIntegrated = false
 	ultraStackUpgradeIntegrated = true
@@ -35,16 +35,16 @@
 	# Range: 0 ~ 9223372036854775807
 	megaEnergyUsage = 16
 	# Default: 2
-	# Range: > 0
+	# Range: > 1
 	eliteSpeed = 2
 	# Default: 5
-	# Range: > 0
+	# Range: > 1
 	ultraSpeed = 5
 	# Default: 8
-	# Range: > 0
+	# Range: > 1
 	megaSpeed = 8
 	# Default: 15000
-	# Range: > 0
+	# Range: > 1
 	creativeSpeed = 15000
 	eliteStackUpgradeIntegrated = false
 	ultraStackUpgradeIntegrated = true
@@ -61,16 +61,16 @@
 	# Range: 0 ~ 9223372036854775807
 	megaEnergyUsage = 17
 	# Default: 2
-	# Range: > 0
+	# Range: > 1
 	eliteSpeed = 2
 	# Default: 5
-	# Range: > 0
+	# Range: > 1
 	ultraSpeed = 5
 	# Default: 8
-	# Range: > 0
+	# Range: > 1
 	megaSpeed = 8
 	# Default: 15000
-	# Range: > 0
+	# Range: > 1
 	creativeSpeed = 15000
 
 [tieredConstructors]
@@ -84,43 +84,66 @@
 	# Range: 0 ~ 9223372036854775807
 	megaEnergyUsage = 17
 	# Default: 2
-	# Range: > 0
+	# Range: > 1
 	eliteSpeed = 2
 	# Default: 5
-	# Range: > 0
+	# Range: > 1
 	ultraSpeed = 5
 	# Default: 8
-	# Range: > 0
+	# Range: > 1
 	megaSpeed = 8
 	# Default: 15000
-	# Range: > 0
+	# Range: > 1
 	creativeSpeed = 15000
 	eliteStackUpgradeIntegrated = false
 	ultraStackUpgradeIntegrated = true
 	megaStackUpgradeIntegrated = true
 
 [tieredDiskInterfaces]
-	# Default: 6
+	# Default: 7
 	# Range: 0 ~ 9223372036854775807
 	eliteEnergyUsage = 6
-	# Default: 10
+	# Default: 11
 	# Range: 0 ~ 9223372036854775807
 	ultraEnergyUsage = 10
-	# Default: 18
+	# Default: 19
 	# Range: 0 ~ 9223372036854775807
 	megaEnergyUsage = 18
 	# Default: 2000
-	# Range: > 0
+	# Range: > 1
 	eliteSpeed = 2000
 	# Default: 5000
-	# Range: > 0
+	# Range: > 1
 	ultraSpeed = 5000
 	# Default: 8000
-	# Range: > 0
+	# Range: > 1
 	megaSpeed = 8000
 	# Default: 750000
-	# Range: > 0
+	# Range: > 1
 	creativeSpeed = 750000
 	eliteStackUpgradeIntegrated = false
 	ultraStackUpgradeIntegrated = true
 	megaStackUpgradeIntegrated = true
+
+[tieredAutocrafters]
+	# Default: 5
+	# Range: 0 ~ 9223372036854775807
+	eliteEnergyUsage = 5
+	# Default: 9
+	# Range: 0 ~ 9223372036854775807
+	ultraEnergyUsage = 9
+	# Default: 17
+	# Range: 0 ~ 9223372036854775807
+	megaEnergyUsage = 17
+	# Default: 2
+	# Range: > 1
+	eliteSpeed = 2
+	# Default: 5
+	# Range: > 1
+	ultraSpeed = 5
+	# Default: 8
+	# Range: > 1
+	megaSpeed = 8
+	# Default: 100
+	# Range: > 1
+	creativeSpeed = 100

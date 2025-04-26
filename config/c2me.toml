@@ -122,6 +122,19 @@ globalExecutorParallelism = "default"
 	# mitigate this issue.
 	# 
 	fluidPostProcessingToScheduledTick = "default"
+	# (Default: true) Whether to filter fluid post-processing on worldgen threads
+	# 
+	# The worldgen processes creates a lot of unnecessary fluid post-processing tasks,
+	# which can overload the server thread and cause stutters.
+	# This applies a rough filter to filter out fluids that are definitely not going to flow
+	# 
+	filterFluidPostProcessing = "default"
+	# (Default: false) Whether to enable low memory mode
+	# 
+	# This will attempt to aggressively unload unneeded chunks, saving memory at the cost of additional
+	# overhead when generating new chunks.
+	# 
+	lowMemoryMode = "default"
 
 [generalOptimizations]
 	# (Default: 100000) The task interval of mid-tick chunk tasks in nanoseconds (-1 to disable)  
