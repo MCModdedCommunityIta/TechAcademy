@@ -51,7 +51,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["0EB89789CA05C859"]
 			id: "7CCE94359EFA7A7F"
 			rewards: [
 				{
@@ -616,7 +615,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["61A7C177D695CE54"]
@@ -1414,7 +1413,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 11.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["56238FAF42051257"]
@@ -1425,7 +1424,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 15.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["40C0E989FE1B5AB6"]
@@ -1446,7 +1445,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 14.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4595FC15F49EBC22"]
@@ -1466,7 +1465,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["601874CCFEDD44AE"]
@@ -1477,7 +1476,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 16.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2B8B1C967E46BD3B"]
@@ -1488,7 +1487,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 17.5d
+			y: 17.0d
 		}
 		{
 			dependencies: [
@@ -1557,6 +1556,26 @@
 			]
 			x: -5.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["61A7C177D695CE54"]
+			id: "34ED5CBF3FCDA6C1"
+			rewards: [{
+				count: 2
+				id: "26ED5F5A2860887F"
+				item: {
+					count: 1
+					id: "refinedstorage:range_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E7F108FCAF4478D"
+				item: { count: 1, id: "refinedstorage:range_upgrade" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.5d
 		}
 	]
 }
