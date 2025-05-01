@@ -1,5 +1,5 @@
 {
-	autofocus_id: "5ABD3CA785761B77"
+	autofocus_id: "691EA07A982215D6"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mekanism"
@@ -46,7 +46,7 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
+			x: 11.5d
 			y: -0.5d
 		}
 		{
@@ -79,7 +79,7 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
+			x: 11.5d
 			y: -2.5d
 		}
 		{
@@ -1102,24 +1102,14 @@
 		{
 			dependencies: ["49D9A560F6BCA697"]
 			id: "583216620B079A8C"
-			rewards: [
-				{
-					id: "40973D90E3F37C1B"
-					item: {
-						count: 1
-						id: "mekanism:robit"
-					}
-					type: "item"
+			rewards: [{
+				id: "40973D90E3F37C1B"
+				item: {
+					count: 1
+					id: "mekanism:robit"
 				}
-				{
-					id: "3058B3E71A61BD8F"
-					item: {
-						count: 1
-						id: "mekanism:chargepad"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "32301E70D58138A6"
 				item: { count: 1, id: "mekanism:digital_miner" }
@@ -2278,6 +2268,124 @@
 			}]
 			x: 10.0d
 			y: -6.5d
+		}
+		{
+			dependencies: ["51C3066442F4AB03"]
+			id: "49D58E05CF47D00E"
+			rewards: [{
+				id: "57192139B7DD2E4C"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:charged_creeper_trophy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B15E665D205ED4A"
+				item: { count: 1, id: "mekanism:chargepad" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EE713F4CE1B3ED0"]
+			id: "1166771FE20D0D40"
+			rewards: [
+				{
+					count: 47
+					id: "09046950BE4755ED"
+					item: {
+						count: 1
+						id: "mekanismgenerators:turbine_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "0C293642A864687E"
+					item: {
+						count: 1
+						id: "mekanism:structural_glass"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "24DAA4BA99B0BE11"
+					item: {
+						count: 1
+						id: "mekanism:pressure_disperser"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "0CABF02F094D0395"
+					item: {
+						count: 1
+						id: "mekanismgenerators:turbine_vent"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 47L
+					id: "6469645A45FDCEE4"
+					item: { count: 47, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "48C0A6209B168A90"
+					item: { count: 30, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "23B67F9978C8D55E"
+					item: { count: 1, id: "mekanism:pressure_disperser" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "22B24F2AA8E96DFF"
+					item: { count: 5, id: "mekanismgenerators:turbine_rotor" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "7372EBA6A5E7C255"
+					item: { count: 10, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+				{
+					id: "56742D219E1633DD"
+					item: { count: 1, id: "mekanismgenerators:rotational_complex" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7A07726EBBEBDB54"
+					item: { count: 9, id: "mekanismgenerators:electromagnetic_coil" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "608019DFADE69F7B"
+					item: { count: 9, id: "mekanismgenerators:saturating_condenser" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "53A14D20A35D7C22"
+					item: { count: 12, id: "mekanismgenerators:turbine_vent" }
+					type: "item"
+				}
+			]
+			x: 28.0d
+			y: 0.5d
 		}
 	]
 }

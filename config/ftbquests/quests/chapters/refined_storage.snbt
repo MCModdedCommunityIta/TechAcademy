@@ -51,6 +51,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["5FCC2A9764FA0B5F"]
 			id: "7CCE94359EFA7A7F"
 			rewards: [
 				{
@@ -1302,7 +1303,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["2E8F83296530C538"]
+			dependencies: ["66F986E39382D365"]
 			id: "4BF35176AA56D4BC"
 			rewards: [{
 				count: 4
@@ -1314,33 +1315,20 @@
 				type: "item"
 			}]
 			size: 1.5d
-			tasks: [{
-				id: "4A1268BF12A26F1B"
-				item: { count: 1, id: "extradisks:withering_processor" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2BBE771A6D80E402"
+					item: { count: 1, id: "extradisks:raw_withering_processor" }
+					type: "item"
+				}
+				{
+					id: "235F63B70178E9C9"
+					item: { count: 1, id: "extradisks:withering_processor" }
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 13.0d
-		}
-		{
-			dependencies: ["66F986E39382D365"]
-			id: "2E8F83296530C538"
-			rewards: [{
-				count: 4
-				id: "6F07750D17D68E98"
-				item: {
-					count: 1
-					id: "extradisks:raw_withering_processor"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0E8553D70E079C04"
-				item: { count: 1, id: "extradisks:raw_withering_processor" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1407,6 +1395,14 @@
 		{
 			dependencies: ["56A42BF12EA2B511"]
 			id: "4595FC15F49EBC22"
+			rewards: [{
+				id: "4AFFA909D3203E8D"
+				item: {
+					count: 1
+					id: "refinedstorage:autocrafter"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E6DF2B765CB1814"
 				item: { count: 1, id: "extrastorage:iron_crafter" }
@@ -1418,6 +1414,14 @@
 		{
 			dependencies: ["56238FAF42051257"]
 			id: "601874CCFEDD44AE"
+			rewards: [{
+				id: "09C71F9B0F0C89A2"
+				item: {
+					count: 1
+					id: "refinedstorage:autocrafter"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "29113ECA84350A2D"
 				item: { count: 1, id: "extrastorage:gold_crafter" }
@@ -1427,7 +1431,7 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["40C0E989FE1B5AB6"]
+			dependencies: ["4595FC15F49EBC22"]
 			id: "56238FAF42051257"
 			rewards: [{
 				count: 2
@@ -1439,37 +1443,32 @@
 				type: "item"
 			}]
 			size: 1.5d
-			tasks: [{
-				id: "0A00D6B29E848053"
-				item: { count: 1, id: "extrastorage:neural_processor" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["4595FC15F49EBC22"]
-			id: "40C0E989FE1B5AB6"
-			rewards: [{
-				count: 2
-				id: "35F192212061C67D"
-				item: {
-					count: 1
-					id: "extrastorage:raw_neural_processor"
+			tasks: [
+				{
+					id: "390A9DEC5B90C1EB"
+					item: { count: 1, id: "extrastorage:raw_neural_processor" }
+					type: "item"
 				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "69FC56E6E616B45A"
-				item: { count: 1, id: "extrastorage:raw_neural_processor" }
-				type: "item"
-			}]
+				{
+					id: "660C0DBC3F9FE571"
+					item: { count: 1, id: "extrastorage:neural_processor" }
+					type: "item"
+				}
+			]
 			x: 2.0d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["601874CCFEDD44AE"]
 			id: "2B8B1C967E46BD3B"
+			rewards: [{
+				id: "5C4FE157DABAB11A"
+				item: {
+					count: 1
+					id: "refinedstorage:autocrafter"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4212507C28161A56"
 				item: { count: 1, id: "extrastorage:diamond_crafter" }
@@ -1481,6 +1480,14 @@
 		{
 			dependencies: ["2B8B1C967E46BD3B"]
 			id: "71B12F48BC1E3F93"
+			rewards: [{
+				id: "1D9FA160D499FC16"
+				item: {
+					count: 1
+					id: "refinedstorage:autocrafter"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4CA6FC953C3E35B8"
 				item: { count: 1, id: "extrastorage:netherite_crafter" }
