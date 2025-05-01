@@ -1,6 +1,7 @@
 {
 	chapter.011669EFCD494D94.title: "Immersive Eng"
 	chapter.050D313A1C827180.title: "Food"
+	chapter.065B1DB43B48E63C.title: "Refined Storage"
 	chapter.0E60C4CBBD4DA9F9.title: "Energy"
 	chapter.0FDEE8071BC408D2.title: "Hostile Network"
 	chapter.1520158C6F6659BB.title: "Create"
@@ -22,6 +23,8 @@
 	chapter.7D82DB4905EAC0E4.title: "Grinding"
 	chapter_group.32571A4D4DB47570.title: "COMING SOON Molto WIP!"
 	chapter_group.6021C862F01F642A.title: "Mod Tecniche WIP"
+	quest.000FF4CA00CDBBF1.quest_desc: ["Questo componente posiziona automaticamente gli oggetti dal sistema nell'area di fronte ad esso. È utilizzato per automatizzare il posizionamento di oggetti nel mondo di gioco. "]
+	quest.004D5B518B8C6C72.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.007748EBF39E5D24.quest_desc: [
 		"&2&lDei test sul campo ci dicono che il crafting di 1 milione di fornaci impieghi circa meno di 2 minuti, con a disposizione un Quantum Computer e un Assembler Matrix maxati! WOW!&r&r"
 		""
@@ -43,6 +46,7 @@
 		"La percentuale di ricevere una testa dall'uccisione del mob è del 7%."
 	]
 	quest.0096459C6CC35353.quest_subtitle: "Basta al complicato sistema Vanilla!"
+	quest.010149C98210CF8D.quest_desc: ["Questo componente distrugge automaticamente i blocchi posizionati di fronte ad esso, inserendo gli oggetti risultanti direttamente nel sistema. È utile per automatizzare la raccolta di risorse e la rimozione di blocchi indesiderati."]
 	quest.013D9F1AA96D8AF1.quest_desc: ["Questi upgrade possono essere inseriti solo nei Quantum Leggings!"]
 	quest.013D9F1AA96D8AF1.title: "Leggings"
 	quest.01570E380F785A6C.quest_desc: ["Speciale press per il crafting degli Accumulation Processor dell'addon Advanced AE!"]
@@ -54,9 +58,9 @@
 	quest.01D512051909ABE8.quest_subtitle: "Tips: utilizzalo per una farm di mob"
 	quest.0230A3A2D463A159.quest_desc: ["Stesso utilizzo delle Crafting Storage base, ma MEGA capiente!"]
 	quest.0253DA32A968613A.quest_desc: [
-		"&lAnnihilation Plane&r: Questo componente distrugge automaticamente i blocchi posizionati di fronte ad esso, inserendo gli oggetti risultanti direttamente nel sistema. È utile per automatizzare la raccolta di risorse e la rimozione di blocchi indesiderati."
+		"&lAnnihilation Plane&r: Questo componente distrugge automaticamente i blocchi posizionati di fronte ad esso, inserendo gli oggetti risultanti direttamente nel sistema. È utile per automatizzare la raccolta di risorse e la rimozione di blocchi indesiderati. &lQuesto modulo può essere incantato con fortuna o silk touch&r!"
 		""
-		"&lFormation Plane&r: Questo componente posiziona o lascia cadere automaticamente gli oggetti dal sistema nell'area di fronte ad esso. È utilizzato per automatizzare il posizionamento di oggetti nel mondo di gioco. "
+		"&lFormation Plane&r: Questo componente posiziona o lascia cadere automaticamente gli oggetti dal sistema nell'area di fronte ad esso. È utilizzato per automatizzare il posizionamento di oggetti nel mondo di gioco."
 	]
 	quest.026404C1E714F6D2.quest_desc: ["In questo capitolo troverai tutti gli strumenti utili per giocare al modpack, indipendentemente dalla mod che li inserisce."]
 	quest.026404C1E714F6D2.title: "UTILITA'"
@@ -64,6 +68,8 @@
 	quest.0277EA11A4261E6E.quest_desc: ["Segui le istruzioni del Coke Oven per questa struttura multiblocco. Non puoi ne prendere ne mettere item in maniera automatica, dovrai creare la Blast avanzata!"]
 	quest.0277EA11A4261E6E.quest_subtitle: "TIP: non è l'unico modo per creare lo Steel"
 	quest.0277EA11A4261E6E.title: "Crude Blast Furnace"
+	quest.027E19AECA119701.quest_desc: ["Versione migliorata della Grid che permette anche di craftare direttamente gli oggetti senza alcun bisogno di una Crafting Table!"]
+	quest.0298731DF3A0556A.quest_desc: ["Permette di importare ed esportare gli oggetti in stack, &l64 oggetti o 1000 mb di un fluido o gas&r!"]
 	quest.029EB5F711B23DAF.quest_desc: [""]
 	quest.0301BA2BF08820F0.quest_desc: [
 		"Costosissima ma potente fornace multiblocco!"
@@ -109,7 +115,9 @@
 		"&6&lPer funzionare necessita di calore e non di aria compressa!&r&r"
 	]
 	quest.052F7FB65B7F476C.title: "Come funzionano le Dipendenze?"
+	quest.0588859AB7A90BA1.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.05C2BE7BBF698971.quest_desc: ["Base per il crafting di alcuni upgrade!"]
+	quest.05CB3786DC63CC7C.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.05F60818F640E4DE.title: "Thermal Evaporation Tower"
 	quest.061294882A3740A8.quest_desc: [
 		"Questo macchinario ti permette di craftare molto velocemente i Printed Circuit di tutte le tipologie."
@@ -154,9 +162,11 @@
 	]
 	quest.0947A710B701B542.quest_desc: ["Lega metallica utile per i crafting della mod!"]
 	quest.0999A3830F57B7DD.quest_desc: ["La tua prima fonte di energia! Puoi inserirci qualsiasi Fuel di minecraft!"]
+	quest.09C48C51B3A8E26A.quest_desc: ["Può essere applicato al Destructor, permettendo di distruggere i blocchi con Silk Touch!"]
 	quest.09CCBBCF5BBA2547.quest_desc: ["Questi cavi ti mostrano il numero di connessioni."]
 	quest.0A18764B265CFAFF.quest_desc: ["Questo macchinario pianta sapling o crop nel blocco di terra appena sopra"]
 	quest.0A24CE3FEF1B3131.quest_desc: ["Una batteria più capiente!"]
+	quest.0A2EDDDED9E143D6.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.0A4756D348201EEF.quest_desc: ["Il powered Spawner è uno spawner che funziona a corrente e che può essere infuso dell'anima di un qualsiasi mob, intrappolabile in una Vial!"]
 	quest.0AE3FE47394FB216.quest_desc: [
 		"Le Grinding Ball sono dei modificatori che possono essere applicati al SAG Mill per avere dei bonus sull'output e sui consumi del macchinario stesso!"
@@ -168,7 +178,7 @@
 		""
 		"Come i cavi di corrente ed energia ma per la tua rete della Applied Energistic 2."
 		""
-		"Questi cavi funzionano esattamente come i cavi della AE2 ma con lo stile della Immersive. Ottimi se ti serve passare molti tipi di cavi nello stesso blocco!"
+		"Questi cavi funzionano esattamente come i cavi della AE2 ma con lo stile della Immersive. Ottimi se ti vuoi una base in stile low tech!"
 	]
 	quest.0B17DF6EC2965A95.quest_desc: [
 		"Lega metallica finale della mod, ma che al momento non ha utilità, se non quella per il crafting delle Grinding Ball. "
@@ -217,6 +227,7 @@
 		""
 		"&6&lQuesti tubi supportano pressioni di media intensità, quindi attento perché esplodono se a lungo sottoposti ad alta pressione!&r&r"
 	]
+	quest.0E2429693F1B39B7.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.0E7A6596E86235B7.quest_desc: ["Puoi craftare spugne moddate senza dover trovare prima le spugne vanilla!"]
 	quest.0E8AD23F806E9510.quest_desc: [
 		"Ai sempre trovato fastidioso che gli Enderman si teletrasportino? Bhe questo oggetto è la soluzione che fa per te!"
@@ -225,6 +236,7 @@
 		""
 		"Gli Enderman rimmarranno comunque immuni alle freccie!"
 	]
+	quest.0EE6A0E87A1D694F.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.0F871114B88D2297.quest_desc: ["Materiali di mezzo per produrre quelle che saranno i catalizzatori per avviare la super fornace della mod!"]
 	quest.101D9B065F04C857.quest_desc: [
 		"Questo blocco ti permette di tenere caricati tutti i chunk dove si trova almeno un cavo della tua Applied. "
@@ -269,12 +281,18 @@
 		"&l&6SE NOTI CHE I CANALI TORNANO AD ESSERE LIMITATI RI-ESEGUI QUESTA QUEST&r"
 	]
 	quest.1268B60817262B01.title: "Li vuoi quei canali?"
+	quest.126B79E8F0CA4428.quest_desc: [
+		"Finalmente il tuo inventario sempre a portata di mano!"
+		""
+		"&lPrima di utilizzare il Wireless Crafting Grid dovrai collegarlo al Controller. Mantenendoti nel raggio d'azione dell'antenna potrai accedere wireless al tuo storage.&r"
+	]
 	quest.126BE832AFCAE3E5.quest_desc: [
 		"Questo macchinario permette di produrre il Ethanol, uno dei due liquidi di base per la produzione di Bio Diesel."
 		""
 		"&lControlla sempre la JEI per vedere quale sia la miglior fonte di Plant Oil!&r"
 	]
 	quest.126BE832AFCAE3E5.title: "Industrial Fermenter"
+	quest.126D2078C289AE41.quest_desc: ["Incrementa la velocità di lavoro di un macchinario o modulo!"]
 	quest.12A3B33CEFC94345.quest_desc: [
 		"Se sei stufo di segare il legno a mano utilizza questa sega industriale!"
 		""
@@ -306,6 +324,11 @@
 	]
 	quest.145402221B5446BB.quest_desc: ["Base per il crafting di alcuni upgrade!"]
 	quest.14A46BA3A1FE24AF.quest_desc: ["Uccidi i ragni o usa gli Hemp per ottenere le string!"]
+	quest.14C4A52D14C6A16B.quest_desc: [
+		"Fuzionano come le Disk Storage ma sono dei blocchi fisici che possno essere piazzati nel mondo."
+		""
+		"&lQuesti Storage possono essere filtrati per contenere solamente uno o più tipi di oggetti specifici, come in un Drawer.&r"
+	]
 	quest.15761B4F4D351753.quest_desc: [
 		"L'AIOT è la fusione di piccone, spada, ascia, pala e zappa. "
 		"Ti permette di arare il terreno, ma i danni rimangono limitati e non ci sono di materiali moddati"
@@ -344,6 +367,7 @@
 		"&lStai attento però a provare a scavare queste vene perché non le troverai! Le vene sono virtuali ovvero non sono fisicamente presenti nel mondo. Per estrarre i loro minerali avrai bisogno di altri macchinari!&r"
 	]
 	quest.181723491455CB72.quest_desc: ["Come gli upgrade della Sophisticated Storage, permette di potenziare un'Interface base, già piazzato nel mondo senza doverlo rimuovere e rimettere, nella sua versione Extended!"]
+	quest.18503A6B901392EF.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.1865986DABC2378D.quest_desc: ["Una batteria dove poter immagazzinare tutta la corrente che non serve hai tuoi macchinari."]
 	quest.1865986DABC2378D.quest_subtitle: "Tips: utilizzala come scorta di energia tra i tuoi produttori e i tuoi consumatori"
 	quest.186CE8DD22CE8A80.quest_desc: ["Stesso scopo e utilizzo dei Processor Circuit base!"]
@@ -361,6 +385,13 @@
 	]
 	quest.193469334E1A5D35.quest_desc: ["Un semplice metodo di trasporto, estrazione e inserimento dei fluidi tra blocchi. "]
 	quest.193469334E1A5D35.quest_subtitle: "Come un hopper ma per i fluidi!"
+	quest.193D58BC69392224.quest_desc: [
+		"&lMolte mod importanti hanno degli addon, ovvero dei paccheti aggiuntivi che permettono di creare incastri e sinergie tra mod completamente differenti!&r"
+		""
+		"Come i cavi di corrente ed energia ma per la tua rete della Refined Storage."
+		""
+		"Questi cavi funzionano esattamente come i cavi della RS ma con lo stile della Immersive. Ottimi se ti vuoi una base in stile low tech!"
+	]
 	quest.19C46A40560643DE.quest_desc: ["Macchinario che se fornito di aria compressa permettere di ricaricare strumenti, droni e armature della mod!"]
 	quest.1A22D30B4C17A666.quest_desc: [
 		"Se i phantom ti annoiano puoi selezionare questa quest per abilitarli o disabilitarli."
@@ -377,7 +408,16 @@
 		""
 		"&lLa Singularity è molto importante per sbloccare tutti gli addon avanzati della AE2 ma soprattutto per sbloccare il wireless infinito e multidimensionale!&r"
 	]
+	quest.1ADECCA5FAB8245D.quest_desc: [
+		"Il Controller è il cuore della RS, senza la RS non funziona."
+		""
+		"Se clicchi sul blocco potrai vedere i consumi energetici della tua network."
+		""
+		"Per grandi network avrai bisogno di piazzare più Controller per riuscire a rifornire tutta la tua rete di energia!"
+	]
+	quest.1B7EB2788574C749.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.1B9E7F42A8313728.quest_desc: ["Stesso utilizzo dei Storage Component base!"]
+	quest.1BDDBEFA2199F8B4.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.1C284464520ED5E6.quest_desc: [
 		"Questo upgrade permette di rifornire il tuo inventario in modo automatico prendedo gli oggetti dalla tua network!"
 		""
@@ -466,6 +506,7 @@
 		"Nelle vecchie versioni permetteva il crafting di particolari Capacitor potenziati!"
 	]
 	quest.214EB4D98CDDFBCD.quest_desc: ["Una nuova tipologia di cristallo. Può essere farmato come il Certus Quartz."]
+	quest.2155A9AE9FA74C8E.quest_desc: ["Questo modulo preleva oggetti, fluidi o gas da un inventario!"]
 	quest.21793C2E906F25A0.quest_desc: [
 		"I primi e veri propri cavi dell'AE2, possono supportare max 8 canali."
 		""
@@ -473,6 +514,7 @@
 	]
 	quest.21FA1ED194A0764B.quest_desc: ["Queste chest funzionano come Ender Chest, ma è possibile cambiare la frequenza per avere infiniti collegamenti!"]
 	quest.223A3E4B354A7B34.quest_desc: ["Versione potenziata del Charger!"]
+	quest.2326B520ED65E44B.quest_desc: ["Un modulo che permette al sistema di vedere gli oggetti, fluidi o gas immagazzinati all'interno di un inventario!"]
 	quest.23C7BF49E2AD50DF.quest_desc: [
 		"&6&lVa in conflitto con il Silk Touch Unit.&r&r"
 		""
@@ -488,6 +530,7 @@
 	]
 	quest.240281FFE6A26645.quest_subtitle: "Questo oggetto può intrappolare l'essenza di uno mob o più mob!"
 	quest.244FE9905B4BEAC6.quest_desc: ["Versione potenziata dell'Interface!"]
+	quest.2467020ECB8B9BF2.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.2468030BF5117C30.quest_desc: [
 		"Dopo tanti passaggi è ora di produrre energia dal Bio Diesel!"
 		""
@@ -529,6 +572,7 @@
 		"La sua versione migliorata permette anche di craftare direttamente gli oggetti senza alcun bisogno di una Crafting Table."
 	]
 	quest.25A9C0592E5F0810.quest_desc: ["Mi raccomando non metterlo nell'insalata!"]
+	quest.25B1E94C227B9FA4.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.26F3D5A9AD611695.quest_desc: ["Come il tier precedente ma più capiente!"]
 	quest.26FDEF6C46832334.quest_desc: [
 		"L'ME Pattern Encoding Terminal permette di definire le ricette per gli autocrafting."
@@ -541,6 +585,8 @@
 		""
 		"Entrambi i tipi posso essere definiti in questo terminal andando a spuntare l'opzione coretta dal menù laterale del terminal, ovvero ci sono i simbolini di una Crafting Table e di una fornace."
 	]
+	quest.27904520396B3799.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.27D0AC42588F804C.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.2817116145BB8CD8.quest_desc: ["Come prima ma più spaziosa!"]
 	quest.28259911B358C13E.quest_desc: ["Delle super scarpe!"]
 	quest.2893F3421100DC31.quest_desc: ["Come i precedenti ma con più capacità di trasferimento!"]
@@ -589,10 +635,12 @@
 		""
 		"&lNe puoi mettere quanti te ne pare!&r"
 	]
+	quest.2A75CC4133EE1491.quest_desc: ["Versione avanzata per le Storage Part più potenti!"]
 	quest.2A7727967D2CC320.quest_desc: ["Come il precedente ma più capiente!"]
 	quest.2A7DDC9A34478F21.quest_desc: ["Un semplice generatore di corrente che utilizza Coal, Charcoal o Coal Coke della Immersive!"]
 	quest.2A87ECEB5B47A582.quest_desc: ["Una versione potenziata della canola!"]
 	quest.2AB70BF9106004EC.title: "Helmet Upgrade"
+	quest.2ACE07B4BEF27ED0.quest_desc: ["Questo modulo rifornisce di oggetti, fluidi o gas in un inventario!"]
 	quest.2AE5E1D9B7993FD3.quest_desc: [
 		"Apeciale Singularity dell'addon Advanced AE."
 		""
@@ -600,6 +648,7 @@
 		""
 		"Addon forse non utile in questo pacchetto ma sicuramente utile per altri futuri mod pack molto complessi che giocherai."
 	]
+	quest.2B8B1C967E46BD3B.quest_desc: ["Come la precedente ma più capiente e veloce!"]
 	quest.2B9C12EC646BE10D.quest_desc: [
 		"Industrial Foregoing"
 		"Mod tecnologica basata sulla produzione industriale, con macchinari per l'estrazione di risorse, la generazione di energia e la lavorazione automatizzata."
@@ -619,6 +668,7 @@
 	]
 	quest.2B9C12EC646BE10D.quest_subtitle: "Crafta il primo frame della Industrial!"
 	quest.2B9C12EC646BE10D.title: "Industrial Foregoing"
+	quest.2BBF142DF9847EC5.quest_desc: ["I cavi della mod!"]
 	quest.2BBFBF55424CE30E.quest_desc: ["Oggetto di crafting essenziale per un qualsiasi tipo di oggetto dell'addon Advanced AE."]
 	quest.2BC513CCBE61F4B0.quest_desc: [
 		"QUESTA E' UNA PROVA PER VEDERE SE IL TESTO SI ALLARGA OPPURE NOOOOOOOOO!"
@@ -631,6 +681,7 @@
 	]
 	quest.2C14360749CD8EE5.quest_desc: ["Funziona esattamente come un hopper ma può essere migliorato inserendoci degli upgrade."]
 	quest.2C14360749CD8EE5.quest_subtitle: "Un hopper sotto steroidi!"
+	quest.2C6AC4D5B7C5E4EB.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.2CD86B4F3D831CC3.quest_desc: ["Una struttura multiblocco per contenere i liquidi! Inserisci dall'alto e preleva dal basso, per esportare i fluidi devi dare un segnale di redstone al parte inferiore."]
 	quest.2CD86B4F3D831CC3.quest_subtitle: "Tips: ci sono tank migliori e meno costose!"
 	quest.2CD86B4F3D831CC3.title: "Fluid Tank"
@@ -668,7 +719,11 @@
 		"Più avanti potrai farmare questo materiale all'interno del SAG Mill."
 	]
 	quest.2FA751DE3D56EAFE.quest_subtitle: "Materiale base della Ender IO!"
-	quest.2FDE9460E0DAEAB5.quest_desc: ["&lParticolare Storage Cell per lo stoccaggio dei prodotti radioattivi della Mekanism come il Nuclear Waste!&r"]
+	quest.2FDE9460E0DAEAB5.quest_desc: [
+		"&lParticolare Storage Cell per lo stoccaggio dei prodotti radioattivi della Mekanism come il Nuclear Waste!&r"
+		""
+		"&6&lPer farla funzionare devi partizionare la Cell con la Cell Workbench.&r&r"
+	]
 	quest.3074481BB696C243.quest_subtitle: "TIP: ci sono placer che non richiedono corrente"
 	quest.307F4C65B11D8A97.quest_desc: ["Questo upgrade permette di aumentare la quantità di aria compressa che può essere immagazzinata all'interno di uno strumento, macchinario o armatura."]
 	quest.30B6642D59E6C527.title: "Supercritical Phase Shifter"
@@ -693,6 +748,11 @@
 	quest.324AB1A04AB8AC86.quest_desc: ["Stesso utilizzo delle Interface base, ma MEGA capiente!"]
 	quest.325C115E99FD5FB2.quest_desc: ["Questi sono i produttori di correte della Powah, li trovi in ordine dal più facile al più difficile dall'alto verso il basso"]
 	quest.325C115E99FD5FB2.title: "Produttori di Energia"
+	quest.327B06C82F15F51F.quest_desc: [
+		"Componente per la creazione dei Disk Storage!"
+		""
+		"Questo nello specifico serve per la creazione di un Disk Storage per gli oggetti."
+	]
 	quest.328A9A7BFA21E5A4.quest_desc: [
 		"&6&lATTENTO ALLA SCOSSA!&r&r"
 		""
@@ -722,6 +782,7 @@
 	]
 	quest.3453EC4C556F8A13.quest_desc: ["Questo è un semplice blocco per dei crafting avanzati."]
 	quest.347E4A5422464E31.quest_desc: ["Una nuova lega metallica!"]
+	quest.34ED5CBF3FCDA6C1.quest_desc: ["Se inserito all'interno del Wireless Transmitter permette di incrementare il suo raggio d'azione!"]
 	quest.34F182737875666E.quest_desc: ["Particolare Component per la creazione di una Radioactive Chemical Storage Cell."]
 	quest.34FF34BE6EECC2BA.quest_desc: [
 		"Tieni presente che la Powah è divisa in TIER."
@@ -737,6 +798,7 @@
 		"&6&lAttensione che però raggiunta una certa soglia di temperatura l'efficienza del macchinario si riduce e di conseguenza avrai bisogno di più carburante per produrre pressione!&r&r"
 	]
 	quest.361142C46671DC68.quest_desc: ["Stesso utilizzo dei Storage Component base!"]
+	quest.3619B0D6E7AEAF47.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.3626FA4429BEDF50.quest_desc: [
 		"Cuore della produzione degli oggetti della Pneumaticraft!"
 		""
@@ -798,6 +860,7 @@
 	quest.38C1D47A2549E046.quest_desc: ["Altri upgrade, più specifici"]
 	quest.38DC1479194F422B.quest_desc: ["Un rudimentale secchiello di legno, utile per spostare l'acqua prima di trovare il ferro. Puoi provare a prenderci anche la lava... a tuo rischio e pericolo!"]
 	quest.38E3542031CA172A.quest_desc: ["Oggetto piazzabile nel mondo che ti permette di immagazzinare e salvare dalle tue morti l'esperienza che hai accumulato nel tempo!"]
+	quest.3950FFAF3AA74C90.quest_desc: ["Verso l'infinito ed oltre!"]
 	quest.395D8BC75A79A1C3.quest_desc: ["Bisognerà pur cominciare da qualche parte!"]
 	quest.395D8BC75A79A1C3.title: "PRENDI A CAZZOTTI L'ALBERO"
 	quest.3997E027E7AC3CDA.quest_desc: [
@@ -843,7 +906,13 @@
 	]
 	quest.3A06DAA6736EF1D4.quest_subtitle: "LETS GOOOO"
 	quest.3A06DAA6736EF1D4.title: "Iniziare le Mod"
+	quest.3A2D11CD45B3F989.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.3A321941A21241DD.quest_desc: ["Come il precedente ma più capiente!"]
+	quest.3A4B319DADAD9F35.quest_desc: [
+		"Con questa card puoi salvare la configurazione di un dispositivo della tua network, ad esempio di un Importer, per poterla riutilizzare per configurare altri dispositivi."
+		""
+		"&lSe la configurazione salvata prevede degli upgrade, tenendoli nel tuo inventario questi verranno applicati in automatico!&r"
+	]
 	quest.3AFA2C888AD4C38A.quest_desc: ["Questo liquido può essere prodotto nella Reaction Chamber, con acqua e Quantum Infused Dust."]
 	quest.3B3049F6C9591CC0.quest_desc: [
 		"Mod che aggiunge macchinari semplici, energia (Crystal Flux) e utility come borse, anelli e strumenti avanzati. Include anche sistemi di coltivazione automatica e teletrasporto."
@@ -902,6 +971,7 @@
 	]
 	quest.3D5FF071BA9F8EF2.quest_desc: ["Un sacco a pelo che ti permette di dormire mentre sei in esplorazione!"]
 	quest.3D60DA57CE004587.quest_desc: ["Utilizza l'aria compressa per produrre corrente elettrica!"]
+	quest.3D74170D6127775E.quest_desc: ["Verso l'infinito ed oltre!"]
 	quest.3D77515C24637FB6.quest_desc: [
 		"Il Crusher ti permette di triturare ore o raw di minerali raddoppiando o applicando un bonus al prodotto in uscita!"
 		""
@@ -918,6 +988,11 @@
 		"Una farm automatica di crop se fornita di corrente ed acqua!"
 		""
 		"&lSe fornita anche di un fertilizzante la crescita dei crop verrà velocizzata, guarda la JEI per vedere il miglior fertilizzante!&r"
+	]
+	quest.3E959B819B4086FA.quest_desc: [
+		"Può essere applicato al Destructor, permettendo di distruggere i blocchi con fortuna! "
+		""
+		"&lEsistono anche le versioni con il livello di fornuna più alto.&r"
 	]
 	quest.3E95D3931B3110F7.quest_desc: ["Eolico! Costante ed ecologico! Più in alto lo piazzi più produce!"]
 	quest.3F1D1142EE194CBF.quest_desc: ["Lega metallica utile per i crafting della mod!"]
@@ -943,6 +1018,11 @@
 	]
 	quest.40E89E80A3E6F387.quest_desc: ["Il blocco di base per creare i macchinari dell'Actually Additions!"]
 	quest.41D88E62DFEE4B9E.quest_desc: ["Semplice oggetto di tramite per crafting più avanzati!"]
+	quest.42032BA572447449.quest_desc: [
+		"Componente per la creazione dei Disk Storage!"
+		""
+		"Questo nello specifico serve per la creazione di un Disk Storage per i fluidi."
+	]
 	quest.4264579CC6BFE4BB.quest_desc: [
 		"Questo è il macchinario da cui inizia tutto!"
 		""
@@ -950,7 +1030,7 @@
 		""
 		"Per alimentare questo macchinario ti basterà attaccarlo alla tua network dell'AE2 oppure inizialmente ad una qualsiasi fonte di energia come una batteria o un cavo."
 		""
-		"[\"\", {\"text\":\"TUTTI GLI OGGETTI DELLA APPLIED HANNO UNA SPIEGAZIONE ALL'INTERNO DEL MANUALE IN GAME. PUOI ACCEDERE A QUESTO MATERIALE TENENDO IL CURSORE DEL MOUSE SOPRA L'OGGETTO E TENENDO PREMUTO: \", \"color\":\"gold\",\"bold\":true}, {\"keybind\":\"key.guideme.guide\",\"bold\":true,\"color\":\"gold\"}]"
+		"[\"\", {\"text\":\"TUTTI GLI OGGETTI DELLA APPLIED HANNO UNA SPIEGAZIONE ALL'INTERNO DEL MANUALE IN GAME. PUOI ACCEDERE A QUESTO MANUALE TENENDO IL CURSORE DEL MOUSE SOPRA L'OGGETTO E TENENDO PREMUTO: \", \"color\":\"gold\",\"bold\":true}, {\"keybind\":\"key.guideme.guide\",\"bold\":true,\"color\":\"gold\"}]"
 	]
 	quest.429C3BDA75B566E3.quest_desc: ["Applica al giocatore velocità di attacco, incrementandola di 5 punti perennemente!"]
 	quest.42AE61C53B9E1DF6.quest_desc: ["Stesso scopo e utilizzo dei Processor Circuit base!"]
@@ -959,7 +1039,9 @@
 		""
 		"&lMolto comodo se se hanno subnetwork sparpagliate per il mondo o le dimensioni!&r"
 	]
+	quest.43C75A3A6B23B594.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.43F6448510ECFB57.quest_desc: ["Come il precedente, ma permette di trasferire 32 oggetti alla volta!"]
+	quest.440295A302974D62.quest_desc: ["Con questa wrench potrai rompere o ruotare ad esempio, cavi, moduli o Crafter."]
 	quest.440DC1341243F81A.quest_desc: ["Blocco di base per l'assemblaggio del tuo primo computer!"]
 	quest.441D6AD1CE49C8BA.quest_desc: [
 		"[{\"text\":\"Premendo \"},{\"keybind\":\"key.inventory\",\"bold\":true, \"color\":\"red\"}, {\"text\":\" a destra troverai tutti gli oggetti del pack.\"}]"
@@ -986,6 +1068,7 @@
 	]
 	quest.456435F6E696A30D.quest_desc: ["Materiale di base per la produzione dello l'acciaio ed anche ottimo carburante per le tue fornaci!"]
 	quest.45670563892FAD33.quest_desc: ["Lega metallica utile per i crafting della mod!"]
+	quest.4595FC15F49EBC22.quest_desc: ["Versione migliorata dell'Autocrafter che contiene una maggior quantità di Pattern e una velocità di autocrafting più elevata."]
 	quest.459C703BB5B2EECE.quest_desc: ["Altro macchinario di mezzo per arrivare a produrre i primi Unassembled PCB prima che lo si possa fare con L'assembly!"]
 	quest.45DABE1BE9940130.quest_desc: ["Una pompa che funziona ad aria compressa invece che a corrente!"]
 	quest.45DABE1BE9940130.quest_subtitle: "Tips: non è l'unico macchianrio di estrazione dei liquidi dal mondo"
@@ -1003,6 +1086,7 @@
 		"&lIl loro funzionamento rimane inveriato!&r"
 	]
 	quest.483034689AB417DC.quest_desc: ["Base per il crafting degli upgrade della Quantum Armor!"]
+	quest.4858B354737A1781.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.49315A0FDE1470BF.title: "Come funziona il Quest Book?"
 	quest.4947E160357627D3.quest_desc: ["Stesso scopo e utilizzo dei Processor Circuit base!"]
 	quest.497BC18BEC8F1121.quest_desc: ["Lega metallica utile per i crafting della mod!"]
@@ -1053,6 +1137,7 @@
 	quest.4B6659F8A85A0D9A.quest_subtitle: "Produttore di aria compressa!"
 	quest.4BB89DEFA8F9BE7A.quest_desc: ["Questa torciona impedisce lo spawn naturale dei mostri nell'area intorno a te. Mobspawner ed altri spawner funzionano indipendentemente!"]
 	quest.4BD7A4C0E1DB16A5.quest_desc: ["Metti il Certus Quartz nell'Inscriber"]
+	quest.4BF35176AA56D4BC.quest_desc: ["Processor avanzati dell'addon Extra Disk, che permettono di craftare delle Storage Part molto potenti!"]
 	quest.4C6384327E162D3C.quest_desc: ["Come i precedenti ma con più capacità di trasferimento!"]
 	quest.4D2FEA9A3A91CFF3.quest_desc: [
 		"Questo macchinario permette di processare dei liquidi per crearne di nuovi!"
@@ -1069,7 +1154,11 @@
 		"[\"\", {\"keybind\":\"key.sneak\",\"bold\":true,\"color\":\"red\"},\" + \",{\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" - Diventi della grandezza selezionata\"]"
 	]
 	quest.4E5434D5CE4345A6.quest_desc: ["Come il precedente ma più capiente!"]
-	quest.4E8EEBFEA3542A69.quest_desc: ["Oggetti di crafting essenziali per un qualsiasi tipo di oggetto della AE2."]
+	quest.4E8EEBFEA3542A69.quest_desc: [
+		"Oggetti di crafting essenziali per un qualsiasi tipo di oggetto della AE2."
+		""
+		"&lPer grandi impianti te ne serviranno molti, quindi provvedi ad averne sempre una buona quantità.&r"
+	]
 	quest.4F2767220AC96B9A.quest_desc: ["Stesso utilizzo delle Pattern Provider base, ma MEGA capiente!"]
 	quest.4F7FF6E7F12B83C0.quest_desc: ["Cuoci la Dry Rubber per ottenere la Plastic"]
 	quest.4F904D51652E1068.quest_desc: [
@@ -1090,6 +1179,7 @@
 		"Tramite configurazione delle impostazioni del terminal si può decidere se raccogliere gli item solo nel tuo inventario oppure di metterli direttamente all'interno della tua Applied!"
 	]
 	quest.504FBBF5D2DBD047.quest_desc: ["Cuoci la Certus Quartz Dust per ottenere il Silicon"]
+	quest.506945B237402C87.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.506CFDF2F0D82434.quest_desc: ["Un ottimo modo per farmare crops! Data la loro rarità, ti regalo i seed della canola!"]
 	quest.50B4881185FD4A04.quest_desc: [
 		"Il Controller è il cuore dell'AE2, senza l'AE2 non funziona."
@@ -1131,6 +1221,7 @@
 	]
 	quest.52DB3401591293E2.title: "Estetica moddata"
 	quest.52ED8FE861B07580.quest_desc: ["Questi upgrade possono essere inseriti solo nel Quantum Helmet!"]
+	quest.532587C2D1C70E34.quest_desc: ["Oggetti base per la produzione dei Processor."]
 	quest.5334CF50408E20A9.quest_desc: ["Fondamentale per molti crafting, puoi ottenere la pelle farmando le mucche (non uccidere i cavalli per favore)"]
 	quest.53D0C7ADCBFF5F17.quest_desc: ["Puoi linkare i pezzi dell'armatura alla tua network tramite il ME Wireless Access Point!"]
 	quest.53DEF52A701325C3.quest_desc: ["Puoi ottenere le stringhe direttamente dai ragni. Se trovi uno spawner valuta di portartelo a casa con la Carry on per averle sempre disponibili quando potrai fare i grinder"]
@@ -1166,6 +1257,7 @@
 		"Cliccaci sopra per aprirla"
 	]
 	quest.543EBDFC1BCCA9A1.title: "Come funziona una Quest"
+	quest.548059D8CE7763DF.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.54E5CEC907CECAFD.quest_desc: [
 		"Un filtro da applicare ai tuoi Chemical Conduit."
 		""
@@ -1180,11 +1272,25 @@
 	]
 	quest.551E146F1600840D.quest_desc: ["Come i precedenti ma con più capacità di trasferimento!"]
 	quest.5526470283630FA1.quest_desc: ["Un hopper rudimentale, fatto di legno! Non ha un inventario interno, ma ti permette di spostare oggetti prima di trovare del ferro!"]
+	quest.5526EFA053B97562.quest_desc: [
+		"Questo blocco può essere utilizzato per creare delle sub-network!"
+		""
+		"&lCliccandoci si aprirà un menù dal quale è possibile configurare le azioni che la sub-network può fare o meno. Un esepio è la possibilità di impedire la visione degli autocrafting alla sub-network!&r"
+	]
 	quest.555A38A59CCEBB90.quest_desc: ["Il Mining Helmet conferisce NightVision, purtroppo, ha una durabilità che si consuma nel tempo (mettilo nel tuo backpack per non consumarlo involontariamente!)"]
 	quest.558FD52595B2CC70.quest_desc: ["Ti permette di convertire dei blocchi piazzati davanti l'Atomic Recostructor in ores"]
+	quest.56119DD9B0EA6245.quest_desc: ["Dalla combinazione di una Storage Housing con una Storage Part, è possibile creare una Storage Disk per immagazzinare gli oggetti, i fluidi e i gas della Mekanism, digitalmente all'interno della tua Refined!"]
+	quest.56238FAF42051257.quest_desc: ["Processor avanzati dell'addon ExtraStorage, che permettono di craftare delgli Autocrafter molto potenti!"]
 	quest.565C059562BD3746.quest_desc: ["Il Legno trattato dell'Immersive è alla base di tutti i suoi crafting"]
+	quest.56A42BF12EA2B511.quest_desc: [
+		"Inserisci al suo interno le pattern per poter autocraftare!"
+		""
+		"&lPer l'autocrafting che prevedono l'utilizzo di macchinari posiziona l'autocrafter attaccato a questi.&r"
+	]
+	quest.578BD1E455C728FD.quest_desc: ["Questo blocco è la base di molti macchinari o moduli della RS!"]
 	quest.57DB2DED09683F25.quest_desc: ["I component se combinati con un Housing ti permettono di creare le Storage Cell per immagazzinare oggetti, fluidi o gas della Mekanism!"]
 	quest.580869FDAF268E79.quest_desc: ["Un nuovo liquido che ti permette di trattare il legno!"]
+	quest.5851D1D0F1C712FD.quest_desc: ["Versione potenziata dei processor base per crafting avanzati!"]
 	quest.5890E74471C9557B.quest_subtitle: "Crafta la tua prima lega: il bronzo!"
 	quest.58FB89E610AC3124.quest_desc: ["Aumenta la velocità di nuoto!"]
 	quest.5943C6B88D9D867A.quest_desc: [
@@ -1192,6 +1298,7 @@
 		""
 		"Questi cavi funzionano esattamente come i cavi della Refined Storage ma con lo stile e le funzionalità della Ender IO. Ottimi se ti serve passare molti tipi di cavi nello stesso blocco!"
 	]
+	quest.597063F189528FAB.quest_desc: ["Versione potenziata degli Importer e degli Exporter!"]
 	quest.599C86EAC7020D7F.quest_desc: [
 		"Corpo centrale della draga! "
 		""
@@ -1301,7 +1408,7 @@
 		""
 		"Difficoltà: 3/5 – Richiede gestione di energia e configurazione delle simulazioni."
 	]
-	quest.5E68C97FCEDE57A9.quest_subtitle: "Crafta un Model Framework"
+	quest.5E68C97FCEDE57A9.quest_subtitle: "Crafta un Model Framework!"
 	quest.5E68C97FCEDE57A9.title: "Hostile Network"
 	quest.5EA58A0DFF14000D.quest_desc: [
 		"Questo tipo di spawner è il risultato dell'estrazione dell'essenza del mob che conteneva attraverso l'utilizzo del Spawner Extractor."
@@ -1311,14 +1418,38 @@
 	quest.5EE7A8609B93CBB4.quest_desc: ["Utilizza questi Conduit per il trasporto di energia elettrica!"]
 	quest.5EF99A7E7246ECA8.quest_desc: ["Una volta creata la linea di produzione dei reagenti di base è ora di produrre il Bio Diesel!"]
 	quest.5EF99A7E7246ECA8.title: "Refinery"
+	quest.5F56886C3CB0039D.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.5F5B866003531CC7.quest_desc: ["Le Rod sono essenziali per dare energia all'Energizing Orb"]
 	quest.5F5B866003531CC7.quest_subtitle: "TIP: devono essere posizionati su cavi energetici!"
+	quest.5FCC2A9764FA0B5F.quest_desc: [
+		"Refined Storage"
+		"Mod che introduce un sistema semplice ma potente per archiviare e automatizzare oggetti e fluidi tramite una rete digitale modulare."
+		""
+		"Gioca questa mod se:"
+		""
+		"Vuoi un sistema di archiviazione digitale intuitivo e flessibile."
+		""
+		"Ti serve automazione per crafting e gestione risorse, senza complicazioni."
+		""
+		"Preferisci una curva di apprendimento più morbida rispetto ad AE2."
+		""
+		"Focus:"
+		"✅ Stoccaggio digitale"
+		"✅ Automazione crafting"
+		"✅ Semplicità d’uso"
+		"✅ Modularità della rete"
+		""
+		"Difficoltà: 2.5/5 – Facile da iniziare, con una buona profondità per utenti avanzati."
+	]
+	quest.5FCC2A9764FA0B5F.quest_subtitle: "Crafta un Processor Binding!"
+	quest.5FCC2A9764FA0B5F.title: "Refined Storage"
 	quest.5FDD99EF4FBF0C0E.quest_desc: ["Si puo realizzare con &4&o&lquasi&r&r&r ogni housing, e permette di portare il corrispettivo tipo a mo' di zaino, ma funziona a corrente"]
 	quest.5FF3759F5FAD93CE.quest_desc: [
 		"&6&lAttenzione, le Storage Cell permettono di immagazzinare solamente 5 tipi di gas per ciascuna Storage Cell!&r&r"
 		""
 		"&2&lPer evitare ciò crafta il disk corrispettivo"
 	]
+	quest.601874CCFEDD44AE.quest_desc: ["Come la precedente ma più capiente e veloce!"]
 	quest.60280B472FF110B9.quest_desc: [
 		"Questo macchinario permette di produrre il Plant Oil, uno dei due liquidi di base per la produzione di Bio Diesel."
 		""
@@ -1345,6 +1476,7 @@
 		"*c:ores*"
 	]
 	quest.61A6630D711B7FD4.quest_desc: ["Preleva automaticamente fluidi dal mondo!"]
+	quest.61A7C177D695CE54.quest_desc: ["Oggetto base per la creazione dei upgrade!"]
 	quest.61FE591DF85F0C88.quest_desc: ["Una Crafting Table portatile!"]
 	quest.620072118A9EA0E5.quest_desc: ["Il letto di minecraft, un grande classico."]
 	quest.620072118A9EA0E5.title: "Letti!"
@@ -1362,6 +1494,11 @@
 		"Grosse quantità di materiali sono necessari bla bla"
 		"sotto trovi degli esempi, che puoi unire o modificare in base a quello che hai imparato."
 	]
+	quest.64B9BBCB919040B9.quest_desc: [
+		"Componente per la creazione dei Disk Storage!"
+		""
+		"Questo nello specifico serve per la creazione di un Disk Storage per i gas della Mekanism!"
+	]
 	quest.64C121464B94C5E9.quest_desc: ["Oggetto di base per la creazione di oggetti avanzati della mod!"]
 	quest.64C24632DF551A08.quest_desc: ["Una super chestplate!"]
 	quest.64C4A69B7AB2378C.quest_desc: ["Punta verso la struttura selezionata"]
@@ -1372,13 +1509,20 @@
 		""
 		"&lSe si punta l'indicatore sopra ad un upgrade e si preme Shift è possibile vedere su quali strumenti, macchinari sarà possibile installarlo!&r"
 	]
+	quest.65B13EA965A09970.quest_desc: ["Macchinario per svuotare o trasferire oggetti da un Disk ad un altro!"]
 	quest.65BCC1D2BB57CF0B.quest_desc: [
 		"Una semplice tank!"
 		""
 		"Ne esistono di varie capacità."
 	]
 	quest.66847BC40D0AA886.quest_desc: ["Se vuoi che le tue farm continuino a funzionare quando sei lontano, devi piazzare un Chunk Loader per tenere caricata l'area. ChunkLoader migliori ti permettono di caricare aree più vaste."]
+	quest.66947E0B2A8E4F6C.quest_desc: ["La Grid ti permette di vedere tutti gli oggetti presenti nel tuo storage!"]
 	quest.66C8FB0CE5A3AE73.quest_desc: ["Come i precedenti ma con più capacità di trasferimento!"]
+	quest.66F986E39382D365.quest_desc: [
+		"I Processor sono il cuore dei crafting della RS!"
+		""
+		"&lPer grandi impianti te ne serviranno molti, quindi provvedi ad averne sempre una buona quantità.&r"
+	]
 	quest.672085BE4855F0FC.quest_desc: [
 		"I 5 cavi della Mekanism si dividono in"
 		""
@@ -1402,6 +1546,7 @@
 	quest.676897CC88987E9E.quest_desc: ["Come i precedenti ma con più capacità di trasferimento!"]
 	quest.6779311B7E619B77.quest_desc: ["Come il precedente ma più capiente!"]
 	quest.6782D235E63787C1.quest_desc: ["Speciale press per il crafting degli Accumulation Processor dell'addon ExtendedAE!"]
+	quest.678BF509A58E493B.quest_desc: ["Versione potenziata per accedere alla tua RS ovunque e da qualunque dimensione!"]
 	quest.67E0DCBECED6E0F5.quest_desc: [
 		"Questo gadget serve per collegare due Wireless Connector."
 		""
@@ -1422,6 +1567,7 @@
 	]
 	quest.684B224447B64520.quest_subtitle: "Ci siamo quasi!"
 	quest.684B224447B64520.title: "Crafting Table"
+	quest.687F80949C56805A.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.6886B94EC94A32A6.quest_desc: [
 		"Ti permette di convertire l'energia cinetica in energia elettrica!"
 		""
@@ -1463,7 +1609,7 @@
 		"&lMolte mod introducono questi tipi di blocchi per creare una progressione per la loro mod. Più è complicato/costoso il crafting di questi blocchi, più sarà potente/funzionale il macchinario!&r"
 	]
 	quest.6B358DBE1FE93403.quest_desc: ["Inizialmente dovrai utilizzare l'Inscriber con le Press che hai trovato all'interno del meteorite."]
-	quest.6B358DBE1FE93403.quest_subtitle: "Tips: Ci sono diversi modi per produrre questi oggetti!"
+	quest.6B358DBE1FE93403.quest_subtitle: "Tips: ci sono diversi modi per produrre questi oggetti!"
 	quest.6B7D25C1EDF5BFB2.quest_desc: ["Versione potenziata del Pattern Provider!"]
 	quest.6C22C70A287A04A2.quest_desc: [
 		"Funziona come una Crafting Storage, ma può essere utilizzato solo all'interno del Quantim Computer!"
@@ -1495,7 +1641,7 @@
 		"Scripts, Unificazione item e ore, Worldgen e Quests"
 		""
 		"&e&lBuddafai:&r"
-		"Quests dei capitoli: AE2, Ender IO, Immersive Engineering, Mekanism e Pneumaticraft"
+		"Quests dei capitoli: AE2, Ender IO, Immersive Engineering, Mekanism, Pneumaticraft e Refined Storage"
 		""
 		"&b&lYouseffo13:&r"
 		"Quests del capitolo Create"
@@ -1515,6 +1661,7 @@
 		""
 		"Puoi applicarlo uno alla volta alla Metal Press, per poter produrre plate, wire e rod."
 	]
+	quest.6E0536C4BE7BEDE8.quest_desc: ["Questo blocco funziona sia da Importer che da Exporter!"]
 	quest.6E8C7D306EC6162D.quest_desc: ["Lega metallica utile per i crafting della mod!"]
 	quest.6EBAEDE69B188AD3.quest_desc: [
 		"Particolare oggetto ottenuto tramite l'infusione dell'anima di un Villager con una Grinding Ball di Dark Steel."
@@ -1533,7 +1680,7 @@
 		"{image:techacademy:textures/quests/backpack.png width:160 height:100 align:center}"
 	]
 	quest.6EC3E55F8B154301.quest_desc: [
-		"Il Molecular Assembler è la Crafting Table della Ae2 per gli autocrafting!"
+		"Il Molecular Assembler è la Crafting Table della AE2 per gli autocrafting!"
 		""
 		"&lPosizionala vicino ad un Pattern Provider (versione blocco) per poter ricevere i materiali per il crafting.&r"
 	]
@@ -1562,8 +1709,17 @@
 		"L’energia viene generata da generatori o reattori, trasportata tramite cavi e immagazzinata in batterie o capacitori. Le macchine consumano RF/t per funzionare, e se l’energia è insufficiente rallentano o si fermano. Per un sistema efficiente, è importante bilanciare generazione e consumo. ⚡"
 	]
 	quest.71AE09BBC3246B9D.title: "INTRODUZIONE ALL'ENERGIA"
+	quest.71B12F48BC1E3F93.quest_desc: ["Come la precedente ma più capiente e veloce!"]
+	quest.71CAD7EEC8481EA8.quest_desc: ["Verso l'infinito ed oltre!"]
 	quest.71FB4209B80A2821.quest_desc: ["Come prima ma più spaziosa!"]
 	quest.720769427EB6CB28.title: "Cibo per il Cuore"
+	quest.720DFB9012E497B0.quest_desc: [
+		"Funziona come un'antenna per utilizzare wireless la tua Refined!"
+		""
+		"Al suo interno puoi inserire i Range Upgrade per aumentare il raggio d'azione dell'antenna! "
+		""
+		"&lNaturalmente più booster inserisci, più la tua network consumerà energia.&r"
+	]
 	quest.7261F2890B97E6B3.quest_desc: [
 		"Il SAG Mill non è altro che un maceratore, come ad esempio il Crusher della Immersive, ma molto più compatto!"
 		""
@@ -1585,6 +1741,7 @@
 		""
 		"Inoltre alcuni tipi di queste boccette riempite con l'anima di uno specifico mob possono essere utili in alcuni crafting. "
 	]
+	quest.735FC935D86D2C48.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.739BBB5D7CA2C841.quest_desc: ["Versione potenziata dell'Export Bus!"]
 	quest.73C0FB0FA18AFE0F.quest_desc: ["In acqua non avrai più bisogno di prendere aria!"]
 	quest.740F8E1306C59A5B.quest_desc: [
@@ -1632,7 +1789,7 @@
 		"&6&lEsistono anche altri tipi di droni specifici per alcuni task oppure anche completamente programmabili con complesse istruzioni. Questa parte sta a te ad esplorarla con molta curiosità!&r&r"
 	]
 	quest.767DB015FC0FDD2B.quest_subtitle: "Un drone per il tuo automatizzare il tuo orto!"
-	quest.769CA038ADBF411F.quest_desc: ["Già dal loro nome si può intendere che questi moduli possono essere utilizzati per prelevare o fornire degli oggetti, fluidi o gas ad un inventario!"]
+	quest.769CA038ADBF411F.quest_desc: ["Questi moduli possono essere utilizzati per prelevare o fornire oggetti, fluidi o gas ad un inventario!"]
 	quest.76A3A3B5463A7053.quest_desc: [
 		"L'Heat Frame può essere applicato a macchinari, tank o chest."
 		""
@@ -1658,6 +1815,7 @@
 	quest.770BC6D95E31F6F7.quest_subtitle: "Crafta un charger!"
 	quest.770BC6D95E31F6F7.title: "Applied Energistics 2"
 	quest.7718B07C40E03C95.quest_desc: ["Metodo alternativo per farmare string e importantissimo elemento della Immersive Engineering, pianta più Hemp che puoi, te ne serviranno!"]
+	quest.776033F64F65452E.quest_desc: ["Se si utilizza questa upgrade all'interno di un Exporter, permette di esportare un determinato oggetto anche se non disponibile nella network craftandolo, sempre se si è definita una Pattern per l'oggetto!"]
 	quest.77E6282D85DC2FDB.quest_desc: [
 		"Mecchinario che genera passamente aria compressa attraverso la differenza di temperatura. Esistono vari blocchi che forniscono \"caldo\" o \"freddo\"."
 		""
@@ -1760,13 +1918,23 @@
 	quest.7C7E929595318F26.quest_desc: [
 		"Finalmente il tuo inventario sempre a portata di mano!"
 		""
-		"&lPrima di utilizzare il Wireless Terminal dovrai collegarlo al Wireless Access Point. Mantenendoti nel raggio d'azione dell'antenna potrai accedere wireless al tuo storage.&r"
+		"&lPrima di utilizzare il Wireless Crafting Terminal dovrai collegarlo al Wireless Access Point. Mantenendoti nel raggio d'azione dell'antenna potrai accedere wireless al tuo storage.&r"
 		""
-		"Più aventi potrai avere l'accesso allo storage da qualunque distanza e dimensione ma dovrai collegare il terminal ad un Quantum Ring! Vedi le quest al riguardo per più informazioni."
+		"Più avanti potrai avere l'accesso allo storage da qualunque distanza e dimensione ma dovrai collegare il terminal ad un Quantum Ring! Vedi le quest al riguardo per più informazioni."
 	]
 	quest.7CC980275DDBE5EB.quest_desc: ["Permette di aumentare la velocità dei macchinari a scapito del consumo di carburante!"]
+	quest.7CCE94359EFA7A7F.quest_desc: [
+		"Materiali di base con i quali produrre tutti gli oggetti della RS!"
+		""
+		"&l&6Su tutti gli oggetti della mod tenendoci sopra il cursore del mouse e cliccando Shift apparirà una piccola descrizione dell'oggetto e del suo utilizzo!&r&r"
+	]
 	quest.7D029A05E14BCF59.quest_desc: ["Permette di mixare due liquidi per ottenerne un terzo oppure per creare un blocco come ad esempio l'ossidiana!"]
-	quest.7DABFDFC91B6995E.quest_desc: ["Un modulo che permette al sistema di videre gli oggetti, fluidi o gas immagazzinati all'interno di un inventario!"]
+	quest.7D1F74E75C8370D2.quest_desc: [
+		"Versione della Grid che permette di codificare le Pattern per gli autocrafting!"
+		""
+		"Utilizza le Pattern per memorizzare le ricette di crafting."
+	]
+	quest.7DABFDFC91B6995E.quest_desc: ["Un modulo che permette al sistema di vedere gli oggetti, fluidi o gas immagazzinati all'interno di un inventario!"]
 	quest.7DBB41426456551B.quest_desc: ["Getta 1 pezzo di Sky Stone, 1 di Charged Certus Quartz e 1 di osmium all'interno della lava, non è uno scherzo!"]
 	quest.7DC731417C3441FB.quest_desc: ["I cavi normali se toccati provocano danni al giocatore, ma se isolati questo danno viene annullato ed il giocatore potrà giocare liberamente senza preoccuparsi di prendere la scossa!"]
 	quest.7DD157FC2E23127E.quest_desc: [

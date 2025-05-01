@@ -1925,5 +1925,37 @@
 			x: 13.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["6DFAFF3F336D9002"]
+			id: "193D58BC69392224"
+			rewards: [{
+				count: 2
+				id: "30F75D72A87ADCFA"
+				item: {
+					count: 1
+					id: "more_immersive_wires:rs_coil"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7EB8C7AB86675AD3"
+					item: { count: 1, id: "more_immersive_wires:rs_connector" }
+					type: "item"
+				}
+				{
+					id: "071E6813ECA20022"
+					item: { count: 1, id: "more_immersive_wires:rs_relay" }
+					type: "item"
+				}
+				{
+					id: "6AB7B22E249C1CFE"
+					item: { count: 1, id: "more_immersive_wires:rs_coil" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 2.5d
+		}
 	]
 }

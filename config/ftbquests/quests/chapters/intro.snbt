@@ -874,5 +874,26 @@
 			x: 1.0d
 			y: -14.0d
 		}
+		{
+			dependencies: ["3A06DAA6736EF1D4"]
+			id: "5FCC2A9764FA0B5F"
+			rewards: [{
+				count: 8
+				id: "471A7CA6782A18DB"
+				item: {
+					count: 1
+					id: "refinedstorage:processor_binding"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1CE413EB55B5616E"
+				item: { count: 1, id: "refinedstorage:processor_binding" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -16.0d
+		}
 	]
 }
