@@ -1,5 +1,5 @@
 ---
-name: "\U0001F41B  Bug report / Segnalazione di un BUG"
+name: "\U0001F41B  Bug report / Segnalazione di un Bug"
 about: Report what is not working properly / Segnala quello che non funziona correttamente
 title: "[BUG \U0001F41B] Issue Title / Titolo della segnalazione"
 labels: bug
