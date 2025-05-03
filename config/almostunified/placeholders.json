@@ -53,5 +53,17 @@
     "uranium",
     "uraninite",
     "zinc"
+  ],
+  "diskSizeItem":[
+    "256k",
+    "1024k",
+    "4096k",
+    "16384k"
+  ],
+  "diskSizeFluid":[
+    "16384b",
+    "65536b",
+    "262144b",
+    "1048576b"
   ]
 }

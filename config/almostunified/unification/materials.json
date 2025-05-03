@@ -17,7 +17,9 @@
     "refiendstorage",
     "ae2",
     "actuallyadditions",
-    "utilitarian"
+    "utilitarian",
+    "extradisks",
+    "extrastorage"
   ],
   "priority_overrides": {
     "c:ingots/bronze": "mekanism",
@@ -52,7 +54,13 @@
     "c:dyes/black",
     "c:dusts/wood",
     "c:tiny/coal",
-    "c:tiny/charcoal"
+    "c:tiny/charcoal",
+    "refinedstorage:parts/items/{diskSizeItem}",
+    "refinedstorage:parts/fluids/{diskSizeFluid}",
+    "refinedstorage:disks/items/{diskSizeItem}",
+    "refinedstorage:disks/fluids/{diskSizeFluid}",
+    "refinedstorage:storage_blocks/items/{diskSizeItem}",
+    "refinedstorage:storage_blocks/fluids/{diskSizeFluid}"
   ],
   "ignored_tags": [],
   "ignored_items": [
