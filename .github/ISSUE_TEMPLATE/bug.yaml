@@ -53,8 +53,8 @@ body:
       description: A clear and concise description of what the bug is. | Una descrizione chiara e concisa del bug.
       placeholder: | 
        ### How to reproduce / Come riprodurlo
-       1.  Go to X / Vai a X
-       2.  Open X / Apri X
+       1. Go to X / Vai a X
+       2. Open X / Apri X
        3. [etc]
       render: markdown
     validations:
