@@ -44,7 +44,7 @@
 			}]
 			tasks: [{
 				id: "6B386A832095D9D3"
-				item: { count: 1, id: "refinedstorage:cable" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:cables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -86,17 +86,17 @@
 			size: 1.5d
 			tasks: [
 				{
-					id: "58C871A69587F9B5"
+					id: "45C0B637543EC82D"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:silicon)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "5EAE7F49ED4BE0A4"
+					id: "20E7F1D0E7ABEBDC"
 					item: { count: 1, id: "refinedstorage:quartz_enriched_iron" }
 					type: "item"
 				}
 				{
-					id: "19E2A9A499257DEC"
+					id: "0AD5105FE78EAF8C"
 					item: { count: 1, id: "refinedstorage:quartz_enriched_copper" }
 					type: "item"
 				}
@@ -264,8 +264,8 @@
 				item: { count: 1, id: "refinedstorage:wrench" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.5d
+			x: -1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["66F986E39382D365"]
@@ -281,7 +281,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "5FE2E4E70931AABF"
-				item: { count: 1, id: "refinedstorage:controller" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:controllers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -300,11 +300,11 @@
 			}]
 			tasks: [{
 				id: "04D8C8B87075E776"
-				item: { count: 1, id: "refinedstorage:importer" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:importers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5851D1D0F1C712FD"]
@@ -319,11 +319,11 @@
 			}]
 			tasks: [{
 				id: "0D89219E149AE667"
-				item: { count: 1, id: "refinedstorage:exporter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:exporters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: 5.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["5851D1D0F1C712FD"]
@@ -338,11 +338,11 @@
 			}]
 			tasks: [{
 				id: "2647B5257382FE90"
-				item: { count: 1, id: "refinedstorage:external_storage" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:external_storages)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5851D1D0F1C712FD"]
@@ -357,11 +357,11 @@
 			}]
 			tasks: [{
 				id: "576FB251E0646C89"
-				item: { count: 1, id: "refinedstorage:constructor" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:constructors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.0d
+			x: 5.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5851D1D0F1C712FD"]
@@ -376,11 +376,11 @@
 			}]
 			tasks: [{
 				id: "031B626F756A071C"
-				item: { count: 1, id: "refinedstorage:destructor" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:destructors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["66F986E39382D365"]
@@ -395,7 +395,7 @@
 			}]
 			tasks: [{
 				id: "70A805D542EAC911"
-				item: { count: 1, id: "refinedstorage:relay" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:relays)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -414,11 +414,11 @@
 			}]
 			tasks: [{
 				id: "380D0FE47A0704D1"
-				item: { count: 1, id: "refinedstorage:wireless_transmitter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:wireless_transmitters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.5d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["720DFB9012E497B0"]
@@ -433,11 +433,11 @@
 			}]
 			tasks: [{
 				id: "09A1CD56C18804D9"
-				item: { count: 1, id: "interdimensionalwirelesstransmitter:interdimensional_wireless_transmitter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(interdimensionalwirelesstransmitter:interdimensional_wireless_transmitters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.5d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["66F986E39382D365"]
@@ -476,8 +476,8 @@
 				item: { count: 1, id: "refinedstorage:speed_upgrade" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 10.5d
+			x: -6.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["126D2078C289AE41"]
@@ -496,8 +496,8 @@
 				item: { count: 1, id: "refinedstorage:stack_upgrade" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 10.5d
+			x: -7.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["61A7C177D695CE54"]
@@ -534,14 +534,11 @@
 				item: { count: 1, id: "refinedstorage:silk_touch_upgrade" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 11.5d
 		}
 		{
-			dependencies: [
-				"720DFB9012E497B0"
-				"027E19AECA119701"
-			]
+			dependencies: ["720DFB9012E497B0"]
 			id: "126B79E8F0CA4428"
 			rewards: [{
 				count: 2
@@ -557,8 +554,8 @@
 				item: { count: 1, id: "refinedstorage_quartz_arsenal:wireless_crafting_grid" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5851D1D0F1C712FD"]
@@ -959,7 +956,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 14.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["506945B237402C87"]
@@ -975,13 +972,13 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 15.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["004D5B518B8C6C72"]
 			id: "1BDDBEFA2199F8B4"
 			rewards: [{
-				id: "1E6485CF9BE88427"
+				id: "1DC3E08DECEAE8C3"
 				item: {
 					count: 1
 					id: "extradisks:16384b_fluid_storage_part"
@@ -990,7 +987,7 @@
 			}]
 			tasks: [{
 				id: "0109E413C8CA2AD1"
-				item: { count: 1, id: "extradisks:16384b_fluid_storage_part" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:parts/fluids/16384b)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -11.0d
@@ -1000,7 +997,7 @@
 			dependencies: ["1BDDBEFA2199F8B4"]
 			id: "0A2EDDDED9E143D6"
 			rewards: [{
-				id: "39703CA97818361E"
+				id: "750C12EE54328A9F"
 				item: {
 					count: 1
 					id: "extradisks:65536b_fluid_storage_part"
@@ -1009,7 +1006,7 @@
 			}]
 			tasks: [{
 				id: "2157D395079EBCF9"
-				item: { count: 1, id: "extradisks:65536b_fluid_storage_part" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:parts/fluids/65536b)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -12.0d
@@ -1028,7 +1025,7 @@
 			}]
 			tasks: [{
 				id: "319283B2128CF794"
-				item: { count: 1, id: "extradisks:262144b_fluid_storage_part" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:parts/fluids/262144b)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -13.0d
@@ -1047,11 +1044,11 @@
 			}]
 			tasks: [{
 				id: "5CF8BCCF48AB7C00"
-				item: { count: 1, id: "extradisks:1048576b_fluid_storage_part" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:parts/fluids/1048576b)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -4.5d
-			y: 14.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["687F80949C56805A"]
@@ -1067,7 +1064,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 15.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["18503A6B901392EF"]
@@ -1082,7 +1079,7 @@
 			}]
 			tasks: [{
 				id: "424D9DAB1610FA28"
-				item: { count: 1, id: "extradisks:256k_item_storage_part" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:parts/items/256k)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -11.0d
@@ -1101,7 +1098,7 @@
 			}]
 			tasks: [{
 				id: "21A4C35AC8763B03"
-				item: { count: 1, id: "extradisks:1024k_item_storage_part" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:parts/items/1024k)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -12.0d
@@ -1120,7 +1117,7 @@
 			}]
 			tasks: [{
 				id: "36442C3A168CAFFE"
-				item: { count: 1, id: "extradisks:4096k_item_storage_part" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:parts/items/4096k)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -13.0d
@@ -1139,7 +1136,7 @@
 			}]
 			tasks: [{
 				id: "135B2BDC14675A8B"
-				item: { count: 1, id: "extradisks:16384k_item_storage_part" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:parts/items/16384k)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -14.0d
@@ -1181,7 +1178,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 14.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["3A2D11CD45B3F989"]
@@ -1200,7 +1197,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 15.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["4858B354737A1781"]
@@ -1216,7 +1213,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 16.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["66F986E39382D365"]
@@ -1234,7 +1231,7 @@
 				item: { count: 1, id: "refinedstorage:storage_housing" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 7.5d
 		}
 		{
@@ -1253,7 +1250,7 @@
 				item: { count: 1, id: "extradisks:advanced_storage_housing" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 7.5d
 		}
 		{
@@ -1328,13 +1325,14 @@
 				}
 			]
 			x: -3.5d
-			y: 13.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
 				"2155A9AE9FA74C8E"
 				"2ACE07B4BEF27ED0"
 			]
+			hide_dependency_lines: true
 			id: "6E0536C4BE7BEDE8"
 			rewards: [{
 				id: "26333AE4798E3383"
@@ -1349,8 +1347,8 @@
 				item: { count: 1, id: "refinedstorage:interface" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["66F986E39382D365"]
@@ -1369,8 +1367,8 @@
 				item: { count: 1, id: "refinedstorage:configuration_card" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 5.5d
+			x: -5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["56119DD9B0EA6245"]
@@ -1389,7 +1387,7 @@
 				item: { count: 1, id: "refinedstorage:disk_interface" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 8.5d
 		}
 		{
@@ -1428,7 +1426,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 15.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["4595FC15F49EBC22"]
@@ -1456,7 +1454,7 @@
 				}
 			]
 			x: 2.0d
-			y: 13.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["601874CCFEDD44AE"]
@@ -1475,7 +1473,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 16.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["2B8B1C967E46BD3B"]
@@ -1494,13 +1492,14 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 17.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
 				"2155A9AE9FA74C8E"
 				"2ACE07B4BEF27ED0"
 			]
+			hide_dependency_lines: true
 			id: "597063F189528FAB"
 			rewards: [
 				{
@@ -1532,8 +1531,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 3.5d
+			x: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["66F986E39382D365"]
@@ -1544,25 +1543,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "08442F16A32CBEE5"
-					item: { count: 1, id: "refinedstorage:1k_storage_block" }
-					type: "item"
-				}
-				{
-					id: "5E3D3E32CAF30198"
-					item: { count: 1, id: "refinedstorage:64b_fluid_storage_block" }
-					type: "item"
-				}
-				{
-					id: "1B98479A82B19CD5"
-					item: { count: 1, id: "refinedstorage_mekanism_integration:64b_chemical_storage_block" }
-					type: "item"
-				}
-			]
-			x: -5.0d
-			y: 7.5d
+			tasks: [{
+				id: "22FDB94B88DF21F8"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(refinedstorage:storage_blocks))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["61A7C177D695CE54"]
@@ -1582,7 +1569,139 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2155A9AE9FA74C8E"]
+			id: "75402BFFC6776CA5"
+			tasks: [{
+				id: "5BAD97EB6E9C1862"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cabletiers:elite_importers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["75402BFFC6776CA5"]
+			id: "510E9302E68C1EE4"
+			tasks: [{
+				id: "41C7E6AD285904CD"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cabletiers:ultra_importers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["510E9302E68C1EE4"]
+			id: "77996CC54B5FB24D"
+			tasks: [{
+				id: "163F27270D0C6301"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cabletiers:mega_importers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2ACE07B4BEF27ED0"]
+			id: "27272E67898C83E5"
+			tasks: [{
+				id: "5BE7952EFCF184B0"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cabletiers:elite_exporters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["27272E67898C83E5"]
+			id: "082F987361195F32"
+			tasks: [{
+				id: "5F45315E0BA31D76"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cabletiers:ultra_exporters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["082F987361195F32"]
+			id: "40BDB3287036DBEE"
+			tasks: [{
+				id: "7EBA03A81A17C13B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cabletiers:mega_exporters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["000FF4CA00CDBBF1"]
+			id: "6586A3E2C493B8AB"
+			tasks: [{
+				id: "7D7398C384634E68"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cabletiers:elite_constructors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6586A3E2C493B8AB"]
+			id: "5C55BAD0CC2ADCE3"
+			tasks: [{
+				id: "058A5C14CA609FEC"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cabletiers:ultra_constructors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5C55BAD0CC2ADCE3"]
+			id: "67B6CD10FA1C64E2"
+			tasks: [{
+				id: "57B858DB1EFD6778"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cabletiers:mega_constructors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["010149C98210CF8D"]
+			id: "4BC72A637C5B57BC"
+			tasks: [{
+				id: "74CB1CF19C22E52E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cabletiers:elite_destructors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4BC72A637C5B57BC"]
+			id: "35D26EF3D31A324E"
+			tasks: [{
+				id: "4C54F6E8619A7AAE"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cabletiers:ultra_destructors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["35D26EF3D31A324E"]
+			id: "6EBD54EBB904F3E4"
+			tasks: [{
+				id: "04A732127E8E367D"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cabletiers:mega_destructors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
 		}
 	]
 }
