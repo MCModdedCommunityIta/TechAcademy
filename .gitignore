@@ -36,3 +36,5 @@ config/jei/world/*
 /local/kubejs
 !/mods_placeholder
 *.bak
+kubejs/README.txt
+kubejs/assets/kubejs/textures/block/example_block.png
