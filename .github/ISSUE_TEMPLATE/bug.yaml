@@ -51,7 +51,7 @@ body:
     attributes:
       label: Step To Reproduce / Step per riprodurre
       description: A clear and concise description of what the bug is. | Una descrizione chiara e concisa del bug.
-      placeholder: 1. Go to '...' / Vai a '...' 2. Click on '....' / Clicca su '...' 3. Scroll down to '....' / Scrolla sotto fino a '...' 4. See error / Osserva l'errore
+      placeholder: 1. Go to '...' / Vai a '...' \n 2. Click on '....' / Clicca su '...' \n 3. Scroll down to '....' / Scrolla sotto fino a '...' 4. See error / Osserva l'errore
     validations:
       required: true
 
