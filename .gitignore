@@ -35,3 +35,4 @@ config/jei/world/*
 /archivio.zip
 /local/kubejs
 !/mods_placeholder
+*.bak
