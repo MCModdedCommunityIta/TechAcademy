@@ -1,0 +1,74 @@
+name: 🐛 Bug report / Segnalazione di un Bug
+description: Report what is not working properly / Segnala quello che non funziona correttamente
+labels: [bug]
+assignees: SiriosDev
+body:
+
+  - type: checkboxes
+    id: new-issue
+    attributes:
+      label: Minimum Requirements / Requisiti Minimi
+      description: 
+      options:
+        - label: I have searched on opened issues of this repository / Ho gia cercato negli issue aperti di questa repository 
+          required: true
+        - label: I have a clean installation of this modpack / Ho un'installazione pulita di questo modpack
+          required: false
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Game Environment / Ambiente di gioco
+      description: 
+      options:
+        - Singleplayer/Local | NO LAN
+        - Multiplayer        | LAN
+        - Multiplayer        | Dedicated server
+    validations:
+      required: true
+
+  - type: input
+    id: version-box
+    attributes:
+      label: Modpack Version / Versione del modpack
+      description: 
+      placeholder: v0.1
+    validations:
+      required: true
+
+
+  - type: textarea
+    id: desc
+    attributes:
+      label: Describe the bug / Descrivi il bug
+      description: A clear and concise description of what the bug is. / Una descrizione chiara e concisa del bug.
+      placeholder: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Step To Reproduce / Step per riprodurre
+      description: A clear and concise description of what the bug is. | Una descrizione chiara e concisa del bug.
+      placeholder: 1. Go to '...' / Vai a '...' 2. Click on '....' / Clicca su '...' 3. Scroll down to '....' / Scrolla sotto fino a '...' 4. See error / Osserva l'errore
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior / Comportamento previsto
+      description: A clear and concise description of what you expected to happen. / Una descrizione chiara e concisa di ciò che ci si aspettava che accadesse.
+      placeholder: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: other-info
+    attributes:
+      label: Extra / Altro
+      description: OS version , added/removed mod / versione OS , mod aggiunte/rimosse
+      placeholder: ...
+    validations:
+      required: false
