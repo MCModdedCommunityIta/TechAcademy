@@ -4,8 +4,6 @@
 
 Separare i primi con un nome significativo e i secondi con un nome diverso, tipo "altro"
 
-Creazione dell'archivio compresso in windows (basato su 7z, git e pwsh7):
-
 ##
 ### Descrizione
 
