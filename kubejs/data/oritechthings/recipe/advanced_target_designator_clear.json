@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "oritechthings:accelerator_target_designator"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "oritechthings:advanced_target_designator"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "oritechthings:advanced_target_designator"
+  }
+}
