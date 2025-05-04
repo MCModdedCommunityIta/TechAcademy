@@ -1,0 +1,22 @@
+name: 🚀 New Feature / Nuove Funzionalità
+description: New things that could be good to include / Nuove cose che potrebbero essere ottime da includere 
+labels: [enhancement]
+assignees: SiriosDev
+body:
+  - type: checkboxes
+    id: new-issue
+    attributes:
+      label: Minimum Requirements / Requisiti Minimi
+      description: 
+      options:
+        - label: I have searched on opened issues of this repository / Ho gia cercato negli issue aperti di questa repository 
+          required: true
+          
+  - type: textarea
+    id: desc
+    attributes:
+      label: Description / Descrizione
+      description: Something that could fit on this project / Qualcosa che può starci in questo progetto
+      placeholder: ...
+    validations:
+      required: true

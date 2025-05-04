@@ -1,0 +1,13 @@
+name: 📑 Question / Domanda
+description: Quick question / Domanda rapida
+labels: [question]
+assignees: SiriosDev
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Free text area / Area di testo libera
+      description: Describe / Descrivi
+      placeholder: ...
+    validations:
+      required: true
