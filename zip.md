@@ -1,3 +1,6 @@
+Creazione dell'archivio compresso in windows (basato su 7z, git e pwsh7):
+
+
 ```pwsh
 # scegliere SOLO gli hash dei commit che effettivamente modificano un file di gioco utile all'update
 
