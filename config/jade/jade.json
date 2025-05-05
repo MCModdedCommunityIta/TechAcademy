@@ -1,6 +1,6 @@
 {
   "general": {
-    "itemModNameTooltip": true,
+    "itemModNameTooltip": false,
     "bossBarOverlapMode": "PUSH_DOWN",
     "builtinCamouflage": true,
     "hideFromTabList": true,
@@ -42,6 +42,7 @@
     }
   },
   "history": {
+    "hintOverlayToggle": false,
     "themesHash": -328442023
   }
 }

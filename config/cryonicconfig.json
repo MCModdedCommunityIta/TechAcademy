@@ -1,3 +1,4 @@
 {
-  "chisel": "chisel.json"
+  "chisel": "chisel.json",
+  "chiseler": "chiseler.json"
 }
