@@ -21,11 +21,17 @@
     ],
     "c:ores/aluminum": [
       "c:ores/aluminium"
+    ],
+    "c:storage_blocks/steel": [
+      "c:storage_blocks/biosteel"
+    ],
+    "c:dusts/steel": [
+      "c:dusts/biosteel"
     ]
   },
   "item_tag_inheritance_mode": "ALLOW",
   "item_tag_inheritance": {},
   "block_tag_inheritance_mode": "ALLOW",
   "block_tag_inheritance": {},
-  "emi_strict_hiding": true
+  "emi_strict_hiding": false
 }

@@ -134,7 +134,7 @@
 	[ores.platinum]
 		# Default: 5
 		# Range: 0 ~ 5
-		processingLevel = 0
+		processingLevel = 5
 		#Disable recipe what smelting/blasting dust into ingot.
 		disableDustCooking = false
 

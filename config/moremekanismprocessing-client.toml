@@ -99,7 +99,7 @@
 	[ores.platinum]
 		#if empty, use default
 		#default : a0f0ff
-		color = ""
+		color = "74cfc6"
 
 	[ores.ruby]
 		#if empty, use default
