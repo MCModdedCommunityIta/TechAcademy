@@ -15,6 +15,8 @@
     "megacells",
     "refiendstorage",
     "ae2",
+    "extendedae",
+    "advanced_ae",
     "actuallyadditions",
     "utilitarian",
     "oritech",
@@ -23,7 +25,8 @@
     "extrastorage"
   ],
   "priority_overrides": {
-    "c:ingots/bronze": "mekanism"
+    "c:ingots/bronze": "mekanism",
+    "c:plates/plastic": "industrialforegoing"
   },
   "stone_variants": [
     "stone",
@@ -57,8 +60,7 @@
     "refinedstorage:disks/items/{diskSizeItem}",
     "refinedstorage:disks/fluids/{diskSizeFluid}",
     "refinedstorage:storage_blocks/items/{diskSizeItem}",
-    "refinedstorage:storage_blocks/fluids/{diskSizeFluid}",
-    "c:crude_oil"
+    "refinedstorage:storage_blocks/fluids/{diskSizeFluid}"
   ],
   "ignored_tags": [],
   "ignored_items": [

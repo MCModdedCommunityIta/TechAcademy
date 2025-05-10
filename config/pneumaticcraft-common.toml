@@ -324,7 +324,7 @@
 
 [recipes]
 	#Does Molten Plastic solidify to Plastic Sheets when poured into the world? If set to false, then Heat Frame cooling is the only other way to make Plastic Sheets (by default).
-	in_world_plastic_solidification = true
+	in_world_plastic_solidification = false
 	#Is in-world Yeast crafting allowed (making more Yeast Culture by pouring Water next to a Yeast Culture block with Sugar in it)? If set to false, then the default TPP Mushroom & Water -> Yeast Culture recipe is the only way to get Yeast Culture.
 	in_world_yeast_crafting = true
 

@@ -27,6 +27,11 @@
     ],
     "c:dusts/steel": [
       "c:dusts/biosteel"
+    ],
+    "c:plates/plastic":[
+      "productivebees:flowers/plastic",
+      "c:plastics",
+      "pneumaticcraft:plastic_sheets"      
     ]
   },
   "item_tag_inheritance_mode": "ALLOW",
