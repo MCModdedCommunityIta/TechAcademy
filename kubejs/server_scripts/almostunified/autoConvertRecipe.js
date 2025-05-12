@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
     let targetItem = AlmostUnified.getTagTargetItem(tag);
 
     // skippa gli item previsti dai config ma che all'effettivo non hanno cloni da unificare
-    if (!targetItem.id.includes("air")) {
+    if (!targetItem.id.includes("air") && getIdsByTag(`#${tag}`).length > 1) {
       event.shapeless(
         AlmostUnified.getTagTargetItem(tag),
         [
