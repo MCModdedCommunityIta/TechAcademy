@@ -28,10 +28,26 @@
     "c:dusts/steel": [
       "c:dusts/biosteel"
     ],
+    "c:dusts/flour": [
+      "c:flours/weat",
+      "c:flours"
+    ],
     "c:plates/plastic":[
       "productivebees:flowers/plastic",
       "c:plastics",
       "pneumaticcraft:plastic_sheets"      
+    ],
+    "c:dusts/pulsating_crystal":[
+      "c:dusts/grains_of_pizeallity"
+    ],
+    "c:dusts/vibrant_crystal":[
+      "c:dusts/grains_of_vibrancy"
+    ],
+    "c:dusts/ender_crystal":[
+      "c:dusts/grains_of_the_end"
+    ],
+    "c:dusts/prescient_crystal":[
+      "c:dusts/grains_of_prescience"
     ]
   },
   "item_tag_inheritance_mode": "ALLOW",
@@ -40,3 +56,6 @@
   "block_tag_inheritance": {},
   "emi_strict_hiding": false
 }
+
+
+
