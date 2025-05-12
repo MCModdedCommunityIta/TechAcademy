@@ -1,3 +1,5 @@
+// priority: 9999998
+
 ServerEvents.recipes((event) => {
   addCentrifuge(event, {
     fluidInput: {
