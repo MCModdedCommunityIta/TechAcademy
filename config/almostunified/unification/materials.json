@@ -28,6 +28,7 @@
   "priority_overrides": {
     "c:ingots/bronze": "mekanism",
     "c:ingots/platinum": "oritech",
+    "c:dusts/platinum": "oritech",
     "c:plates/plastic": "industrialforegoing"
   },
   "stone_variants": [

@@ -129,7 +129,7 @@
 	[ores.sulfur]
 		#if empty, use default
 		#default : d8cc51
-		color = ""
+		color = "e8ac19"
 
 	[ores.titanium]
 		#if empty, use default

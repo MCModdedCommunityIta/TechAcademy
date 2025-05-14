@@ -172,7 +172,7 @@
 	[ores.sulfur]
 		# Default: 5
 		# Range: 0 ~ 5
-		processingLevel = 0
+		processingLevel = 5
 
 	[ores.titanium]
 		# Default: 5

@@ -22,7 +22,6 @@ const materialToRemove_mmp = [
   "sapphire",
   "ostrum",
   "calorite",
-  "sulfur",
   "titanium",
   "tungsten"
 ];
