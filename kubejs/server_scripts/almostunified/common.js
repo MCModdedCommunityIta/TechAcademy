@@ -106,3 +106,23 @@ function getAtoB(_tagA, _tagB) {
 function itemExists(_id) {
   return ! (`${Item.of(_id)}`.includes("minecraft:air"));
 }
+
+
+/**
+ * Retrieves the target item associated with the specified tag or, if the tag does not correspond to an item, the first item ID associated with the tag.
+ *
+ * @param {string} _tag - The tag to retrieve the target item for (e.g., "c:ores/copper").
+ * @returns {$ItemStack} The target item associated with the tag, or the first item ID associated with the tag if no target item exists.
+ */
+function getTagOutput(_tag){
+  let targetItem = AlmostUnified.getTagTargetItem(_tag);
+  let altItem = Item.of(Ingredient.of(`#${_tag}`).itemIds[0]);
+
+  return !targetItem.id.includes("air") ? targetItem : altItem
+  
+}
+
+// function getItemOutput(_item){
+//   return AlmostUnified.getVariantItemTarget(_item)
+  
+// }
