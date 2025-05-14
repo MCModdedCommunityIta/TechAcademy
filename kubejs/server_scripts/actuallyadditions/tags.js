@@ -1,3 +1,5 @@
+// priority: 9999999
+
 ServerEvents.tags("block", (event) => {
   //più item
   event.get("minecraft:dirt").getObjectIds().forEach((id) => {

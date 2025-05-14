@@ -1,3 +1,5 @@
+// priority: 9999999
+
 ServerEvents.tags('item', event => {
   event.add('minecraft:skulls', 'enderio:enderman_head')
   event.add("c:dusts/flour", "enderio:flour")
