@@ -11,7 +11,6 @@ ServerEvents.recipes((event) => {
 
   getAtoB("c:raw_materials", "c:clumps").forEach((entry) => {
     if (!noRawsToClump.includes(`${entry["input"]}`.split("/")[1])) {
-      let targetItem = AlmostUnified.getTagTargetItem(entry["output"]);
       let material = `${entry["output"]}`.split("/")[1];
       addFragmentForge(event, {
         itemsInput: [
@@ -21,9 +20,7 @@ ServerEvents.recipes((event) => {
         ],
         itemsOutput: [
           {
-            id: !targetItem.id.includes("air")
-              ? targetItem.id
-              : Ingredient.of(entry["output"]).itemIds[0],
+            id: getTagOutput(entry["output"]).id,
             count: 1,
           },
           itemExists(`oritech:small_${material}_clump`)
@@ -52,7 +49,6 @@ ServerEvents.recipes((event) => {
 
   getAtoB("c:ingots", "c:dusts").forEach((entry) => {
     if (!noIngotsToDust.includes(`${entry["input"]}`.split("/")[1])) {
-      let targetItem = AlmostUnified.getTagTargetItem(entry["output"]);
       addFragmentForge(event, {
         itemsInput: [
           {
@@ -61,9 +57,7 @@ ServerEvents.recipes((event) => {
         ],
         itemsOutput: [
           {
-            id: !targetItem.id.includes("air")
-              ? targetItem.id
-              : Ingredient.of(entry["output"]).itemIds[0],
+            id: getTagOutput(entry["output"]).id,
             count: 1,
           },
         ],
@@ -82,7 +76,6 @@ ServerEvents.recipes((event) => {
 
   getAtoB("c:ores", "c:raw_materials").forEach((entry) => {
     if (!noOresToRaw.includes(`${entry["input"]}`.split("/")[1])) {
-      let targetItem = AlmostUnified.getTagTargetItem(entry["output"]);
       addFragmentForge(event, {
         itemsInput: [
           {
@@ -91,9 +84,7 @@ ServerEvents.recipes((event) => {
         ],
         itemsOutput: [
           {
-            id: !targetItem.id.includes("air")
-              ? targetItem.id
-              : Ingredient.of(entry["output"]).itemIds[0],
+            id: getTagOutput(entry["output"]).id,
             count: 2,
           },
         ],
@@ -105,7 +96,6 @@ ServerEvents.recipes((event) => {
 
   getAtoB("c:ores", "c:gems").forEach((entry) => {
     if (!noOresToGem.includes(`${entry["input"]}`.split("/")[1])) {
-      let targetItem = AlmostUnified.getTagTargetItem(entry["output"]);
       addFragmentForge(event, {
         itemsInput: [
           {
@@ -114,9 +104,7 @@ ServerEvents.recipes((event) => {
         ],
         itemsOutput: [
           {
-            id: !targetItem.id.includes("air")
-              ? targetItem.id
-              : Ingredient.of(entry["output"]).itemIds[0],
+            id: getTagOutput(entry["output"]).id,
             count: 1,
           },
         ],
@@ -128,7 +116,6 @@ ServerEvents.recipes((event) => {
 
   getAtoB("c:gems", "c:dusts").forEach((entry) => {
     if (!noGemToDust.includes(`${entry["input"]}`.split("/")[1])) {
-      let targetItem = AlmostUnified.getTagTargetItem(entry["output"]);
       addFragmentForge(event, {
         itemsInput: [
           {
@@ -137,9 +124,7 @@ ServerEvents.recipes((event) => {
         ],
         itemsOutput: [
           {
-            id: !targetItem.id.includes("air")
-              ? targetItem.id
-              : Ingredient.of(entry["output"]).itemIds[0],
+            id: getTagOutput(entry["output"]).id,
             count: 1,
           },
         ],
@@ -157,20 +142,25 @@ ServerEvents.recipes((event) => {
     ],
     itemsOutput: [
       {
-        id: AlmostUnified.getTagTargetItem("c:gems/amethyst").id,
+        id: getTagOutput("c:gems/amethyst").id,
         count: 4,
       },
     ],
   });
+  event.remove("oritech:grinder/dust/coal")
   addFragmentForge(event, {
     itemsInput: [
       {
-        tag: "c:ingots/refined_glowstone",
+        tag: "c:coal",
       },
     ],
     itemsOutput: [
       {
-        id: AlmostUnified.getTagTargetItem("c:dusts/glowstone").id,
+        id: getTagOutput("c:dusts/coal").id,
+        count: 1,
+      },
+      {
+        id: getTagOutput("c:dusts/sulfur").id,
         count: 1,
       },
     ],
@@ -183,11 +173,11 @@ ServerEvents.recipes((event) => {
     ],
     itemsOutput: [
       {
-        id: AlmostUnified.getTagTargetItem("c:dusts/charcoal").id,
+        id: getTagOutput("c:dusts/charcoal").id,
         count: 1,
       },
       {
-        id: AlmostUnified.getTagTargetItem("c:dusts/sulfur").id,
+        id: getTagOutput("c:dusts/sulfur").id,
         count: 1,
       },
     ],
@@ -200,7 +190,24 @@ ServerEvents.recipes((event) => {
     ],
     itemsOutput: [
       {
-        id: AlmostUnified.getTagTargetItem("c:dusts/coal_coke").id,
+        id: getTagOutput("c:dusts/coal_coke").id,
+        count: 1,
+      },
+      {
+        id: getTagOutput("c:dusts/sulfur").id,
+        count: 1,
+      },
+    ],
+  });
+  addFragmentForge(event, {
+    itemsInput: [
+      {
+        tag: "c:netherracks",
+      },
+    ],
+    itemsOutput: [
+      {
+        id: "create:cinder_flour",
         count: 1,
       },
     ],
@@ -213,7 +220,7 @@ ServerEvents.recipes((event) => {
     ],
     itemsOutput: [
       {
-        id: AlmostUnified.getTagTargetItem("c:dusts/flour").id,
+        id: getTagOutput("c:dusts/flour").id,
         count: 1,
       },
     ],
@@ -226,7 +233,7 @@ ServerEvents.recipes((event) => {
     ],
     itemsOutput: [
       {
-        id: AlmostUnified.getTagTargetItem("c:dusts/prismarine").id,
+        id: getTagOutput("c:dusts/prismarine").id,
         count: 8,
       },
     ],
@@ -239,7 +246,7 @@ ServerEvents.recipes((event) => {
     ],
     itemsOutput: [
       {
-        id: AlmostUnified.getTagTargetItem("c:dusts/prismarine").id,
+        id: getTagOutput("c:dusts/prismarine").id,
         count: 9,
       },
     ],
@@ -252,7 +259,7 @@ ServerEvents.recipes((event) => {
     ],
     itemsOutput: [
       {
-        id: AlmostUnified.getTagTargetItem("c:dusts/prismarine").id,
+        id: getTagOutput("c:dusts/prismarine").id,
         count: 4,
       },
     ],
@@ -265,7 +272,7 @@ ServerEvents.recipes((event) => {
     ],
     itemsOutput: [
       {
-        id: AlmostUnified.getTagTargetItem("c:gems/prismarine").id,
+        id: getTagOutput("c:gems/prismarine").id,
         count: 2,
       },
     ],
