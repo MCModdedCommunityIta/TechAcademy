@@ -1,5 +1,36 @@
 // priority: 10000000
 
+// /**
+//  * Generates a unique recipe id from a given baseRecipe.
+//  *
+//  * The generated id is a concatenation of the baseRecipe type, fluid input/output variants, result item id, and ingredient item/tag id.
+//  *
+//  * @param {Object} baseRecipe - The baseRecipe object.
+//  * @return {string} The generated recipe id.
+//  */
+// function recipeIdHelper(baseRecipe) {
+//   let recipeIdComponents = [
+//     baseRecipe["type"].replace(/:/g, "/"),
+//     baseRecipe["fluidInputAmount"] > 0 ? baseRecipe["fluidInputVariant"] : "",
+//     baseRecipe["fluidOutputAmount"] > 0 ? baseRecipe["fluidOutputVariant"] : "",
+//     baseRecipe["results"].length == 1 ? baseRecipe["results"][0].id : "",
+//     baseRecipe["ingredients"].length == 1 && "item" in baseRecipe["ingredients"][0] ? baseRecipe["ingredients"][0]["item"] : "",
+//     baseRecipe["ingredients"].length == 1 && "tag" in baseRecipe["ingredients"][0] ? baseRecipe["ingredients"][0]["tag"] : "",
+//   ];
+
+//   let recipeId = recipeIdComponents[0]+"/";
+
+//   for (let i = 1; i < recipeIdComponents.length; i++) {
+//     if (recipeIdComponents[i] != "" && i < recipeIdComponents.length && i<=1)
+//       recipeId = recipeId + "_";
+//     recipeId = recipeId + String(recipeIdComponents[i]);
+//   }
+
+//   recipeId = recipeId.replace(/:/g, "_").replace(/#/g, "_").replace(/\/_/g, "/");
+
+//   return recipeId;
+// }
+
 /**
  * Adds a centrifuge recipe to the game with specified inputs and outputs.
  *
@@ -23,6 +54,7 @@
  *
  * @param {number} centrifugeRecipe.processTime - The processing time for the centrifuge recipe in ticks, defaults to 200.
  * 
+ * @return {$KubeRecipe} The centrifuge recipe.
  * 
  */
 function addCentrifuge(event, centrifugeRecipe) {
@@ -70,7 +102,7 @@ function addCentrifuge(event, centrifugeRecipe) {
   baseRecipe["time"] = processTime;
 
 
-  event.custom(baseRecipe);
+  return event.custom(baseRecipe)
 }
 
 
@@ -87,6 +119,9 @@ function addCentrifuge(event, centrifugeRecipe) {
  * @param {number} pulverizerRecipe.itemsOutput[].count - The count of the item output, defaults to 1.
  * @param {number} pulverizerRecipe.processTime - The processing time for the pulverizer recipe in ticks, defaults to 200.
  * @param {Object} pulverizerRecipe.conditions - The conditions for the pulverizer recipe.
+ * 
+ * @return {$KubeRecipe} The pulverizer recipe.
+ * 
  */
 function addPulverizer(event, pulverizerRecipe) {
   let itemsInput = "itemsInput" in pulverizerRecipe ? pulverizerRecipe.itemsInput : {};
@@ -121,7 +156,7 @@ function addPulverizer(event, pulverizerRecipe) {
   baseRecipe["time"] = processTime;
 
 
-  event.custom(baseRecipe);
+  return event.custom(baseRecipe)
 }
 
 
@@ -139,6 +174,9 @@ function addPulverizer(event, pulverizerRecipe) {
  * @param {number} fragmentForgeRecipe.itemsOutput[].count - The count of the item output, defaults to 1.
  * @param {number} fragmentForgeRecipe.processTime - The processing time for the fragmentForge recipe in ticks, defaults to 200.
  * @param {Object} fragmentForgeRecipe.conditions - The conditions for the fragmentForge recipe.
+ * 
+ * @return {$KubeRecipe} The fragmentForge recipe.
+ * 
  */
 function addFragmentForge(event, fragmentForgeRecipe) {
   let itemsInput = "itemsInput" in fragmentForgeRecipe ? fragmentForgeRecipe.itemsInput : {};
@@ -172,7 +210,7 @@ function addFragmentForge(event, fragmentForgeRecipe) {
 
   baseRecipe["time"] = processTime;
 
-  event.custom(baseRecipe);
+  return event.custom(baseRecipe)
 }
 
 
@@ -190,6 +228,9 @@ function addFragmentForge(event, fragmentForgeRecipe) {
  * @param {number} atomicForgeRecipe.itemsOutput[].count - The count of the item output, defaults to 1.
  * @param {number} atomicForgeRecipe.processTime - The processing time for the atomicForge recipe in ticks, defaults to 200.
  * @param {Object} atomicForgeRecipe.conditions - The conditions for the atomicForge recipe.
+ * 
+ * @return {$KubeRecipe} The atomicForge recipe.
+ * 
  */
 function addAtomicForge(event, atomicForgeRecipe) {
   let itemsInput = "itemsInput" in atomicForgeRecipe ? atomicForgeRecipe.itemsInput : [];
@@ -250,7 +291,7 @@ function addAtomicForge(event, atomicForgeRecipe) {
 
   baseRecipe["time"] = processTime;
 
-  event.custom(baseRecipe);
+  return event.custom(baseRecipe)
 }
 
 /**
@@ -265,6 +306,9 @@ function addAtomicForge(event, atomicForgeRecipe) {
  * @param {string} foundryRecipe.itemsOutput[].id - The item id for the output, defaults to "minecraft:empty".
  * @param {number} foundryRecipe.itemsOutput[].count - The count of the item output, defaults to 1.
  * @param {number} foundryRecipe.processTime - The processing time for the foundry recipe in ticks, defaults to 200.
+ * 
+ * @return {$KubeRecipe} The foundry recipe.
+ * 
  * 
  */
 function addFoundry(event, foundryRecipe) {
@@ -323,7 +367,7 @@ function addFoundry(event, foundryRecipe) {
   baseRecipe["time"] = processTime;
 
 
-  event.custom(baseRecipe);
+  return event.custom(baseRecipe)
 }
 
 
@@ -339,6 +383,9 @@ function addFoundry(event, foundryRecipe) {
  * @param {string} assemblerRecipe.itemsOutput[].id - The item id for the output, defaults to "minecraft:empty".
  * @param {number} assemblerRecipe.itemsOutput[].count - The count of the item output, defaults to 1.
  * @param {number} assemblerRecipe.processTime - The processing time for the assembler recipe in ticks, defaults to 200.
+ * 
+ * @return {$KubeRecipe} The assembler recipe.
+ * 
  * 
  */
 function addAssembler(event, assemblerRecipe) {
@@ -402,7 +449,7 @@ function addAssembler(event, assemblerRecipe) {
 
   baseRecipe["time"] = processTime;
 
-  event.custom(baseRecipe);
+  return event.custom(baseRecipe)
 }
 
 
@@ -421,6 +468,8 @@ function addAssembler(event, assemblerRecipe) {
  * @param {number} coolerRecipe.itemsOutput[].count - The count of the item output, defaults to 1.
  *
  * @param {number} coolerRecipe.processTime - The processing time for the cooler recipe in ticks, defaults to 200.
+ * 
+ * @return {$KubeRecipe} The cooler recipe.
  * 
  */
 function addCooler(event, coolerRecipe) {
@@ -470,6 +519,6 @@ function addCooler(event, coolerRecipe) {
 
   baseRecipe["time"] = processTime;
 
-  event.custom(baseRecipe);
+  return event.custom(baseRecipe)
 }
 

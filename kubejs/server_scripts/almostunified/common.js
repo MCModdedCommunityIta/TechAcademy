@@ -126,3 +126,13 @@ function getTagOutput(_tag){
 //   return AlmostUnified.getVariantItemTarget(_item)
   
 // }
+
+
+// function recipeIdExists(recipeEvent, recipeId) {
+//   let recipesNumber = 0;
+//   recipeEvent.forEachRecipe({ id: recipeId }, (recipe) =>{
+//       recipesNumber++;    
+//   });
+//   return recipesNumber > 0
+  
+// }

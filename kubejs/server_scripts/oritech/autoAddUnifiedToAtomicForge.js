@@ -14,7 +14,6 @@ ServerEvents.recipes((event) => {
     .forEach((id) => {
       let material = id.split("_")[0].split(":")[1];
       if (!noGemToIngot.includes(material)) {
-        let targetItem = AlmostUnified.getTagTargetItem(`c:dusts/${material}`);
         addAtomicForge(event, {
           itemsInput: [
             {
@@ -28,9 +27,7 @@ ServerEvents.recipes((event) => {
             }
           ],
           itemsOutput: [{
-            id: !targetItem.id.includes("air")
-              ? targetItem.id
-              : Ingredient.of(`c:dusts/${material}`).itemIds[0],
+            id: getTagOutput(`c:dusts/${material}`).id ,
             count: 2,
           }],
         });
