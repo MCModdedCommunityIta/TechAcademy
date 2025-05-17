@@ -1,19 +1,16 @@
 // priority: 9999999
 
 ServerEvents.tags("item", (event) => {
-  event.removeAll("c:coal");
+  let charcoalIds = getIdsByTagPre(event, "c:charcoal")
+  let cokeIds = getIdsByTagPre(event, "c:coal_coke")
 
-  Ingredient.of("#minecraft:coals").itemIds.forEach((id) => {
-    if (
-      !getTagsById(String(id)).some((item) => item == "c:charcoal") &&
-      !getTagsById(String(id)).some((item) => item == "c:coal_coke")
-    ) {
-      event.add("c:coal", String(id));
+  getIdsByTagPre(event, "c:coal").forEach((id) => {
+    if (charcoalIds.some((item) => item == id)) {
+      event.add("c:coal/charcoal", String(id));
+    } else if (cokeIds.some((item) => item == id)) {
+      event.add("c:coal/coal_coke", String(id));
+    } else {
+      event.add("c:coal/coal", String(id));
     }
   });
 });
-
-// ServerEvents.tags('slurry', event => {
-//   event.add('c:hidden_from_recipe_viewers', "moremekanismprocessing:clean_ruby")
-
-// })

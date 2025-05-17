@@ -130,9 +130,10 @@
     "green",
     "brown"
   ],
-  "tiny":[
+  "coals":[
     "coal",
-    "charcoal"
+    "charcoal",
+    "coal_coke"
   ],
   "diskSizeItem":[
     "256k",

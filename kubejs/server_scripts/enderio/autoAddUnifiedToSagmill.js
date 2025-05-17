@@ -112,7 +112,7 @@ ServerEvents.recipes((event) => {
         SagMillOutput.of(getTagOutput("c:dusts/charcoal").withCount(1), 0.1),
         SagMillOutput.of(getTagOutput("c:dusts/sulfur").withCount(1), 0.1)
       ],
-      Ingredient.of(`#c:charcoal`, 1)
+      Ingredient.of(`#c:coal/charcoal`, 1)
     )
     .energy(2400);
 
@@ -123,7 +123,7 @@ ServerEvents.recipes((event) => {
         SagMillOutput.of(getTagOutput("c:dusts/coal_coke").withCount(1), 0.1),
         SagMillOutput.of(getTagOutput("c:dusts/sulfur").withCount(1), 0.1)
       ],
-      Ingredient.of(`#c:coal_coke`, 1)
+      Ingredient.of(`#c:coal/coal_coke`, 1)
     )
     .energy(2400);
 
@@ -135,7 +135,7 @@ ServerEvents.recipes((event) => {
         SagMillOutput.of(getTagOutput("c:dusts/coal").withCount(1), 0.1),
         SagMillOutput.of(getTagOutput("c:dusts/sulfur").withCount(1), 0.1)
       ],
-      Ingredient.of(`#c:coal`, 1)
+      Ingredient.of(`#c:coal/coal`, 1)
     )
     .energy(2400);
 

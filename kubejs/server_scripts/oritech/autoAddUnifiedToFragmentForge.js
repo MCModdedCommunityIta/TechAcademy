@@ -151,7 +151,7 @@ ServerEvents.recipes((event) => {
   addFragmentForge(event, {
     itemsInput: [
       {
-        tag: "c:coal",
+        tag: "c:coal/coal",
       },
     ],
     itemsOutput: [
@@ -168,7 +168,7 @@ ServerEvents.recipes((event) => {
   addFragmentForge(event, {
     itemsInput: [
       {
-        tag: "c:charcoal",
+        tag: "c:coal/charcoal",
       },
     ],
     itemsOutput: [
@@ -185,7 +185,7 @@ ServerEvents.recipes((event) => {
   addFragmentForge(event, {
     itemsInput: [
       {
-        tag: "c:coal_coke",
+        tag: "c:coal/coal_coke",
       },
     ],
     itemsOutput: [

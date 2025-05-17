@@ -17,8 +17,24 @@ function getTagsById(_id){
  * @param {string} _tag - The tag to retrieve item IDs for (e.g., "#c:ingots/copper").
  * @returns {string[]} An array of item IDs associated with the tag.
  */
-function getIdsByTag(_tag){
+function getIdsByTagPost(_tag){
   return Ingredient.of(_tag).itemIds;
+}
+
+/**
+ * Retrieves an array of item IDs associated with a given tag before a specific event.
+ *
+ * This function is intended to be used in scenarios where item IDs need to be fetched 
+ * prior to a certain event being processed. It takes into account the tag context
+ * provided by the `tagEvent` parameter.
+ *
+ * @param {$TagEventProbe} tagEvent - The event context in which the tag is being processed.
+ * @param {string} _tag - The tag to retrieve item IDs for (e.g., "#c:ingots/copper").
+ * @returns {string[]} An array of item IDs associated with the tag before the event.
+ */
+
+function getIdsByTagPre(tagEvent, _tag){
+  return tagEvent.get(_tag).getObjectIds();
 }
 
 
@@ -33,7 +49,7 @@ function getIdsByTag(_tag){
  * @returns {string[]} An array of subtags related to the specified tag.
  */
 function getSubTags(_tag) {
-  let itemIDs = getIdsByTag(`#${_tag}`);
+  let itemIDs = getIdsByTagPost(`#${_tag}`);
   let tags = [];
 
   itemIDs.forEach((ingotID) => {
