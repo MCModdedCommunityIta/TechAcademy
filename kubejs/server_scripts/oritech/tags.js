@@ -3,6 +3,7 @@
 ServerEvents.tags("item", (event) => {
   event.add("c:pellets/plutonium", "oritech:plutonium_pellet");
   event.add("c:plastics", "oritech:plastic_sheet");
+  event.add("c:ores", "/oritech:.*_ore/g");
 
   let materials = ["nickel", "platinum", "iron", "copper", "gold"];
 
