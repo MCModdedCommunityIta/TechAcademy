@@ -103,6 +103,8 @@ function getAtoB(_tagA, _tagB) {
     let material = `${mtA}`.split("/")[1]
     if (getUnifiedSubTags(_tagB).some(mtB => `${mtB}`.includes(`${_tagB}/${material}`))){
       result.push({"input": mtA, "output": `${_tagB}/${material}`});
+    } else if (getSubTags(_tagB).some(mtB => `${mtB}`.includes(`${_tagB}/${material}`))){
+      result.push({"input": mtA, "output": `${_tagB}/${material}`});
     }
     
   })
