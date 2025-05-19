@@ -71,6 +71,7 @@
     "denseores:.+",
     "densemekanism:.+",
     "bno:.+_ore",
+    "oritech:endstone.*_ore",
     "create:crushed_raw_.+"
 
   ],
