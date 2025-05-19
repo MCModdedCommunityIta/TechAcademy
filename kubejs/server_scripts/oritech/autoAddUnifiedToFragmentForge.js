@@ -132,6 +132,34 @@ ServerEvents.recipes((event) => {
     }
   });
 
+  const notRawsStoragesToDust = [];
+
+  getUnifiedSubTags("c:storage_blocks")
+    .filter(
+      (entry) =>
+        entry.includes("/raw_") &&
+        getUnifiedSubTags("c:dusts").some((dust) =>
+          dust.includes(String(entry).split("raw_")[1])
+        )
+    )
+    .forEach((entry) => {
+      if (!noGemToDust.includes(`${entry}`.split("raw_")[1])) {
+        addFragmentForge(event, {
+          itemsInput: [
+            {
+              tag: entry,
+            },
+          ],
+          itemsOutput: [
+            {
+              id: getTagOutput(`c:dusts/${String(entry).split("raw_")[1]}`),
+              count: 10,
+            },
+          ],
+        });
+      }
+    });
+
   // Custom
 
   addFragmentForge(event, {
@@ -147,7 +175,7 @@ ServerEvents.recipes((event) => {
       },
     ],
   });
-  event.remove("oritech:grinder/dust/coal")
+  event.remove("oritech:grinder/dust/coal");
   addFragmentForge(event, {
     itemsInput: [
       {

@@ -95,6 +95,38 @@ ServerEvents.recipes((event) => {
     }
   });
 
+  const notRawsStoragesToDust = [];
+
+  getUnifiedSubTags("c:storage_blocks")
+    .filter(
+      (entry) =>
+        entry.includes("/raw_") &&
+        getUnifiedSubTags("c:dusts").some((dust) =>
+          dust.includes(String(entry).split("raw_")[1])
+        )
+    )
+    .forEach((entry) => {
+      if (!noGemToDust.includes(`${entry}`.split("raw_")[1])) {
+        event.recipes.enderio.sag_milling(
+          [
+            SagMillOutput.of(
+              getTagOutput(
+                `c:dusts/${String(entry).split("raw_")[1]}`
+              ).withCount(10),
+              1
+            ),
+            SagMillOutput.of(
+              getTagOutput(
+                `c:dusts/${String(entry).split("raw_")[1]}`
+              ).withCount(2),
+              0.25
+            ),
+          ],
+          Ingredient.of(`#${entry}`, 1)
+        );
+      }
+    });
+
   // Custom
 
   event.recipes.enderio
@@ -110,7 +142,7 @@ ServerEvents.recipes((event) => {
       [
         SagMillOutput.of(getTagOutput("c:dusts/charcoal").withCount(1), 1),
         SagMillOutput.of(getTagOutput("c:dusts/charcoal").withCount(1), 0.1),
-        SagMillOutput.of(getTagOutput("c:dusts/sulfur").withCount(1), 0.1)
+        SagMillOutput.of(getTagOutput("c:dusts/sulfur").withCount(1), 0.1),
       ],
       Ingredient.of(`#c:coal/charcoal`, 1)
     )
@@ -121,19 +153,19 @@ ServerEvents.recipes((event) => {
       [
         SagMillOutput.of(getTagOutput("c:dusts/coal_coke").withCount(1), 1),
         SagMillOutput.of(getTagOutput("c:dusts/coal_coke").withCount(1), 0.1),
-        SagMillOutput.of(getTagOutput("c:dusts/sulfur").withCount(1), 0.1)
+        SagMillOutput.of(getTagOutput("c:dusts/sulfur").withCount(1), 0.1),
       ],
       Ingredient.of(`#c:coal/coal_coke`, 1)
     )
     .energy(2400);
 
-  event.remove({ id: "enderio:sag_milling/coal" })
+  event.remove({ id: "enderio:sag_milling/coal" });
   event.recipes.enderio
     .sag_milling(
       [
         SagMillOutput.of(getTagOutput("c:dusts/coal").withCount(1), 1),
         SagMillOutput.of(getTagOutput("c:dusts/coal").withCount(1), 0.1),
-        SagMillOutput.of(getTagOutput("c:dusts/sulfur").withCount(1), 0.1)
+        SagMillOutput.of(getTagOutput("c:dusts/sulfur").withCount(1), 0.1),
       ],
       Ingredient.of(`#c:coal/coal`, 1)
     )
@@ -178,5 +210,4 @@ ServerEvents.recipes((event) => {
       Ingredient.of("minecraft:prismarine", 1)
     )
     .energy(2400);
-
 });

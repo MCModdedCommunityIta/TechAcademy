@@ -132,6 +132,34 @@ ServerEvents.recipes((event) => {
     }
   });
 
+  const notRawsStoragesToDust = [];
+
+  getUnifiedSubTags("c:storage_blocks")
+    .filter(
+      (entry) =>
+        entry.includes("/raw_") &&
+        getUnifiedSubTags("c:dusts").some((dust) =>
+          dust.includes(String(entry).split("raw_")[1])
+        )
+    )
+    .forEach((entry) => {
+      if (!noGemToDust.includes(`${entry}`.split("raw_")[1])) {
+        addPulverizer(event, {
+          itemsInput: [
+            {
+              tag: entry,
+            },
+          ],
+          itemsOutput: [
+            {
+              id: getTagOutput(`c:dusts/${String(entry).split("raw_")[1]}`),
+              count: 9,
+            },
+          ],
+        });
+      }
+    });
+
   // Custom
 
   addPulverizer(event, {
@@ -147,20 +175,7 @@ ServerEvents.recipes((event) => {
       },
     ],
   });
-  addPulverizer(event, {
-    itemsInput: [
-      {
-        tag: "c:ender_pearls",
-      },
-    ],
-    itemsOutput: [
-      {
-        id: getTagOutput("c:dusts/ender_pearl").id,
-        count: 1,
-      },
-    ],
-  });
-  event.remove("oritech:pulverizer/dust/coal")
+  event.remove("oritech:pulverizer/dust/coal");
   addPulverizer(event, {
     itemsInput: [
       {
