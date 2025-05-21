@@ -1,0 +1,6 @@
+{
+  "showResourcePackButton": true,
+  "logFullFileTree": false,
+  "addCauseToReloadFailureToast": true,
+  "filterMode": "ALL_RESOURCES"
+}
