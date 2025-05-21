@@ -41,3 +41,5 @@ kubejs/assets/kubejs/textures/block/example_block.png
 kubejs/documentation/*
 kubejs/config/probe-settings.json
 config/forgeendertech/cached.dat
+servers.dat
+kubejs/config/probe-settings.json
