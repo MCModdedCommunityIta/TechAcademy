@@ -3,6 +3,7 @@
 let ieGeneratorFuels = [
   { burningTime: 250, fluidTag: "c:fuels/biodiesel" },
   { burningTime: 250, fluidTag: "c:fuels/biofuel" },
+  { burningTime: 250, fluidTag: "c:fuels/turbofuel" },
   { burningTime: 250, fluidTag: "c:fuels/diesel" },
   { burningTime: 20, fluidTag: "c:fuels/creosote" },
   { burningTime: 20, fluidTag: "c:fuels/curde_oil" },

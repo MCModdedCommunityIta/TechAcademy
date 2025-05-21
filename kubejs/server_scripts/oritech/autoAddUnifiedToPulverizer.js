@@ -152,7 +152,7 @@ ServerEvents.recipes((event) => {
           ],
           itemsOutput: [
             {
-              id: getTagOutput(`c:dusts/${String(entry).split("raw_")[1]}`),
+              id: getTagOutput(`c:dusts/${String(entry).split("raw_")[1]}`).id,
               count: 9,
             },
           ],
