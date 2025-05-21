@@ -17,7 +17,7 @@ const mc = mcj.getInstance()
 FTBQuestsEvents.completed("316EE6AEF21EA4DF", (event) => {
   if (!event.data.isCompleted("6CE00D9DF699753D")) {
 	  
-    mc.gui.setTitle("Benvenuto nella ง6Tech Academy!")
+    mc.gui.setTitle("Benvenuto nella ยง6Tech Academy!")
     mc.gui.setTimes(10,20,10)
 	
     event.server.scheduleInTicks(timeToTicks(3, "seconds"), (_) => {
