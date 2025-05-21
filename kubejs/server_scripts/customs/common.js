@@ -1,5 +1,5 @@
 //database of all time operations  
-const timeDivisors = {
+const time = {
     seconds: 20,
     minutes: 20 * 60,
     hours: 20 * 60 * 60,
@@ -21,7 +21,7 @@ const timeDivisors = {
  *          original ticks if the unit is unrecognized.
  */
 function ticksToTime(ticks, outputTimeType) {
-  return ticks / (timeDivisors[outputTimeType] || 1);
+  return ticks / (time[outputTimeType] || 1);
 }
 
 /**
@@ -32,5 +32,5 @@ function ticksToTime(ticks, outputTimeType) {
  * @returns {number} - The equivalent time in ticks, or the original time if the unit is unrecognized.
  */
 function timeToTicks(ticks, outputTimeType) {
-  return ticks * (timeDivisors[outputTimeType] || 1);
+  return ticks * (time[outputTimeType] || 1);
 }
