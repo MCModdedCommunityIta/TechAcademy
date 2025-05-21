@@ -3,8 +3,11 @@
 	default_quest_shape: ""
 	filename: "mining"
 	group: "32571A4D4DB47570"
+	icon: {
+		id: "ae2:fluix_pickaxe"
+	}
 	id: "33C620697A86841F"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

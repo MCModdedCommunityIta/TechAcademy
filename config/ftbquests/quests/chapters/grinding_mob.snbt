@@ -3,8 +3,11 @@
 	default_quest_shape: ""
 	filename: "grinding_mob"
 	group: "32571A4D4DB47570"
+	icon: {
+		id: "mob_grinding_utils:null_sword"
+	}
 	id: "7D82DB4905EAC0E4"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

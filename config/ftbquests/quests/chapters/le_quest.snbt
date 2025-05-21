@@ -1,26 +1,46 @@
 {
+	autofocus_id: "052F7FB65B7F476C"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "le_quest"
-	group: "32571A4D4DB47570"
+	group: ""
 	icon: {
 		id: "ftbquests:book"
 	}
 	id: "4B91FBE61460CC63"
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "fzzy_config:textures/gui/sprites/widget/decoration/question.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "543EBDFC1BCCA9A1"
+			min_width: 500
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "751DDBAD93D4E477"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: -9.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["543EBDFC1BCCA9A1"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/dependency.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "052F7FB65B7F476C"
+			min_width: 500
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "058D027B9BAE4093"
 				type: "checkmark"
@@ -29,13 +49,57 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["052F7FB65B7F476C"]
+			icon: {
+				id: "ftbquests:book"
+			}
 			id: "49315A0FDE1470BF"
+			min_width: 500
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "3F4DB66B1336E1A5"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -2.5d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["543EBDFC1BCCA9A1"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/pin.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7812021792204434"
+			min_width: 500
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "57F894BA634E816D"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["49315A0FDE1470BF"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/collect_rewards.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0F2150D731128F11"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "6DA13344B9312DBF"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: -3.0d
 		}
 	]
 }

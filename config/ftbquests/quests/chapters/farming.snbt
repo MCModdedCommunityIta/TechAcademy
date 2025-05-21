@@ -3,8 +3,11 @@
 	default_quest_shape: ""
 	filename: "farming"
 	group: "32571A4D4DB47570"
+	icon: {
+		id: "minecraft:wheat"
+	}
 	id: "389D9BC71F4B252E"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

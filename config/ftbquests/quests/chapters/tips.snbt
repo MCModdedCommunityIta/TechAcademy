@@ -8,7 +8,7 @@
 		id: "ae2:singularity"
 	}
 	id: "17547FC8D4FFF9D2"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -20,7 +20,7 @@
 				xp: 100
 			}]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "459B86A098274F05"
 				item: { count: 1, id: "ae2:meteorite_compass" }
@@ -440,12 +440,13 @@
 				type: "choice"
 			}]
 			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "5118533EB068AAA8"
 				type: "checkmark"
 			}]
 			x: -5.0d
-			y: -9.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["718C54A843D76478"]

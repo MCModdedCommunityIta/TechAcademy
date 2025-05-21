@@ -4,8 +4,11 @@
 	default_quest_shape: ""
 	filename: "energy"
 	group: "32571A4D4DB47570"
+	icon: {
+		id: "mekanism:module_energy_unit"
+	}
 	id: "0E60C4CBBD4DA9F9"
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

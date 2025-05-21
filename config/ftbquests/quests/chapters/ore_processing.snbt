@@ -3,8 +3,11 @@
 	default_quest_shape: ""
 	filename: "ore_processing"
 	group: "32571A4D4DB47570"
+	icon: {
+		id: "industrialforegoing:diamond_gear"
+	}
 	id: "4F8C1FBE943C4B53"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

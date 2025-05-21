@@ -1,5 +1,5 @@
 {
-	autofocus_id: "6CE00D9DF699753D"
+	autofocus_id: "3A06DAA6736EF1D4"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "intro"
@@ -8,14 +8,24 @@
 		id: "industrialforegoing:diamond_gear"
 	}
 	id: "36364A58523642A8"
-	images: [{
-		height: 6.0d
-		image: "techacademy:textures/quests/logo.png"
-		rotation: 0.0d
-		width: 6.0d
-		x: -4.0d
-		y: -14.25d
-	}]
+	images: [
+		{
+			height: 6.0d
+			image: "techacademy:textures/quests/logo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -4.0d
+			y: -14.25d
+		}
+		{
+			height: 5.0d
+			image: "techacademy:textures/quests/packicon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.0d
+			y: -18.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -222,7 +232,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["684B224447B64520"]
@@ -238,7 +248,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -8.0d
+			y: -8.5d
 		}
 		{
 			icon: {
@@ -512,7 +522,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["684B224447B64520"]
@@ -531,7 +541,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -8.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["684B224447B64520"]
@@ -547,7 +557,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["684B224447B64520"]
@@ -566,7 +576,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3A06DAA6736EF1D4"]
@@ -587,7 +597,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -14.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["684B224447B64520"]
@@ -632,8 +642,8 @@
 				item: { count: 1, id: "actuallyadditions:black_quartz" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -12.0d
+			x: 1.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["3A06DAA6736EF1D4"]
@@ -681,7 +691,7 @@
 				type: "observation"
 			}]
 			x: 1.0d
-			y: -13.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["3A06DAA6736EF1D4"]
@@ -701,7 +711,7 @@
 				item: { count: 1, id: "powah:dielectric_paste" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: -12.0d
 		}
 		{
@@ -751,8 +761,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -13.0d
+			x: 4.0d
+			y: -12.0d
 		}
 		{
 			can_repeat: true
@@ -851,7 +861,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -16.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["3A06DAA6736EF1D4"]
@@ -871,8 +881,8 @@
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -14.0d
+			x: 2.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["3A06DAA6736EF1D4"]
@@ -892,7 +902,19 @@
 				item: { count: 1, id: "refinedstorage:processor_binding" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3A06DAA6736EF1D4"]
+			id: "0D2519C47F64E33F"
+			shape: "gear"
+			tasks: [{
+				id: "6C7D9791EAA96579"
+				item: { count: 1, id: "oritech:wrench" }
+				type: "item"
+			}]
+			x: 5.0d
 			y: -16.0d
 		}
 	]
