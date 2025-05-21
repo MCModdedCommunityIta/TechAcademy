@@ -24,7 +24,7 @@ ServerEvents.generateData("after_mods", (event) => {
     fabricator_drops: [
       {
         id: "minecraft:dragon_breath",
-        count: 5,
+        count: 16,
       },
       {
         id: "minecraft:dragon_egg",
