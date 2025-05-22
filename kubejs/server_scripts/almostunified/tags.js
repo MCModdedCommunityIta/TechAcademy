@@ -28,7 +28,6 @@ ServerEvents.tags("fluid", (event) => {
   event.add("c:fuels/creosote", "#c:creosote")
   event.add("c:fuels/ethanol", "#c:ethanol")
   event.add("c:fuels/bioethanol", "#c:bioethanol")
-  event.add("c:fuels/turbofuel", "#c:still_fuel")
   event.add("immersiveengineering:drill_fuel", "#c:fuels/biodiesel")
   event.add("immersiveengineering:drill_fuel", "#c:fuels/diesel")
 });

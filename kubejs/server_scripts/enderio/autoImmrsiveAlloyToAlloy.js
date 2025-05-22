@@ -5,19 +5,19 @@
 ServerEvents.recipes((event) => {
   event.forEachRecipe({ type: "immersiveengineering:alloy" }, (recipe) => {
     if (
-      !recipe.getId().includes("kjs:")
+      !recipe.getId().includes("kjs:") &&
+      !recipe.getId().includes("oritech:compat/")
     ) {
       let newrecipe = JSON.parse(recipe.json);
-      let result = immersiveOutputHelper(newrecipe);
+      let output = immersiveOutputHelper(newrecipe);
       let inputs = immersiveInputHelper(newrecipe);
+      let result = "item" in output
+          ? getItemOutput(output["item"]).id
+          : getTagOutput(output["tag"]).id
 
       event.recipes.enderio.alloy_smelting(
         //output
-        "item" in result
-          ? Item.of(result["item"], result["count"])
-          : AlmostUnified.getTagTargetItem(result["tag"]).withCount(
-              result["count"]
-            ),
+        Item.of(result).withCount(output["count"]),
         //input
         [
           Ingredient.of(
@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
             inputs[1]["count"]
           ),
         ]
-      );
-    }
+      ).energy(2560);
+    } 
   });
 });

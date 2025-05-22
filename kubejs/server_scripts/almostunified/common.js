@@ -140,10 +140,25 @@ function getTagOutput(_tag){
   
 }
 
-// function getItemOutput(_item){
-//   return AlmostUnified.getVariantItemTarget(_item)
+/**
+ * Retrieves the target item associated with the specified item or returns a default item if the target item is not found.
+ *
+ * This function attempts to find the variant item target for the given item using AlmostUnified. 
+ * If the target item is equivalent to "minecraft:air" (indicating it does not exist), a default 
+ * item ("immersiveengineering:insulating_glass") is returned instead. The function logs the 
+ * result to the console for debugging purposes.
+ *
+ * @param {string} _item - The item to retrieve the target item for (e.g., "minecraft:stone").
+ * @returns {$ItemStack} The target item associated with the item, or a default item if no target item exists.
+ */
+
+function getItemOutput(_item){
+  let targetItem = AlmostUnified.getVariantItemTarget(_item);
+  let altItem = Item.of(_item)
   
-// }
+  return !targetItem.id.includes("air") ? targetItem : altItem
+  
+}
 
 
 // function recipeIdExists(recipeEvent, recipeId) {

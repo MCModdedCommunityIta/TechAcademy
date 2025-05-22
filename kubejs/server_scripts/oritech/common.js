@@ -60,30 +60,32 @@
 function addCentrifuge(event, centrifugeRecipe) {
   let itemsInput = "itemsInput" in centrifugeRecipe ? centrifugeRecipe.itemsInput : [];
   let itemsOutput = "itemsOutput" in centrifugeRecipe ? centrifugeRecipe.itemsOutput : [];
-  let fluidInput = "fluidInput" in centrifugeRecipe ? {"amount": centrifugeRecipe.fluidInput["amount"]*81, "fluid": centrifugeRecipe.fluidInput["fluid"]} : { fluid: "minecraft:empty", amount: 0 };
-  let fluidOutput = "fluidOutput" in centrifugeRecipe ? {"amount": centrifugeRecipe.fluidOutput["amount"]*81, "fluid": centrifugeRecipe.fluidOutput["fluid"]} : { fluid: "minecraft:empty", amount: 0 };
+  let fluidInput = "fluidInput" in centrifugeRecipe ? centrifugeRecipe.fluidInput : { fluid: "minecraft:empty", amount: 0 };
+  let fluidOutput = "fluidOutput" in centrifugeRecipe ? centrifugeRecipe.fluidOutput : { fluid: "minecraft:empty", amount: 0 };
   let processTime = "processTime" in centrifugeRecipe ? centrifugeRecipe.processTime : 200;
   let conditions = "conditions" in centrifugeRecipe ? centrifugeRecipe.conditions : [];
 
   let baseRecipe = {
     "neoforge:conditions": [],
     "type": "oritech:centrifuge_fluid",
-    "fluidInputAmount": 0,
-    "fluidInputVariant": "minecraft:empty",
-    "fluidOutputAmount": 0,
-    "fluidOutputVariant": "minecraft:empty",
+    "fluidInput": {
+      "amount": 0,
+      "fluid": "minecraft:empty"
+    },
+    "fluidOutput": {
+      "amount": 0,
+      "fluid": "minecraft:empty"
+    },
     "ingredients": [],
     "results": [],
     "time": 200,
   };
 
 
-  baseRecipe["fluidInputAmount"] = fluidInput["amount"];
-  baseRecipe["fluidInputVariant"] = fluidInput["fluid"];
-  baseRecipe["fluidOutputAmount"] = fluidOutput["amount"];
-  baseRecipe["fluidOutputVariant"] = fluidOutput["fluid"];
+  baseRecipe["fluidInput"] = fluidInput;
+  baseRecipe["fluidOutput"] = fluidOutput;
 
-  if (baseRecipe["fluidInputVariant"] == baseRecipe["fluidOutputVariant"] && baseRecipe["fluidOutputVariant"] =="minecraft:empty") {
+  if (baseRecipe["fluidInput"]["fluid"] == baseRecipe["fluidOutput"]["fluid"] && baseRecipe["fluidOutput"]["fluid"] =="minecraft:empty") {
     baseRecipe["type"] = "oritech:centrifuge";
   }
 
@@ -133,10 +135,14 @@ function addPulverizer(event, pulverizerRecipe) {
   let baseRecipe = {
     "neoforge:conditions": [],
     "type": "oritech:pulverizer",
-    "fluidInputAmount": 0,
-    "fluidInputVariant": "minecraft:empty",
-    "fluidOutputAmount": 0,
-    "fluidOutputVariant": "minecraft:empty",
+    "fluidInput": {
+      "amount": 0,
+      "fluid": "minecraft:empty"
+    },
+    "fluidOutput": {
+      "amount": 0,
+      "fluid": "minecraft:empty"
+    },
     "ingredients": [],
     "results": [],
     "time": 200,
@@ -187,10 +193,14 @@ function addFragmentForge(event, fragmentForgeRecipe) {
   let baseRecipe = {
     "neoforge:conditions": [],
     "type": "oritech:grinder",
-    "fluidInputAmount": 0,
-    "fluidInputVariant": "minecraft:empty",
-    "fluidOutputAmount": 0,
-    "fluidOutputVariant": "minecraft:empty",
+    "fluidInput": {
+      "amount": 0,
+      "fluid": "minecraft:empty"
+    },
+    "fluidOutput": {
+      "amount": 0,
+      "fluid": "minecraft:empty"
+    },
     "ingredients": [],
     "results": [],
     "time": 140,
@@ -241,10 +251,14 @@ function addAtomicForge(event, atomicForgeRecipe) {
   let baseRecipe = {
     "neoforge:conditions": [],
     "type": "oritech:atomic_forge",
-    "fluidInputAmount": 0,
-    "fluidInputVariant": "minecraft:empty",
-    "fluidOutputAmount": 0,
-    "fluidOutputVariant": "minecraft:empty",
+    "fluidInput": {
+      "amount": 0,
+      "fluid": "minecraft:empty"
+    },
+    "fluidOutput": {
+      "amount": 0,
+      "fluid": "minecraft:empty"
+    },
     "ingredients": [],
     "results": [],
     "time": 200,
@@ -320,10 +334,14 @@ function addFoundry(event, foundryRecipe) {
   let baseRecipe = {
     "neoforge:conditions": [],
     "type": "oritech:foundry",
-    "fluidInputAmount": 0,
-    "fluidInputVariant": "minecraft:empty",
-    "fluidOutputAmount": 0,
-    "fluidOutputVariant": "minecraft:empty",
+    "fluidInput": {
+      "amount": 0,
+      "fluid": "minecraft:empty"
+    },
+    "fluidOutput": {
+      "amount": 0,
+      "fluid": "minecraft:empty"
+    },
     "ingredients": [],
     "results": [],
     "time": 200,
@@ -397,10 +415,14 @@ function addAssembler(event, assemblerRecipe) {
   let baseRecipe = {
     "neoforge:conditions": [],
     "type": "oritech:assembler",
-    "fluidInputAmount": 0,
-    "fluidInputVariant": "minecraft:empty",
-    "fluidOutputAmount": 0,
-    "fluidOutputVariant": "minecraft:empty",
+    "fluidInput": {
+      "amount": 0,
+      "fluid": "minecraft:empty"
+    },
+    "fluidOutput": {
+      "amount": 0,
+      "fluid": "minecraft:empty"
+    },
     "ingredients": [],
     "results": [],
     "time": 140,
@@ -481,10 +503,14 @@ function addCooler(event, coolerRecipe) {
   let baseRecipe = {
     "neoforge:conditions": [],
     "type": "oritech:cooler",
-    "fluidInputAmount": 0,
-    "fluidInputVariant": "minecraft:empty",
-    "fluidOutputAmount": 0,
-    "fluidOutputVariant": "minecraft:empty",
+    "fluidInput": {
+      "amount": 0,
+      "fluid": "minecraft:empty"
+    },
+    "fluidOutput": {
+      "amount": 0,
+      "fluid": "minecraft:empty"
+    },
     "ingredients": [],
     "results": [],
     "time": 200,

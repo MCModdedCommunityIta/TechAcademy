@@ -1,24 +1,20 @@
 // priority: 9999998
 ServerEvents.recipes((event) => {
   event.forEachRecipe({ type: "immersiveengineering:alloy" }, (recipe) => {
-    if (!recipe.getId().includes("kjs:")) {
+    if (!recipe.getId().includes("kjs:") && !recipe.getId().includes("oritech:compat/")) {
       let originalRecipe = JSON.parse(recipe.json);
       let output = immersiveOutputHelper(originalRecipe);
       let inputs = immersiveInputHelper(originalRecipe);
       let targetItem =
         "tag" in output
-          ? AlmostUnified.getTagTargetItem(output["tag"])
-          : AlmostUnified.getVariantItemTarget(output["item"]);
+          ? getTagOutput(output["tag"])
+          : getItemOutput(output["item"])
 
       let basePreparation = {
         itemsInput: [],
         itemsOutput: [
           {
-            id: !targetItem.id.includes("air")
-              ? targetItem.id
-              : "tag" in output
-              ? Ingredient.of(output["tag"]).itemIds[0]
-              : Ingredient.of(output["item"]).itemIds[0],
+            id: targetItem.id,
             count: output["count"],
           },
         ],

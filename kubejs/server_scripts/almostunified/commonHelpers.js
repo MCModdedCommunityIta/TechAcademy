@@ -39,13 +39,12 @@
 //   return outRes;
 // }
 
-
 function immersiveInputHelper(recipe) {
   let inpsRes = [];
 
   for (let i = 0; i < 2; i++) {
     let inpRes = {
-      "count": "count" in recipe[`input${i}`] ? recipe[`input${i}`]["count"] : 1,
+      count: "count" in recipe[`input${i}`] ? recipe[`input${i}`]["count"] : 1,
     };
     if (
       "basePredicate" in recipe[`input${i}`] &&
@@ -65,7 +64,7 @@ function immersiveInputHelper(recipe) {
 
 function immersiveOutputHelper(recipe) {
   let outRes = {
-    "count": "count" in recipe["result"] ? recipe["result"]["count"] : 1,
+    count: "count" in recipe["result"] ? recipe["result"]["count"] : 1,
   };
   if (
     "basePredicate" in recipe["result"] &&
@@ -74,8 +73,11 @@ function immersiveOutputHelper(recipe) {
     outRes["tag"] = recipe["result"]["basePredicate"]["tag"];
   } else if ("tag" in recipe["result"]) {
     outRes["tag"] = recipe["result"]["tag"];
-  } else if ("id" in recipe["result"]) {
+  } else if ("item" in recipe["result"]) {
+    outRes["item"] = recipe["result"]["item"];
+  }else if ("id" in recipe["result"]) {
     outRes["item"] = recipe["result"]["id"];
   }
+
   return outRes;
 }
