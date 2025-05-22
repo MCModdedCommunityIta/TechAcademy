@@ -120,6 +120,9 @@
     "canvas_beehive": true,
     "bee_attributes": true
   },
+  "create_mechanical_spawner": {
+    "data": true
+  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
