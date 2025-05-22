@@ -11,7 +11,6 @@
     "industrialforegoing",
     "pneumaticcraft",
     "bigreactors",
-    "bno",
     "megacells",
     "refiendstorage",
     "ae2",
@@ -23,12 +22,18 @@
     "moremekanismprocessing",
     "oritech",
     "extradisks",
-    "extrastorage"
+    "extrastorage",
+    "bno"
   ],
   "priority_overrides": {
     "c:ingots/bronze": "mekanism",
     "c:ingots/platinum": "oritech",
     "c:dusts/platinum": "oritech",
+    "c:clumps/zinc": "moremekanismprocessing",
+    "c:clumps/platinum": "moremekanismprocessing",
+    "c:clumps/silver": "moremekanismprocessing",
+    "c:clumps/aluminum": "moremekanismprocessing",
+    "c:clumps/nickel": "moremekanismprocessing",
     "c:plates/plastic": "industrialforegoing"
   },
   "stone_variants": [
@@ -59,6 +64,9 @@
     "c:dyes/{dye}",
     "c:coal/{coals}",
     "c:tiny/{coals}",
+    "c:fuels/bio",
+    "c:fuels/block/bio",
+    "c:doughs/wheat",
     "refinedstorage:parts/items/{diskSizeItem}",
     "refinedstorage:parts/fluids/{diskSizeFluid}",
     "refinedstorage:disks/items/{diskSizeItem}",
@@ -71,8 +79,7 @@
     "denseores:.+",
     "densemekanism:.+",
     "bno:.+_ore",
-    "oritech:endstone.*_ore",
-    "create:crushed_raw_.+"
+    "oritech:endstone.*_ore"
 
   ],
   "ignored_recipe_types": [
