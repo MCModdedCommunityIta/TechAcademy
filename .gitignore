@@ -43,5 +43,4 @@ kubejs/config/probe-settings.json
 config/forgeendertech/cached.dat
 servers.dat
 kubejs/config/probe-settings.json
-waypoints/WaypointData.dat
-waypoints/backup/WaypointData.dat
+waypoints/*
