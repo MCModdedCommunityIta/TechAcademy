@@ -11,14 +11,15 @@ PlayerEvents.loggedIn((event) => {
   }
 });
 
+const mcj = Java.loadClass("net.minecraft.client.Minecraft")
+const mc = mcj.getInstance()
+
 FTBQuestsEvents.completed("316EE6AEF21EA4DF", (event) => {
   if (!event.data.isCompleted("6CE00D9DF699753D")) {
-    event.server.runCommandSilent(
-      `title @a times 10t 1s 10t`
-    );
-    event.server.runCommandSilent(
-      `title @a title [ "Benvenuto nella ", { "text": "Tech Academy!", "color": "gold"} ]`
-    );
+	  
+    mc.gui.setTitle("Benvenuto nella §6Tech Academy!")
+    mc.gui.setTimes(10,20,10)
+	
     event.server.scheduleInTicks(timeToTicks(3, "seconds"), (_) => {
       event.server.runCommandSilent(
         // `execute as @a run ftbquests open_book 6CE00D9DF699753D`
