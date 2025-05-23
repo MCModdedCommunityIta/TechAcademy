@@ -4,7 +4,7 @@
 	showOreNotExistRecipes = false
 	#Each recipes output item be determined by this list.
 	#First is Highest.
-	recipeOutputPriority = ["minecraft","kubejs","productivebees","productivetrees","immersiveengineering","mekanism","create","enderio","industrialforegoing","pneumaticcraft","bigreactors","bno","megacells","refiendstorage","ae2","extendedae","advanced_ae","actuallyadditions","utilitarian","powah","moremekanismprocessing","oritech","extradisks","extrastorage"]
+	recipeOutputPriority = ["minecraft","kubejs","productivebees","productivetrees","immersiveengineering","mekanism","create","enderio","industrialforegoing","pneumaticcraft","bigreactors","megacells","refiendstorage","ae2","extendedae","advanced_ae","actuallyadditions","utilitarian","powah","moremekanismprocessing","oritech","extradisks","extrastorage","bno"]
 
 #processingLevel: Set ores processing max level
 #    5 : can into up x5 (able all procssing)
