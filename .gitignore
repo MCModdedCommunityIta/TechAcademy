@@ -34,7 +34,7 @@ config/jei/world/*
 /emi.json
 /archivio.zip
 /local/kubejs
-!/mods_placeholder
+!/mods_tracker
 *.bak
 kubejs/README.txt
 kubejs/assets/kubejs/textures/block/example_block.png
