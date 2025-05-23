@@ -1,3 +1,6 @@
+const mcj = Java.loadClass("net.minecraft.client.Minecraft");
+const mc = mcj.getInstance();
+
 PlayerEvents.loggedIn((event) => {
   const retrivedAECMode = event.server.persistentData.getString(
     "techacademy.channelmode"
@@ -9,29 +12,33 @@ PlayerEvents.loggedIn((event) => {
   } else {
     console.warn(`Channel Mode: NotSet/NotValid`);
   }
-});
 
-const mcj = Java.loadClass("net.minecraft.client.Minecraft")
-const mc = mcj.getInstance()
+  if (!event.player.stages.has("welcome")) {
+  if (!event.player.data["ftbquests"].isCompleted("6CE00D9DF699753D")) {
+    mc.gui.setTitle("Benvenuto nella §6Tech Academy!");
+    mc.gui.setTimes(10, timeToTicks(3, "seconds"), 10);
+    event.player.runCommandSilent(`playsound minecraft:ui.toast.challenge_complete master`);
 
-FTBQuestsEvents.completed("316EE6AEF21EA4DF", (event) => {
-  if (!event.data.isCompleted("6CE00D9DF699753D")) {
-	  
-    mc.gui.setTitle("Benvenuto nella §6Tech Academy!")
-    mc.gui.setTimes(10,20,10)
-	
     event.server.scheduleInTicks(timeToTicks(3, "seconds"), (_) => {
-      event.server.runCommandSilent(
+      event.player.runCommandSilent(
         // `execute as @a run ftbquests open_book 6CE00D9DF699753D`
         `tellraw @a [ "Se sei nuovo, apri la chat con ",{"keybind":"key.chat","bold":true,"color":"red"}," e clicca ", { "text": "qui!", "color": "green", "underlined": true, "clickEvent": { "action": "run_command", "value": "/ftbquests open_book 6CE00D9DF699753D" } } ]`
       );
     });
+  }else { 
+    event.player.stages.add("starting_items");
   }
-  event.data.getData().
-  event.server.scheduleInTicks(timeToTicks(2, "seconds"), (_) => {
-    event.data.reset("316EE6AEF21EA4DF");
-  });
+    event.player.stages.add("welcome");
+  }
+
+  if (!event.player.stages.has("starting_items")) {
+    event.player.give(Item.of("ftbquests:book", 1));
+    event.player.give(Item.of("miningutility:mining_helmet", 1));
+    event.player.give(Item.of("miningutility:escape_rope", 1));
+    event.player.stages.add("starting_items");
+  }
 });
+
 // /title @a times 10t 1s 10t
 // /title @a title [ "Benvenuto nella ", { "text": "Tech Academy!", "color": "gold"} ]
 // [ "Se sei nuovo, apri la chat con ",{"keybind":"key.chat","bold":true,"color":"red"}," e clicca ", { "text": "qui!", "color": "green", "underlined": true, "clickEvent": { "action": "run_command", "value": "/ftbquests open_book 6CE00D9DF699753D" } } ]

@@ -8,7 +8,21 @@
 	disable_gui: false
 	drop_book_on_death: false
 	drop_loot_crates: false
-	emergency_items_cooldown: 300
+	emergency_items: [
+		{
+			count: 1
+			id: "ftbquests:book"
+		}
+		{
+			count: 1
+			id: "miningutility:mining_helmet"
+		}
+		{
+			count: 1
+			id: "miningutility:escape_rope"
+		}
+	]
+	emergency_items_cooldown: 1000
 	grid_scale: 0.5d
 	icon: {
 		components: {
