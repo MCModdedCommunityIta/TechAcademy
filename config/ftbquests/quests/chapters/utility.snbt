@@ -1,5 +1,5 @@
 {
-	autofocus_id: "4F304441E9995253"
+	autofocus_id: "026404C1E714F6D2"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "utility"
@@ -11,56 +11,22 @@
 		id: "buildinggadgets2:gadget_building"
 	}
 	id: "7A3DDEC3BE3BE902"
-	images: [
-		{
-			height: 2.0d
-			image: "ae2:item/fluix_pickaxe"
-			rotation: 0.0d
-			width: 2.0d
-			x: -12.5d
-			y: -4.0d
-		}
-		{
-			height: 2.0d
-			image: "naturescompass:item/naturescompass_18"
-			rotation: 0.0d
-			width: 2.0d
-			x: -7.5d
-			y: -4.0d
-		}
-		{
-			height: 2.0d
-			image: "minecraft:item/brick"
-			rotation: 0.0d
-			width: 2.0d
-			x: -10.0d
-			y: -2.0d
-		}
-		{
-			height: 2.0d
-			image: "minecraft:item/ender_eye"
-			rotation: 0.0d
-			width: 2.0d
-			x: -10.0d
-			y: -6.5d
-		}
-	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["758C7AAFB2F22843"]
 			id: "4D53AECA4628A9F8"
 			tasks: [{
 				id: "206990610F33DFDC"
 				item: { count: 1, id: "shrink:shrinking_device" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: -0.5d
+			x: -8.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["789925C15DEDACB0"]
 			id: "4BB89DEFA8F9BE7A"
 			tasks: [{
 				id: "08A92B2F7BF62086"
@@ -68,10 +34,10 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: -8.0d
+			y: -8.5d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["758C7AAFB2F22843"]
 			id: "079BB648273FA6EA"
 			tasks: [
 				{
@@ -90,99 +56,99 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: -0.5d
+			x: -6.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["789925C15DEDACB0"]
 			id: "66847BC40D0AA886"
 			tasks: [{
-				id: "2DD33FA9080C4173"
-				item: { count: 1, id: "chunkloaders:basic_chunk_loader" }
+				id: "32483CC78CD7F197"
+				item: { count: 1, id: "chunkloaders:single_chunk_loader" }
 				type: "item"
 			}]
 			x: -9.0d
-			y: -8.0d
+			y: -8.5d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["00017D40227B1EAF"]
 			id: "114992D32397A35D"
 			tasks: [{
 				id: "5398FFADCB9E7EB0"
 				item: { count: 1, id: "adfinders:gem_finder" }
 				type: "item"
 			}]
-			x: -15.0d
-			y: -5.0d
+			x: -13.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["00017D40227B1EAF"]
 			id: "07735D93EC888469"
 			tasks: [{
 				id: "44EA0E7F3DD32120"
 				item: { count: 1, id: "adfinders:metal_finder" }
 				type: "item"
 			}]
-			x: -15.0d
-			y: -3.0d
+			x: -11.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["00017D40227B1EAF"]
 			id: "5AAD4C27702802ED"
 			tasks: [{
 				id: "2AC9541048CD8614"
 				item: { count: 1, id: "adfinders:mineral_finder" }
 				type: "item"
 			}]
-			x: -15.0d
-			y: -4.0d
+			x: -12.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["2B3B6327C5E26C31"]
 			id: "7E0734D239A3F437"
 			tasks: [{
 				id: "1467A2EDCACB165D"
 				item: { count: 1, id: "naturescompass:naturescompass" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["2B3B6327C5E26C31"]
 			id: "64C4A69B7AB2378C"
 			tasks: [{
 				id: "32F93416E9D17C7B"
 				item: { count: 1, id: "explorerscompass:explorerscompass" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: -5.0d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["2B3B6327C5E26C31"]
 			id: "3997E027E7AC3CDA"
 			tasks: [{
 				id: "25C0A7A5B40EFA95"
 				item: { count: 1, id: "hangglider:hang_glider" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.5d
 			y: -4.5d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["00017D40227B1EAF"]
 			id: "555A38A59CCEBB90"
 			tasks: [{
 				id: "59FA02B216DECAD9"
 				item: { count: 1, id: "miningutility:mining_helmet" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -3.5d
+			x: -12.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["2B3B6327C5E26C31"]
 			id: "0E7A6596E86235B7"
 			rewards: [{
 				id: "30942CC0320FB9BC"
@@ -204,11 +170,11 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
+			x: -4.5d
 			y: -4.0d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["00017D40227B1EAF"]
 			id: "740F8E1306C59A5B"
 			rewards: [{
 				id: "3A3E902204C4B79F"
@@ -223,11 +189,11 @@
 				item: { count: 1, id: "miningutility:rope_ladder" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -4.5d
+			x: -13.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["2B3B6327C5E26C31"]
 			id: "2BE0A92298701AD6"
 			tasks: [
 				{
@@ -241,11 +207,11 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
+			x: -3.5d
 			y: -3.5d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["789925C15DEDACB0"]
 			id: "21FA1ED194A0764B"
 			rewards: [{
 				id: "4BF1EBEA9F4BBC83"
@@ -261,40 +227,40 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: -8.0d
+			y: -8.5d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["2B3B6327C5E26C31"]
 			id: "136483920DF38D4D"
 			tasks: [{
 				id: "6FEDEAB425DFF265"
 				item: { components: { "ironjetpacks:jetpack_id": "ironjetpacks:iron" }, count: 1, id: "ironjetpacks:jetpack" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.5d
 			y: -3.5d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["2B3B6327C5E26C31"]
 			id: "7440C240D230129F"
 			tasks: [{
 				id: "447B9165FDF3F5C4"
 				item: { count: 1, id: "mekanism:jetpack" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.5d
 			y: -4.5d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["758C7AAFB2F22843"]
 			id: "2D8B2704F5C9101D"
 			tasks: [{
 				id: "00997334514B9B73"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(constructionstick:construction_sticks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: -0.5d
+			x: -7.5d
+			y: 0.5d
 		}
 		{
 			hide_dependent_lines: true
@@ -317,7 +283,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["789925C15DEDACB0"]
 			id: "23E97256E02EC67F"
 			rewards: [{
 				id: "65200F6553FC92AB"
@@ -333,10 +299,10 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: -9.0d
+			y: -9.5d
 		}
 		{
-			dependencies: ["026404C1E714F6D2"]
+			dependencies: ["758C7AAFB2F22843"]
 			icon: {
 				components: {
 					"compactmachines:machine_color": "#43D6CD"
@@ -371,8 +337,181 @@
 					type: "item"
 				}
 			]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["026404C1E714F6D2"]
+			hide_dependent_lines: true
+			icon: {
+				id: "ae2:fluix_pickaxe"
+			}
+			id: "00017D40227B1EAF"
+			rewards: [{
+				id: "2AC23EDEDA99D174"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:wolf_trophy_pale"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6E9CAB18A6F4D9FD"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["026404C1E714F6D2"]
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:brick"
+			}
+			id: "758C7AAFB2F22843"
+			rewards: [{
+				id: "48995AAA69767C61"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:wolf_trophy_pale"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7C96F62683420D85"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["026404C1E714F6D2"]
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "789925C15DEDACB0"
+			rewards: [{
+				id: "6D74CEE341D764BD"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:wolf_trophy_pale"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2A794C6353BF9C88"
+				type: "checkmark"
+			}]
 			x: -10.0d
-			y: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["026404C1E714F6D2"]
+			hide_dependent_lines: true
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "2B3B6327C5E26C31"
+			rewards: [{
+				id: "11342D119FBAEC7A"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:wolf_trophy_pale"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0C38DD7FEA19E141"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["026404C1E714F6D2"]
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "actuallyadditions:block/player_interface"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1057F43698D74246"
+			rewards: [{
+				id: "2408FFDE4048EB10"
+				item: {
+					count: 1
+					id: "mini_mob_trophy:wolf_trophy_pale"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1044CCFEDEC9C830"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1057F43698D74246"]
+			icon: {
+				components: {
+					"ftbquests:icon": "utilitarian:block/sound_muffler"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7F9AA4440D7DD770"
+			min_width: 600
+			tasks: [{
+				id: "2EF352E7901876EC"
+				type: "checkmark"
+			}]
+			x: -15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1057F43698D74246"]
+			icon: {
+				components: {
+					"ftbquests:icon": "curios:textures/gui/curios/button_highlighted.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4AA3E2D1088D7DD2"
+			tasks: [{
+				id: "57BC88E4E838A94B"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1057F43698D74246"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/hud/armor_half.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "374D57DA9C3F0651"
+			min_width: 400
+			tasks: [{
+				id: "3022E7906134C94D"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -5.0d
 		}
 	]
 }

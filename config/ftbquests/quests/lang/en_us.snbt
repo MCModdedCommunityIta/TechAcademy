@@ -25,6 +25,7 @@
 	chapter_group.32571A4D4DB47570.title: "COMING SOON Molto WIP!"
 	chapter_group.6021C862F01F642A.title: "Mod Tecniche WIP"
 	file.0000000000000001.title: "Tech Academy"
+	quest.00017D40227B1EAF.title: "Mining"
 	quest.000FF4CA00CDBBF1.quest_desc: ["Questo componente posiziona automaticamente gli oggetti dal sistema nell'area di fronte ad esso. È utilizzato per automatizzare il posizionamento di oggetti nel mondo di gioco. "]
 	quest.004D5B518B8C6C72.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.007748EBF39E5D24.quest_desc: [
@@ -65,7 +66,7 @@
 		"&lFormation Plane&r: Questo componente posiziona o lascia cadere automaticamente gli oggetti dal sistema nell'area di fronte ad esso. È utilizzato per automatizzare il posizionamento di oggetti nel mondo di gioco."
 	]
 	quest.026404C1E714F6D2.quest_desc: ["In questo capitolo troverai tutti gli strumenti utili per giocare al modpack, indipendentemente dalla mod che li inserisce."]
-	quest.026404C1E714F6D2.title: "UTILITÀ"
+	quest.026404C1E714F6D2.title: "Utilità"
 	quest.026C148FD7874738.quest_desc: ["Se usata sulle macchine della Mekanism ti permette di farle diventare Factory con più slot"]
 	quest.0277EA11A4261E6E.quest_desc: ["Segui le istruzioni del Coke Oven per questa struttura multiblocco. Non puoi ne prendere ne mettere item in maniera automatica, dovrai creare la Blast avanzata!"]
 	quest.0277EA11A4261E6E.quest_subtitle: "TIP: non è l'unico modo per creare lo Steel"
@@ -313,6 +314,7 @@
 		"Verranno caricati anche tutti quei chunk non direttamente connessi alla tua rete principale, come ad esempio le sottoreti che puoi creare con l'utilizzo del Quantum Ring o del Wireless Connector."
 	]
 	quest.1055AE0B1DF260A0.quest_desc: ["Come il precedente ma più capiente!"]
+	quest.1057F43698D74246.title: "Inventario"
 	quest.1068953C0C86FA54.quest_desc: [
 		"Permette di aprire il menù dell'auto crafting se si punta un blocco, e clicca un pulsante della tastiera da definire nei key settings, la cui Pattern è stata già precedentemente definita e inserita nella network!"
 		""
@@ -717,6 +719,7 @@
 		""
 		"Addon forse non utile in questo pacchetto ma sicuramente utile per altri futuri mod pack molto complessi che giocherai."
 	]
+	quest.2B3B6327C5E26C31.title: "Esplorazione"
 	quest.2B8B1C967E46BD3B.quest_desc: ["Come la precedente ma più capiente e veloce!"]
 	quest.2B9C12EC646BE10D.quest_desc: [
 		"Industrial Foregoing"
@@ -900,6 +903,18 @@
 		"&lNella modalità fornace cuoce tre oggetti alla volta. La sua velocità varia a seconda del Capacitor utilizzato!&r"
 	]
 	quest.372A406E73A3E902.quest_desc: ["L'Anello base per creare due anelli MOLTO utili!"]
+	quest.374D57DA9C3F0651.quest_desc: [
+		"La Cosmetic Armor ti permette di indossare la tua armatura preferità al di sopra di effettivamente protettiva."
+		"&l&6Come dice il nome è solo Cosmetica non ha nessun effetto se non quello grafico&r"
+		""
+		"Si apre e chiude da qui:"
+		"{image:techacademy:textures/quests/ch_utilita/cosmetic_armor1.png width:180 height:100 align:center}"
+		""
+		"e fa apparire questi slot:"
+		"{image:techacademy:textures/quests/ch_utilita/cosmetic_armor2.png width:180 height:35 align:center}"
+		"inoltre come puoi vedere in ogni slot e sotto il player sono presenti dei piccoli pulsatini che ti permettono di nascondere il pezzo corrispondente di armatura"
+	]
+	quest.374D57DA9C3F0651.quest_subtitle: "Proteggiti con stile"
 	quest.376138FAD8EAC438.quest_desc: ["Nella Dissolution Chamber puoi creare gli addon ed i frame per i macchinari avanzati!"]
 	quest.376EF6F6E667F914.quest_desc: ["Utilizzala in combo con il Matter Condenser per creare le Matter Ball e le Singularity!"]
 	quest.376EF6F6E667F914.quest_subtitle: "Cobblestone infinita!"
@@ -1218,6 +1233,18 @@
 		""
 		"&6&lSe inserito nei macchinari permette di salvaguardarli dalle alte pressioni che potrebbero far esplodere il macchinario.&r&r"
 	]
+	quest.4AA3E2D1088D7DD2.quest_desc: [
+		"La Curio è un mod che permette di indossare tutta una serie di accessori, con particolari effetti o funzioni, senza occupare uno slot dell'invetario"
+		""
+		"Si apre e chiude da qui:"
+		"{image:techacademy:textures/quests/ch_utilita/curio1.png width:180 height:100 align:center}"
+		""
+		"{@pagebreak}"
+		"E da accesso a tutti questi slot, dentro i quali puoi inserire ogni oggeto che nel proprio tooltip abbia il nome corrispondente:"
+		""
+		"{image:techacademy:textures/quests/ch_utilita/curio2.png width:40 height:180 align:center}"
+	]
+	quest.4AA3E2D1088D7DD2.quest_subtitle: "Un curio per ghermirli e nel buio incatenarli"
 	quest.4B3054591338224E.quest_desc: ["Serve per muoversi da una Travel Anchor all'altra senza essere sopra ad una delle due!"]
 	quest.4B487E1459419AC6.quest_desc: [
 		"Posiziona questo macchinario sotto al tuo Budding di Certus Quartz o di Entro Crystal per ripararlo!"
@@ -1629,6 +1656,7 @@
 		"Ne esistono di varie capacità."
 	]
 	quest.66847BC40D0AA886.quest_desc: ["Se vuoi che le tue farm continuino a funzionare quando sei lontano, devi piazzare un Chunk Loader per tenere caricata l'area. ChunkLoader migliori ti permettono di caricare aree più vaste."]
+	quest.66847BC40D0AA886.title: "Chunk Loader"
 	quest.66947E0B2A8E4F6C.quest_desc: ["La Grid ti permette di vedere tutti gli oggetti presenti nel tuo storage!"]
 	quest.66C8FB0CE5A3AE73.quest_desc: ["Come i precedenti ma con più capacità di trasferimento!"]
 	quest.66F986E39382D365.quest_desc: [
@@ -1884,6 +1912,7 @@
 		"Ovvero un componente avanzato per la creazione di macchinari e strumenti avanzati della mod."
 	]
 	quest.758640628AFCFC68.quest_desc: ["Cavi che trasportano fluidi!"]
+	quest.758C7AAFB2F22843.title: "Building"
 	quest.75AAC3FA2B42430E.quest_desc: ["Versione potenziata dell'Import Bus!"]
 	quest.75DA989D2EFC8A51.quest_desc: [
 		"Il mondo è diverso dal vanilla!"
@@ -1969,6 +1998,7 @@
 	quest.7862B3BE3DEAD17B.quest_subtitle: "Gli altri li trovi scritti nelle relative quest!"
 	quest.7862B3BE3DEAD17B.title: "Tasti Utili"
 	quest.7879506F838D15BA.quest_desc: ["Usato per fertilizzare automaticamente sapling e crops"]
+	quest.789925C15DEDACB0.title: "Gestione del mondo"
 	quest.78F4E798439D8F25.quest_desc: [
 		"In alto a destra hai la tua minimappa!"
 		""
@@ -2106,6 +2136,28 @@
 	quest.7EED6A7D635097B4.quest_desc: ["Versione potenziata dell'Inscriber!"]
 	quest.7F6919A38259BECE.quest_desc: ["In molti pack la maggior parte dei semi moddati sono ottenibili rompendo il grass, in questo modpack ti serviranno moltissimi Hemp Seed"]
 	quest.7F6919A38259BECE.title: "Rompi il grass!"
+	quest.7F9AA4440D7DD770.quest_desc: [
+		"La Extreme Sound Muffler è una mod estremamente comoda in un pack di Minecraft, permette di silenziare selettivamente ogni suono del gioco."
+		"&oMacchinari rumorosi?&r - &lNessun problema!&r"
+		"&oFarm di mob?&r - &lCome se non fosse neanche li!&r"
+		""
+		"Si apre da qui"
+		"{image:techacademy:textures/quests/ch_utilita/esm1.png width:180 height:100 align:center}"
+		""
+		"{@pagebreak}"
+		"e ti da accesso a questa schermata:"
+		"{image:techacademy:textures/quests/ch_utilita/esm2.png width:180 height:130 align:center}"
+		"&l&41&r. Frecce per scorrere la lista (va bene anche la rotella del mouse)"
+		"&l&42.&r Selettori delle anchor (da qui puoi creare fino a 10 anchor posizionanodle man mano nel luogo in cui le attivi per silenziare alcuni suoni solo in alcune zone)"
+		"&l&43.&r Lista dei suoni silenziabili, in ordine abbiamo il nome interno del suono, il tasto per mutare ed il tasto per far partire il suono."
+		"&l&44. &rPulsante che ti permette di cambiare lista tra suoni recenti e tutti i suoni presenti nel gioco, utile se conosci gia il suono che vuoi mutare, o se vuoi essere sicuro di star cercando solo tra i suoni che hai gia sentito recentemente"
+		"&l&45.&r Barra di ricerca"
+		"&l&46.&r Pulsante per cancellare ogni tipo di silenziamento"
+		"&l&47.&r Pulsante per \"mettere in pausa\", qualsiasi silenziamneto"
+		""
+		"&l&6Extra.&r Quando silenzi un suono apparirà una piccola barra verticale all'inizio del nome, facendola scorrere da sinistra a destra potrai scegliere il volume a cui il gioco farà partire quelo suono, utile ad esempio per macchinari rumorosi, ma che possono essere pericolosi come quelli della Penumaticraft"
+	]
+	quest.7F9AA4440D7DD770.quest_subtitle: "Experience Tranquility"
 	reward.127F4BAFF2DC536E.title: "Phantom Disabilitati"
 	reward.1D0BE7CEFCA7227E.title: "Canali Disattivati"
 	reward.43A007B9E4DEB6E4.title: "Disattiva Trader"
@@ -2160,7 +2212,9 @@
 	task.29A2F2B5AA0AB057.title: "Any #minecraft:beds"
 	task.2B25F8E6F344B3DB.title: "Link!"
 	task.2E5D286549356191.title: "Energite"
+	task.2EF352E7901876EC.title: "Sound Muffler"
 	task.3007BF141E9AA55A.title: "cappello"
+	task.3022E7906134C94D.title: "Cosmetic Armor"
 	task.319283B2128CF794.title: "262144B Fluid Storage Part"
 	task.32F1809C623E1F37.title: "Network Receiver"
 	task.33D5E513D56D306A.title: "Cliccami se hai capito tutto"
@@ -2188,6 +2242,7 @@
 	task.448E50457CD32AE7.title: "Cuoco Provetto"
 	task.44E1B6463F9FB034.title: "Pants Upgrade"
 	task.45C0B637543EC82D.title: "Any #c:silicon"
+	task.465F8DFE9F8065BD.title: "Any #c:chunkloaders"
 	task.46977B7FF3EBE014.title: "Iniziamo?"
 	task.46C54645D96989AD.title: "Crafting Grid"
 	task.47621D88D4522158.title: "Any #sophisticatedstorage:base_tier_wooden_storage"
@@ -2199,10 +2254,12 @@
 	task.52D9EB8933E76802.title: "Thermo Generator"
 	task.52EF39014DB3A6DC.title: "Shader"
 	task.53D871E0EBD6D628.title: "Energy Cell"
+	task.5503437BFDA7469B.title: "Any #c:chunkloaders"
 	task.563EA40547907739.title: "Start Machine"
 	task.576FB251E0646C89.title: "Constructor"
 	task.57884F2BA41FE13A.title: "Grid"
 	task.57B858DB1EFD6778.title: "Mega Constructor"
+	task.57BC88E4E838A94B.title: "Curio"
 	task.57F894BA634E816D.title: "Cliccami se hai capito tutto"
 	task.58EF5BF015717D2B.title: "Any #c:silicon"
 	task.5AE4C9F44C338149.title: "Ether Gas"
