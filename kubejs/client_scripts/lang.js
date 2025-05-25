@@ -52,7 +52,7 @@ const anyLang = {
 
 
 //Convert all _key traslation keys on virtual lang files to reduce multiple json
-//NOTE : it could skip some traslation keys! (kubejs issue)
+//NOTE : it could skip some traslation keys so it require to be tested ! (kubejs issue)
 Object.keys(anyLang).forEach((entry) => {
   if (entry == "_key") return;
   ClientEvents.lang(entry, (event) => {
