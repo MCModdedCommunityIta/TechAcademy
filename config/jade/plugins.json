@@ -121,6 +121,12 @@
   "gravestone": {
     "grave": true
   },
+  "replication_addon_tiers": {
+    "matter_tank_tier_1": true,
+    "matter_tank_tier_2": true,
+    "matter_tank_tier_3": true,
+    "matter_tank_tier_4": true
+  },
   "replication": {
     "matter_tank": true
   },
@@ -176,6 +182,7 @@
     "info": true
   },
   "toms_storage": {
+    "inventory_hopper": true,
     "inventory_config": true,
     "inventory_connector": true
   }

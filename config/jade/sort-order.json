@@ -129,6 +129,10 @@
   "railcraft:switch_track": null,
   "railcraft:track_component": null,
   "replication:matter_tank": null,
+  "replication_addon_tiers:matter_tank_tier_1": null,
+  "replication_addon_tiers:matter_tank_tier_2": null,
+  "replication_addon_tiers:matter_tank_tier_3": null,
+  "replication_addon_tiers:matter_tank_tier_4": null,
   "tempad:anchor": null,
   "tempad:chronon": null,
   "tempad:metronome": null,
@@ -136,5 +140,6 @@
   "tempad:timedoor": null,
   "tempad:workstation": null,
   "toms_storage:inventory_config": null,
-  "toms_storage:inventory_connector": null
+  "toms_storage:inventory_connector": null,
+  "toms_storage:inventory_hopper": null
 }
