@@ -1,0 +1,21 @@
+#General settings
+[general]
+	#Hide HUD when taking screenshot
+	hideHud = true
+	#Scale HUD when taking screenshot
+	scaleHud = true
+	#Width of the screenshot
+	# Default: 3840
+	# Range: > 0
+	width = 1920
+	#Height of the screenshot
+	# Default: 2160
+	# Range: > 0
+	height = 1080
+	#Delay before taking screenshot
+	# Default: 3
+	# Range: 0 ~ 10
+	delay = 3
+	#Save format of the screenshot
+	#Allowed Values: PNG, JPG
+	saveFormat = "JPG"
